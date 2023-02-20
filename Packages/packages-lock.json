@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "73d86259ce31ce7f4dfe1d028ea1c3edf96c23e4"
+    },
+    "com.dbrizov.naughtyattributes": {
+      "version": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8a8fa5a9659a6d63f196391c71e06c4286c8acd7"
+    },
     "com.nobi.roundedcorners": {
       "version": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git",
       "depth": 0,
