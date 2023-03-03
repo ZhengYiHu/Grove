@@ -108,7 +108,7 @@ public class PreviewElement : MonoBehaviour
     private void ShowFullScreenPage()
     {
         fullScreenContentPage.gameObject.SetActive(true);
-        fullScreenContentPage.ShowPageWithAnimation();
+        fullScreenContentPage.Show3DScene();
     }
 
     private void OnDestroy()
