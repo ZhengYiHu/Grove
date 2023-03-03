@@ -42,7 +42,6 @@ public class MainContentPage : MonoBehaviour
         wipeMaterial.SetColor("_TopTint", bgColor);
     }
 
-    [Button]
     public async UniTaskVoid Show3DScene()
     {
         await ShowPageWithAnimation();

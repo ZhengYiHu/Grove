@@ -91,7 +91,7 @@ public class PreviewElement : MonoBehaviour
     void OnMenuOptionClicked(MenuButton clickedOption)
     {
         LeanTween.value(gameObject, 0, 1, fullScreenAnimationDuration).setOnUpdate(TweenPreviewSize)
-            .setOnComplete(ShowFullScreenPage);
+            .setOnComplete(() => ShowFullScreenPage(clickedOption));
     }
 
     private void TweenPreviewSize(float lerp)
@@ -105,10 +105,14 @@ public class PreviewElement : MonoBehaviour
         rectTransform.sizeDelta = Vector2.Lerp(rectTransform.sizeDelta, fullScreenPageTransfrom.sizeDelta, lerp);
     }
 
-    private void ShowFullScreenPage()
+    private void ShowFullScreenPage(MenuButton clickedOption)
     {
         fullScreenContentPage.gameObject.SetActive(true);
-        fullScreenContentPage.Show3DScene();
+        if (clickedOption.paget)
+        {
+
+        }
+        fullScreenContentPage.Show3DScene().Forget();
     }
 
     private void OnDestroy()

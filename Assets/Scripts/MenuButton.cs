@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] PreviewElementPage associatedPage;
+    [SerializeField] public PageType pageType { private set; get; }
     [SerializeField] Image outline;
     public static Action<MenuButton> OnButtonEnter;
     public static Action<MenuButton> OnButtonExit;
@@ -39,5 +40,4 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     {
         return associatedPage;
     }
-
 }
