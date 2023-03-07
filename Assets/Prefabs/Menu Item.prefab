@@ -237,6 +237,7 @@ GameObject:
   - component: {fileID: 7401723253338529035}
   - component: {fileID: 7401723253338529033}
   - component: {fileID: 5691007836816699452}
+  - component: {fileID: 7090112070930752868}
   m_Layer: 5
   m_Name: Menu Item
   m_TagString: Untagged
@@ -288,11 +289,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   associatedPage: {fileID: 0}
+  pageType: {fileID: 7090112070930752868}
   outline: {fileID: 7889037178058846742}
   inType: 31
   outType: 0
   animationDuration: 0.5
   scaleRatio: 1.2
+--- !u!114 &7090112070930752868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7401723253338529034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44dd1bb1a3728f4c9e3ffefc8d836e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9102452488327572905
 GameObject:
   m_ObjectHideFlags: 0

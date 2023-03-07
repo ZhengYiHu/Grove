@@ -17,7 +17,7 @@ Shader "Unlit/CircleWipe" {
      [Space][Header(BLEND)]
      _Radius("Radius", Float) = 0.2
      _RadiusThickness("Radius Thickness", Float) = 0.1
-     [HDR] _BlendColour("Color", Color) = (1,1,1,1)
+     _BlendColour("Color", Color) = (1,1,1,1)
      
      [Space][Header(RATIO)]
      _Horizontal("Horizontal", Float) = 1

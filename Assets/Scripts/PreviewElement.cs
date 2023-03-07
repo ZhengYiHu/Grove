@@ -25,12 +25,14 @@ public class PreviewElement : MonoBehaviour
 
     int activePageIndex = 0;
     Vector3 initialRotation;
+    RectTransform originalTransform;
 
     private void Awake()
     {
         MenuButton.OnButtonEnter += ShakeToFocus;
         MenuButton.OnButtonExit += LoseFocus;
         MenuButton.OnButtonClick += OnMenuOptionClicked;
+
         initialRotation = gameObject.transform.rotation.eulerAngles;
         //Init pages
         defaultpreviewPage.Index = -1;
@@ -38,6 +40,8 @@ public class PreviewElement : MonoBehaviour
         {
             previewPages[i].Index = i;
         }
+
+        originalTransform = RectTransformHelper.Clone(transform as RectTransform);
     }
 
     void ShakeToFocus(MenuButton hoveredButton)
@@ -91,28 +95,17 @@ public class PreviewElement : MonoBehaviour
     void OnMenuOptionClicked(MenuButton clickedOption)
     {
         LeanTween.value(gameObject, 0, 1, fullScreenAnimationDuration).setOnUpdate(TweenPreviewSize)
-            .setOnComplete(() => ShowFullScreenPage(clickedOption));
+            .setOnComplete(clickedOption.ShowPageContent);
     }
 
     private void TweenPreviewSize(float lerp)
     {
-        RectTransform rectTransform = transform as RectTransform;
-        RectTransform fullScreenPageTransfrom = fullScreenContentPage.transform as RectTransform;
-
-        rectTransform.anchorMin = Vector2.Lerp(rectTransform.anchorMin, fullScreenPageTransfrom.anchorMin, lerp);
-        rectTransform.anchorMax = Vector2.Lerp(rectTransform.anchorMax, fullScreenPageTransfrom.anchorMax, lerp);
-        rectTransform.anchoredPosition = Vector2.Lerp(rectTransform.anchoredPosition, fullScreenPageTransfrom.anchoredPosition, lerp);
-        rectTransform.sizeDelta = Vector2.Lerp(rectTransform.sizeDelta, fullScreenPageTransfrom.sizeDelta, lerp);
+        RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, fullScreenContentPage.transform as RectTransform);
     }
 
-    private void ShowFullScreenPage(MenuButton clickedOption)
+    public void RestoreOriginalSize()
     {
-        fullScreenContentPage.gameObject.SetActive(true);
-        if (clickedOption.paget)
-        {
-
-        }
-        fullScreenContentPage.Show3DScene().Forget();
+        RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, originalTransform);
     }
 
     private void OnDestroy()

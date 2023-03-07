@@ -195,6 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5184ab373a288941bba495259d7917b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  previewText: {fileID: 4866754898487372485}
   animationDuration: 0.3
   canvasGroup: {fileID: 4678156060360296982}
   previewEaseType: 2

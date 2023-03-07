@@ -36,16 +36,16 @@ Material:
     m_Floats:
     - _CenterX: 0.5
     - _CenterY: 0.5
-    - _DecalScale: 1
+    - _DecalScale: 0
     - _Horizontal: 0.63793105
     - _Radius: 1
     - _RadiusInner: 0.19
     - _RadiusOuter: 1.54
-    - _RadiusThickness: 0
+    - _RadiusThickness: 0.06
     - _Vertical: 1
     m_Colors:
-    - _BlendColour: {r: 0.18039216, g: 0.5254902, b: 0.8705883, a: 1}
+    - _BlendColour: {r: 1, g: 0.62352943, b: 0.2627451, a: 1}
     - _BottomTint: {r: 1, g: 1, b: 1, a: 0}
     - _DecalTint: {r: 1, g: 1, b: 1, a: 0}
-    - _TopTint: {r: 1, g: 0.62352943, b: 0.26274425, a: 0}
+    - _TopTint: {r: 1, g: 0.62352943, b: 0.2627427, a: 1}
   m_BuildTextureStacks: []

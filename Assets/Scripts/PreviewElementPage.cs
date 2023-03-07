@@ -1,10 +1,12 @@
 using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PreviewElementPage : MonoBehaviour
 {
+    [SerializeField] TextMeshProUGUI previewText;
     [SerializeField] float animationDuration = 0.3f;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] LeanTweenType previewEaseType;
@@ -40,5 +42,10 @@ public class PreviewElementPage : MonoBehaviour
     {
         LeanTween.scale(gameObject, Vector2.zero, animationDuration).setEase(previewEaseType);
         LeanTween.alphaCanvas(canvasGroup, 0, animationDuration).setEase(previewEaseType);
+    }
+
+    public void SetText(string newText)
+    {
+        previewText.text = newText;
     }
 }

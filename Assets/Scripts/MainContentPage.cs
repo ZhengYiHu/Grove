@@ -8,8 +8,13 @@ using UnityEngine.UI;
 
 public class MainContentPage : MonoBehaviour
 {
+    [SerializeField] PreviewElement previewElement;
     [SerializeField] Image bgImage;
     [SerializeField] GameObject[] objectsToDisableOnScene;
+    [SerializeField] GameObject[] objectsToEnableOnScene;
+
+    [SerializeField] GameObject[] objectsToDisableOnStandard;
+    [SerializeField] GameObject[] objectsToEnableOnStandard;
 
     [SerializeField] float animationDuration = 3f;
     [SerializeField] LeanTweenType wipeEase;
@@ -23,39 +28,60 @@ public class MainContentPage : MonoBehaviour
         wipeMaterial.SetFloat("_Radius", 0);
     }
 
-    Color bgColor;
-    public async UniTask ShowPageWithAnimation()
+    public async UniTask Show3DScene()
+    {
+        ShowSceneGraphics(true);
+        WipeAnimation(true).Forget();
+    }
+
+    public async UniTask ShowStandardContentPage()
+    {
+        ShowStandardGraphics(true);
+    }
+
+    public async UniTask ShowMenu(bool withWipe = true)
+    {
+        if(withWipe) await WipeAnimation(false);
+        previewElement.RestoreOriginalSize();
+        ShowSceneGraphics(false);
+        ShowStandardGraphics(false);
+        if (withWipe) WipeAnimation(true).Forget();
+    }
+
+    private void ShowSceneGraphics(bool active)
+    {
+        foreach (GameObject toDisable in objectsToDisableOnScene)
+        {
+            toDisable.SetActive(!active);
+        }
+        foreach (GameObject toEnable in objectsToEnableOnScene)
+        {
+            toEnable.SetActive(active);
+        }
+    }
+
+    private void ShowStandardGraphics(bool active)
+    {
+        foreach (GameObject toDisable in objectsToDisableOnStandard)
+        {
+            toDisable.SetActive(!active);
+        }
+        foreach (GameObject toEnable in objectsToEnableOnStandard)
+        {
+            toEnable.SetActive(active);
+        }
+    }
+
+    private async UniTask WipeAnimation(bool show)
     {
         UniTaskCompletionSource animationEndSource = new UniTaskCompletionSource();
 
-        bgColor = wipeMaterial.GetColor("_TopTint");
-        //Fade in material's transparency
-        LeanTween.value(gameObject, 0, 1, 0.3f).setOnUpdate(TweenBGAlpha)
-            .setOnComplete(() => animationEndSource.TrySetResult());
+        int from = show ? 0 : 1;
+        int to = show ? 1 : 0;
+        LeanTween.value(gameObject, from, to, animationDuration)
+            .setOnUpdate(TweenWipeRadius).setEase(wipeEase).setOnComplete(() => animationEndSource.TrySetResult());
 
         await animationEndSource.Task;
-    }
-
-    private void TweenBGAlpha(float lerp)
-    {
-        bgColor.a = lerp;
-        wipeMaterial.SetColor("_TopTint", bgColor);
-    }
-
-    public async UniTaskVoid Show3DScene()
-    {
-        await ShowPageWithAnimation();
-        foreach (GameObject toDisable in objectsToDisableOnScene)
-        {
-            toDisable.SetActive(false);
-        }
-        WipeAnimation();
-    }
-
-    private void WipeAnimation()
-    {
-        LeanTween.value(gameObject, 0, 1, animationDuration)
-            .setOnUpdate(TweenWipeRadius).setEase(wipeEase);
     }
 
     private void TweenWipeRadius(float lerp)
@@ -63,10 +89,8 @@ public class MainContentPage : MonoBehaviour
         wipeMaterial.SetFloat("_Radius", lerp);
     }
 
-    private void OnDisable()
+    public void ResetWipeValue()
     {
-        //Reset Material Transparency
-        bgColor.a = 0;
-        wipeMaterial.SetColor("_TopTint", bgColor);
+        wipeMaterial.SetFloat("_Radius", 0);
     }
 }
