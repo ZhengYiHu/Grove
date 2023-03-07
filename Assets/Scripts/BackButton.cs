@@ -8,16 +8,46 @@ public class BackButton : MonoBehaviour
 {
     [SerializeField] PreviewElement previewElement;
     [SerializeField] Button button;
+    [SerializeField] CanvasGroup canvasGroup;
     private static Action OnBackClicked;
 
     private void Awake()
     {
-        button.onClick.AddListener(() => OnBackClicked.Invoke());
+        button.transform.localScale = Vector3.zero;
+        canvasGroup.alpha = 0;
+        button.onClick.AddListener(() =>
+        {
+            OnBackClicked.Invoke();
+            AnimateOut();
+        });
+        AnimateIn();
     }
 
     public static void ReplaceListener(Action newAction)
     {
         OnBackClicked = null;
         OnBackClicked = newAction;
+    }
+
+    private void AnimateIn()
+    {
+        LeanTween.scale(gameObject, Vector3.one, 0.3f);
+        LeanTween.alphaCanvas(canvasGroup,1, 0.3f);
+    }
+    private void AnimateOut()
+    {
+        LeanTween.scale(gameObject, Vector3.zero, 0.3f);
+        LeanTween.alphaCanvas(canvasGroup, 0, 0.3f);
+    }
+
+    private void OnDisable()
+    {
+        button.transform.localScale = Vector3.zero;
+        canvasGroup.alpha = 0;
+    }
+
+    private void OnEnable()
+    {
+        AnimateIn();
     }
 }

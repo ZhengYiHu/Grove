@@ -42,7 +42,7 @@ public class MainContentPage : MonoBehaviour
     public async UniTask ShowMenu(bool withWipe = true)
     {
         if(withWipe) await WipeAnimation(false);
-        previewElement.RestoreOriginalSize();
+        previewElement.BackToMenu();
         ShowSceneGraphics(false);
         ShowStandardGraphics(false);
         if (withWipe) WipeAnimation(true).Forget();

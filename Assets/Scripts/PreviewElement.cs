@@ -29,9 +29,9 @@ public class PreviewElement : MonoBehaviour
 
     private void Awake()
     {
-        MenuButton.OnButtonEnter += ShakeToFocus;
-        MenuButton.OnButtonExit += LoseFocus;
+        EnableOnPointerListeners(true);
         MenuButton.OnButtonClick += OnMenuOptionClicked;
+        //Restore listeners when back on menu
 
         initialRotation = gameObject.transform.rotation.eulerAngles;
         //Init pages
@@ -44,6 +44,30 @@ public class PreviewElement : MonoBehaviour
         originalTransform = RectTransformHelper.Clone(transform as RectTransform);
     }
 
+    /// <summary>
+    /// Enable or disables listeners for the menu buttons
+    /// </summary>
+    /// <param name="enable"></param>
+    void EnableOnPointerListeners(bool enable)
+    {
+        if(enable)
+        { 
+            MenuButton.OnButtonEnter -= ShakeToFocus;
+            MenuButton.OnButtonEnter += ShakeToFocus;
+            MenuButton.OnButtonExit -= LoseFocus;
+            MenuButton.OnButtonExit += LoseFocus;
+        }
+        else
+        {
+            MenuButton.OnButtonEnter = null;
+            MenuButton.OnButtonExit = null;
+        }
+    }
+
+    /// <summary>
+    /// Perform a Shake animation when a menu button is hovered
+    /// </summary>
+    /// <param name="hoveredButton"></param>
     void ShakeToFocus(MenuButton hoveredButton)
     {
         LeanTween.rotate(gameObject, gameObject.transform.rotation.eulerAngles + new Vector3(0, 0, rotationAmount), animationDuration).setEase(animationCurve);
@@ -51,10 +75,13 @@ public class PreviewElement : MonoBehaviour
         LeanTween.value(gameObject, roundedCorners.r.y, roundingAmount, animationDuration).setOnUpdate(SetCornersYW);
 
         activePageIndex = hoveredButton.GetAssociatedPage().Index;
-
         ChangePage();
     }
 
+    /// <summary>
+    /// Restore the initial position when no button is being focused
+    /// </summary>
+    /// <param name="hoveredButton"></param>
     void LoseFocus(MenuButton hoveredButton)
     {
         LeanTween.rotate(gameObject, initialRotation, animationDuration).setEase(easeTypeOut);
@@ -62,10 +89,13 @@ public class PreviewElement : MonoBehaviour
         LeanTween.value(gameObject, roundingAmount, 0, animationDuration).setOnUpdate(SetCornersYW);
 
         activePageIndex = -1;
-
         ChangePage();
     }
 
+    /// <summary>
+    /// Set X and Z corner rounding values for the preview window
+    /// </summary>
+    /// <param name="value">Rounding value</param>
     void SetCornersXZ(float value)
     {
         roundedCorners.r.x = value;
@@ -73,6 +103,10 @@ public class PreviewElement : MonoBehaviour
         roundedCorners.Refresh();
     }
 
+    /// <summary>
+    /// Set Y and W corner rounding values for the preview window
+    /// </summary>
+    /// <param name="value">Rounding value</param>
     void SetCornersYW(float value)
     {
         roundedCorners.r.y = value;
@@ -80,6 +114,9 @@ public class PreviewElement : MonoBehaviour
         roundedCorners.Refresh();
     }
 
+    /// <summary>
+    /// Called whenever pointer enter or exit a menu button
+    /// </summary>
     void ChangePage()
     {
         //Default Page Preview Content
@@ -92,10 +129,29 @@ public class PreviewElement : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Callback when menu button is clicked
+    /// </summary>
+    /// <param name="clickedOption">Clicked menu button</param>
     void OnMenuOptionClicked(MenuButton clickedOption)
     {
         LeanTween.value(gameObject, 0, 1, fullScreenAnimationDuration).setOnUpdate(TweenPreviewSize)
             .setOnComplete(clickedOption.ShowPageContent);
+        //Hide preview pages
+        ShowAllPreviewPages(false);
+        EnableOnPointerListeners(false);
+    }
+
+    /// <summary>
+    /// Show or hide the content in the Preview window
+    /// </summary>
+    /// <param name="show"></param>
+    private void ShowAllPreviewPages(bool show)
+    {
+        for (int i = 0; i < previewPages.Length; i++)
+        {
+            previewPages[i].Visible = show;
+        }
     }
 
     private void TweenPreviewSize(float lerp)
@@ -103,13 +159,14 @@ public class PreviewElement : MonoBehaviour
         RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, fullScreenContentPage.transform as RectTransform);
     }
 
-    public void RestoreOriginalSize()
+    /// <summary>
+    /// Restore the graphics when back to menu screen
+    /// </summary>
+    public void BackToMenu()
     {
+        EnableOnPointerListeners(true);
+        defaultpreviewPage.Visible = true;
+        //Restore initial preview window size
         RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, originalTransform);
-    }
-
-    private void OnDestroy()
-    {
-        MenuButton.OnButtonEnter -= ShakeToFocus;
     }
 }
