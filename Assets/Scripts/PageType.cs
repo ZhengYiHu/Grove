@@ -5,6 +5,9 @@ using UnityEngine;
 public abstract class PageType : MonoBehaviour, IPageType
 {
     [SerializeField] protected MainContentPage fullScreenContentPage;
+    [SerializeField] protected ContentPage contentPagePrefab;
+
+    protected ContentPage contentPage;
 
     public virtual void ShowPageContent()
     {

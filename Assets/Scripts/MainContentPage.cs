@@ -28,13 +28,13 @@ public class MainContentPage : MonoBehaviour
         wipeMaterial.SetFloat("_Radius", 0);
     }
 
-    public async UniTask Show3DScene()
+    public void Show3DScene()
     {
         ShowSceneGraphics(true);
         WipeAnimation(true).Forget();
     }
 
-    public async UniTask ShowStandardContentPage()
+    public void ShowStandardContentPage()
     {
         ShowStandardGraphics(true);
     }

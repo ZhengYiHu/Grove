@@ -1,18 +1,19 @@
+using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ContentPage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] CanvasGroup canvasGroup;
+    [SerializeField] float appearAnimationDuration = 0.3f;
+    [SerializeField] LeanTweenType appearAnimationEase;
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        transform.localScale = Vector3.zero;
+        canvasGroup.alpha = 0;
+        LeanTween.scale(gameObject, Vector3.one, appearAnimationDuration).setEase(appearAnimationEase);
+        LeanTween.alphaCanvas(canvasGroup, 1, appearAnimationDuration).setEase(appearAnimationEase);
     }
 }

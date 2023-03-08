@@ -84,12 +84,16 @@ public class PreviewElement : MonoBehaviour
     /// <param name="hoveredButton"></param>
     void LoseFocus(MenuButton hoveredButton)
     {
+        SetInitialWindowPosition();
+        activePageIndex = -1;
+        ChangePage();
+    }
+
+    void SetInitialWindowPosition()
+    {
         LeanTween.rotate(gameObject, initialRotation, animationDuration).setEase(easeTypeOut);
         LeanTween.value(gameObject, roundedCorners.r.x, roundingAmount, animationDuration).setOnUpdate(SetCornersXZ);
         LeanTween.value(gameObject, roundingAmount, 0, animationDuration).setOnUpdate(SetCornersYW);
-
-        activePageIndex = -1;
-        ChangePage();
     }
 
     /// <summary>
@@ -168,5 +172,6 @@ public class PreviewElement : MonoBehaviour
         defaultpreviewPage.Visible = true;
         //Restore initial preview window size
         RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, originalTransform);
+        SetInitialWindowPosition();
     }
 }

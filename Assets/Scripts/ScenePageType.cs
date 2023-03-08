@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ScenePageType : PageType
 {
-    public override async void ShowPageContent()
+    public override void ShowPageContent()
     {
         base.ShowPageContent();
-        await fullScreenContentPage.Show3DScene();
+        fullScreenContentPage.Show3DScene();
         fullScreenContentPage.ResetWipeValue();
         BackButton.ReplaceListener(ShowMenu);
     }

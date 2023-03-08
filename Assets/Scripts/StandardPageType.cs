@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class StandardPageType : PageType, IPageType
 {
-    public async override void ShowPageContent()
+    public override void ShowPageContent()
     {
         base.ShowPageContent();
-        await fullScreenContentPage.ShowStandardContentPage();
+        fullScreenContentPage.ShowStandardContentPage();
         fullScreenContentPage.ResetWipeValue();
+
+        //Instantiate content Page
+        contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
         BackButton.ReplaceListener(ShowMenu);
     }
 
     public async override void ShowMenu()
     {
         await fullScreenContentPage.ShowMenu(false);
+        if (contentPage != null) Destroy(contentPage.gameObject);
         base.ShowMenu();
     }
 }
