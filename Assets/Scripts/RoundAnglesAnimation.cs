@@ -10,7 +10,7 @@ public class RoundAnglesAnimation : MonoBehaviour
     [SerializeField] float duration;
     [SerializeField] LeanTweenType loopType;
     [SerializeField] LeanTweenType easeType;
-    [SerializeField] ImageWithRoundedCorners roundedCorners;
+    [SerializeField] ImageWithIndependentRoundedCorners roundedCorners;
 
     void Start()
     {
@@ -19,24 +19,15 @@ public class RoundAnglesAnimation : MonoBehaviour
 
     void PlayAnimation()
     {
-        LeanTween.value(gameObject, roundedCorners.radius, amount, duration).setOnUpdate(RoundCorners);
+        LeanTween.value(gameObject, 0, amount * 4, duration).setOnUpdate(RoundCorners).setLoopType(loopType).setEase(easeType);
     }
 
-    [Button(enabledMode: EButtonEnableMode.Playmode)]
-    void ReplayAnimation()
+    void RoundCorners(float currentAmount)
     {
-        PlayAnimation();
-    }
-
-    [Button(enabledMode: EButtonEnableMode.Playmode)]
-    void Refresh()
-    {
-        roundedCorners.Refresh();
-    }
-
-    void RoundCorners(float amount)
-    {
-        roundedCorners.radius = amount;
+        roundedCorners.r.x = Mathf.Clamp(amount - (Mathf.Abs(amount - currentAmount)),0, amount);
+        roundedCorners.r.y = Mathf.Clamp(((amount * 2) - (Mathf.Abs(amount * 2 - currentAmount))) - amount, 0, amount);
+        roundedCorners.r.z = Mathf.Clamp(((amount * 3) - (Mathf.Abs(amount * 3 - currentAmount))) - (amount * 2), 0, amount);
+        roundedCorners.r.w = Mathf.Clamp((Mathf.Abs(amount * 2 - currentAmount)) - amount, 0, amount);
         roundedCorners.Validate();
         roundedCorners.Refresh();
     }
