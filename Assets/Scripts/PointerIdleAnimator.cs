@@ -8,6 +8,6 @@ public class PointerIdleAnimator : MonoBehaviour
     void Start()
     {
         transform.LeanMove(new Vector3(transform.position.x, transform.position.y + distance, transform.position.z), 1.3f).setLoopPingPong();
-        transform.LeanRotateAroundLocal(Vector3.up, 360, 10).setLoopClamp();
+        transform.LeanRotateAroundLocal(Vector3.right, 360, 10).setLoopClamp();
     }
 }
