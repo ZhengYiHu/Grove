@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3797638576405047982}
   - component: {fileID: 375904186651544142}
   - component: {fileID: 4114597974908916007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Roundcube.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4374533743571443614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Selectable3DObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 2591770160794470151}
   - component: {fileID: 2232200839210495618}
   - component: {fileID: 2825625233226369721}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Roundcube.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7383850277649252671}
   - component: {fileID: 3160254988068537787}
-  m_Layer: 0
+  - component: {fileID: 2578999598012854261}
+  m_Layer: 3
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,3 +246,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.3
+  rotate: 1
+  pivot: {x: 0, y: 1, z: 0}
+--- !u!65 &2578999598012854261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5115380130113237224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 2, z: 6}
+  m_Center: {x: 0, y: 0, z: 0}
