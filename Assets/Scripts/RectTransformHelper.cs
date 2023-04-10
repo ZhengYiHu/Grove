@@ -40,7 +40,7 @@ public static class RectTransformHelper
 
     public static RectTransform Clone(RectTransform toClone)
     {
-        GameObject newObject = new GameObject(toClone.name + " (Clone)", new Type[] { typeof(RectTransform), typeof(CanvasRenderer) });
+        GameObject newObject = new GameObject(toClone.name + " (RectTransform Clone)", new Type[] { typeof(RectTransform), typeof(CanvasRenderer) });
 
         newObject.transform.SetParent(toClone.parent, false);
 
