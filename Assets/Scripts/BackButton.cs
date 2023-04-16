@@ -34,10 +34,11 @@ public class BackButton : MonoBehaviour
         LeanTween.scale(gameObject, Vector3.one, 0.3f);
         LeanTween.alphaCanvas(canvasGroup,1, 0.3f);
     }
+
     private void AnimateOut()
     {
-        LeanTween.scale(gameObject, Vector3.zero, 0.3f);
-        LeanTween.alphaCanvas(canvasGroup, 0, 0.3f);
+        LeanTween.scale(gameObject, Vector3.zero, 0.3f).setEaseOutCubic();
+        LeanTween.alphaCanvas(canvasGroup, 0, 0.3f).setEaseOutCubic();
     }
 
     private void OnDisable()
