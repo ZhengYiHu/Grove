@@ -12,13 +12,14 @@ public class StandardPageType : PageType, IPageType
 
         //Instantiate content Page
         contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
-        BackButton.ReplaceListener(ShowMenu);
+        BackButton.ReplaceListener(OnBackPressed);
     }
 
-    public async override void ShowMenu()
+    public async override void OnBackPressed()
     {
+        BackButton.instance.AnimateOut();
         await fullScreenContentPage.ShowMenu(false);
         if (contentPage != null) Destroy(contentPage.gameObject);
-        base.ShowMenu();
+        base.OnBackPressed();
     }
 }

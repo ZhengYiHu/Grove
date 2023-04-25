@@ -14,7 +14,7 @@ public abstract class PageType : MonoBehaviour, IPageType
         fullScreenContentPage.gameObject.SetActive(true);
     }
 
-    public virtual void ShowMenu()
+    public virtual void OnBackPressed()
     {
         fullScreenContentPage.gameObject.SetActive(false);
     }

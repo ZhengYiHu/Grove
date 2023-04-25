@@ -48,6 +48,12 @@ public class MainContentPage : MonoBehaviour
         if (withWipe) WipeAnimation(true).Forget();
     }
 
+    public async UniTask ShowProject()
+    {
+        await WipeAnimation(false);
+    }
+
+
     private void ShowSceneGraphics(bool active)
     {
         foreach (GameObject toDisable in objectsToDisableOnScene)

@@ -14,12 +14,15 @@ public class ScenePreview : MonoBehaviour
     Image previewImage;
     [SerializeField]
     CanvasGroup canvasGroup;
+    [SerializeField]
+    ProjectPageType projectPage;
 
     public void ShowProject(SelectableProject project)
     {
         title.text = project.title;
         description.text = project.descritpion;
         previewImage.sprite = project.previewImage;
+        projectPage.ReplaceContentPage(project.contentPage);
     }
 
     public void fadeIn()

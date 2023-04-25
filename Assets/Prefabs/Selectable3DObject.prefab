@@ -51,6 +51,7 @@ MonoBehaviour:
   previewImage: {fileID: 0}
   title: 
   descritpion: 
+  contentPage: {fileID: 7981384048105880529, guid: b9128bc35d68d2f4c99cf48f6116c30a, type: 3}
 --- !u!65 &172429622785741872
 BoxCollider:
   m_ObjectHideFlags: 0

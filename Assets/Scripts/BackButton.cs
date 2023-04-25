@@ -10,6 +10,7 @@ public class BackButton : MonoBehaviour
     [SerializeField] Button button;
     [SerializeField] CanvasGroup canvasGroup;
     private static Action OnBackClicked;
+    public static BackButton instance => (BackButton) FindObjectOfType(typeof(BackButton));
 
     private void Awake()
     {
@@ -18,7 +19,6 @@ public class BackButton : MonoBehaviour
         button.onClick.AddListener(() =>
         {
             OnBackClicked.Invoke();
-            AnimateOut();
         });
         AnimateIn();
     }
@@ -32,10 +32,10 @@ public class BackButton : MonoBehaviour
     private void AnimateIn()
     {
         LeanTween.scale(gameObject, Vector3.one, 0.3f);
-        LeanTween.alphaCanvas(canvasGroup,1, 0.3f);
+        LeanTween.alphaCanvas(canvasGroup, 1, 0.3f);
     }
 
-    private void AnimateOut()
+    public void AnimateOut()
     {
         LeanTween.scale(gameObject, Vector3.zero, 0.3f).setEaseOutCubic();
         LeanTween.alphaCanvas(canvasGroup, 0, 0.3f).setEaseOutCubic();

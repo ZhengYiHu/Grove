@@ -16,6 +16,8 @@ public class SelectableProject : MonoBehaviour
     public string title;
     [ResizableTextArea]
     public string descritpion;
+    [SerializeField]
+    public ContentPage contentPage;
 
 
     private void Start()

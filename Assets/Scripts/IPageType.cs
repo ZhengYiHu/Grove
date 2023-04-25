@@ -5,5 +5,5 @@ using UnityEngine;
 public interface IPageType
 {
     public void ShowPageContent();
-    public void ShowMenu();
+    public void OnBackPressed();
 }

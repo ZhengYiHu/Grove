@@ -9,12 +9,13 @@ public class ScenePageType : PageType
         base.ShowPageContent();
         fullScreenContentPage.Show3DScene();
         fullScreenContentPage.ResetWipeValue();
-        BackButton.ReplaceListener(ShowMenu);
+        BackButton.ReplaceListener(OnBackPressed);
     }
 
-    public async override void ShowMenu()
+    public async override void OnBackPressed()
     {
+        BackButton.instance.AnimateOut();
         await fullScreenContentPage.ShowMenu();
-        base.ShowMenu();
+        base.OnBackPressed();
     }
 }
