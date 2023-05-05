@@ -110,6 +110,7 @@ namespace LogicUI.FancyTextRendering
             new UnorderedLists(),
             new OrderedLists(),
             new Bold(),
+            new Highlight(),
             new Italics(),
             new Strikethrough(),
             new SuperscriptChain(), // Important to process chain before single!

@@ -13,6 +13,17 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
         protected override bool AllowedToProces(MarkdownRenderingSettings settings)
             => settings.Bold.RenderBold;
     }
+    class Highlight : SimpleMarkdownTag
+    {
+        protected override string MarkdownIndicator => "--";
+        protected override string RichTextOpenTag => $"<color=#54A0FFFF>";
+        protected override string RichTextCloseTag => "</color>";
+
+        protected override char? IgnoreContents => '*';
+
+        protected override bool AllowedToProces(MarkdownRenderingSettings settings)
+            => settings.Bold.RenderBold;
+    }
 
     class Italics : SimpleMarkdownTag
     {

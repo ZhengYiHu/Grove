@@ -48,9 +48,10 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
                 builder.Remove(linkTextStart, linkContentEnd - linkTextStart + 1);
                 builder.InsertChain(linkTextStart, out int insertionEndIndex, 
                     "<color=#", ColorUtility.ToHtmlStringRGBA(settings.Links.LinkColor), ">",
+                    "<u>",
                     "<link=\"", linkContent, "\">",
                     linkText,
-                    "</link></color>");
+                    "</link></color></u>");
 
 
                 linkTextStart = builder.IndexOf('[', startIndex: insertionEndIndex);

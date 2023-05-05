@@ -45,7 +45,7 @@ namespace LogicUI.FancyTextRendering
 
 
         [ColorUsage(showAlpha: false), SerializeField]
-        Color32 LinkNormalColor = new Color32(29, 124, 234, 255);
+        Color32 LinkNormalColor = new Color32(84, 160, 255, 255);
 
         [ColorUsage(showAlpha: false), SerializeField]
         Color32 LinkHoveredColor = new Color32(72, 146, 231, 255);

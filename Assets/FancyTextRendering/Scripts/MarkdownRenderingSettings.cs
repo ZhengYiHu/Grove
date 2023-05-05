@@ -8,7 +8,7 @@ namespace LogicUI.FancyTextRendering
     public class MarkdownRenderingSettings
     {
         public static MarkdownRenderingSettings Default => new MarkdownRenderingSettings();
-
+        public static Color highlightColor = new Color(0.3294118f, 0.627451f, 1, 1);
 
         public BoldSettings Bold = new BoldSettings();
         [Serializable] public class BoldSettings
@@ -98,7 +98,7 @@ namespace LogicUI.FancyTextRendering
 
             [ShowIf(EConditionOperator.Or, nameof(RenderLinks), nameof(RenderAutoLinks)), AllowNesting]
             [ColorUsage(showAlpha: false)]
-            public Color LinkColor = new Color32(29, 124, 234, a: byte.MaxValue);
+            public Color LinkColor = highlightColor;
         }
 
         public HeaderSettings Headers = new HeaderSettings();
@@ -112,10 +112,10 @@ namespace LogicUI.FancyTextRendering
             // Can't use ShowIf here yet -- https://github.com/dbrizov/NaughtyAttributes/issues/142
             public HeaderData[] Levels = new HeaderData[]
             {
-                new HeaderData(2f, true, true, 0.45f),
-                new HeaderData(1.7f, true, true, 0.3f),
-                new HeaderData(1.5f, true, false),
-                new HeaderData(1.3f, true, false),
+                new HeaderData(2f, true, true, highlightColor, 0.45f),
+                new HeaderData(1.7f, true, true, highlightColor, 0.3f),
+                new HeaderData(1.5f, true, false, highlightColor),
+                new HeaderData(1.3f, true, false, highlightColor),
             };
 
 
@@ -127,15 +127,17 @@ namespace LogicUI.FancyTextRendering
                 public bool Underline;
                 public HeaderCase Case = HeaderCase.None;
                 public float VerticalSpacing;
+                public Color Color;
 
 
                 public HeaderData() { } // Needs a default constructor so it can be deserialized by SUCC
-                public HeaderData(float size, bool bold, bool underline, float verticalSpacing = 0)
+                public HeaderData(float size, bool bold, bool underline, Color color, float verticalSpacing = 0)
                 {
                     Size = size;
                     Bold = bold;
                     Underline = underline;
                     VerticalSpacing = verticalSpacing;
+                    Color = color;
                 }
 
 

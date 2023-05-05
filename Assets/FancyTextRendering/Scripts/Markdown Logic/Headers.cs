@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using JimmysUnityUtilities;
-
+using UnityEngine;
 using HeaderCase = LogicUI.FancyTextRendering.MarkdownRenderingSettings.HeaderSettings.HeaderData.HeaderCase;
 
 namespace LogicUI.FancyTextRendering.MarkdownLogic
@@ -101,6 +101,11 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
 
                     if (info.Underline)
                         builder_.Prepend("<u>").Append("</u>");
+
+                    if (info.Color != Color.white)
+                    {
+                        builder_.Prepend($"<color=#{ColorUtility.ToHtmlStringRGBA(settings.Links.LinkColor)}>").Append("</color>");
+                    }
 
                     switch (info.Case)
                     {
