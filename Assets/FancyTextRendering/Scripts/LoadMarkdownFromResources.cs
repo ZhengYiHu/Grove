@@ -7,8 +7,7 @@ namespace LogicUI.FancyTextRendering
     [RequireComponent(typeof(MarkdownRenderer))]
     public class LoadMarkdownFromResources : MonoBehaviour
     {
-        [SerializeField] string MarkdownResourcesPath;
-
+        [SerializeField] TextAsset TextAsset;
         private void Awake()
         {
             LoadMarkdown();
@@ -17,8 +16,7 @@ namespace LogicUI.FancyTextRendering
         [Button]
         private void LoadMarkdown()
         {
-            string markdown = ResourcesUtilities.ReadTextFromFile(MarkdownResourcesPath);
-            GetComponent<MarkdownRenderer>().Source = markdown;
+            GetComponent<MarkdownRenderer>().Source = TextAsset.text;
         }
     }
 }
