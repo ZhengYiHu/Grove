@@ -268,7 +268,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 40, y: 0}
-  m_SizeDelta: {x: 1640, y: 0}
+  m_SizeDelta: {x: 1240, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3760437090278290024
 CanvasRenderer:
@@ -299,18 +299,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "This is my final year project in King\u2019s College London where I worked
-    on a Tetris AI implementing the NEAT algorithm.\r\n\r\nThe basic idea behind
-    NEAT is to have a neural network that mutates over time to develop into one capable
-    to compute more complex relationship between inputs and output through by evolving
-    similarly to genetic evolution.\r\n\r\nSince I was feeling confident about the
-    project I decided to make my own twist and allow the AI to only read data through
-    visual inputs, which means that it will only know if the pixel value is on or
-    off at any given position and not any other relevant data like the height of
-    the game state, or the Tetromino type it is currently holding.\r\n\r\nTetris
-    Demo\r\n\r\nAlthough the program didn\u2019t really manage to learn how to play
-    the game properly within a few hours of training (my laptop burning, so i had
-    to stop it)\r\n\r\nPaper\r\nDetails of the project can be viewed on the Full
-    Paper"
+    on a <color=#54A0FF>Tetris AI implementing the NEAT algorithm</color>.\r\n\r\nThe
+    basic idea behind <color=#54A0FF>NEAT</color> is to have a <color=#54A0FF>neural
+    network that mutates</color> over time to develop into one capable to compute
+    more complex relationship between inputs and output through by evolving similarly
+    to <color=#54A0FF>genetic evolution</color>.\r\n\r\nSince I was feeling confident
+    about the project I decided to make my own twist and allow the AI to only read
+    data through <color=#54A0FF>visual inputs</color>, which means that it will only
+    know if the pixel value is on or off at any given position and not any other
+    relevant data like the height of the game state, or the Tetromino type it is
+    currently holding.\r\n\r\n<color=#54A0FF>Tetris Demo\r</color>\n\r\nAlthough
+    the program didn\u2019t really manage to learn how to play the game properly
+    within a few hours of training (my laptop burning, so i had to stop it)\r\n\r\n<color=#54A0FF>Paper\r</color>\nDetails
+    of the project can be viewed on the <color=#54A0FF>Full Paper\r</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -1150,18 +1151,19 @@ PrefabInstance:
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_text
       value: "This is my final year project in King\u2019s College London where I
-        worked on a Tetris AI implementing the NEAT algorithm.\r\n\r\nThe basic idea
-        behind NEAT is to have a neural network that mutates over time to develop
-        into one capable to compute more complex relationship between inputs and
-        output through by evolving similarly to genetic evolution.\r\n\r\nSince I
-        was feeling confident about the project I decided to make my own twist and
-        allow the AI to only read data through visual inputs, which means that it
-        will only know if the pixel value is on or off at any given position and
+        worked on a <color=#54A0FF>Tetris AI implementing the NEAT algorithm</color>.\r\n\r\nThe
+        basic idea behind <color=#54A0FF>NEAT</color> is to have a <color=#54A0FF>neural
+        network that mutates</color> over time to develop into one capable to compute
+        more complex relationship between inputs and output through by evolving similarly
+        to <color=#54A0FF>genetic evolution</color>.\r\n\r\nSince I was feeling confident
+        about the project I decided to make my own twist and allow the AI to only
+        read data through <color=#54A0FF>visual inputs</color>, which means that
+        it will only know if the pixel value is on or off at any given position and
         not any other relevant data like the height of the game state, or the Tetromino
-        type it is currently holding.\r\n\r\nTetris Demo\r\n\r\nAlthough the program
-        didn\u2019t really manage to learn how to play the game properly within a
-        few hours of training (my laptop burning, so i had to stop it)\r\n\r\nPaper\r\nDetails
-        of the project can be viewed on the Full Paper"
+        type it is currently holding.\r\n\r\n<color=#54A0FF>Tetris Demo\r</color>\n\r\nAlthough
+        the program didn\u2019t really manage to learn how to play the game properly
+        within a few hours of training (my laptop burning, so i had to stop it)\r\n\r\n<color=#54A0FF>Paper\r</color>\nDetails
+        of the project can be viewed on the <color=#54A0FF>Full Paper\r</color>"
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_linkedTextComponent
