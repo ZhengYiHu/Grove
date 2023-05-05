@@ -9,4 +9,6 @@ public class ProjectTemplate : ScriptableObject
     [SerializeField] public string title = "Title";
     [SerializeField] public string subtitle = "Subtitle";
     [SerializeField] public TextAsset bodyAsset;
+    [SerializeField] public Sprite previewImage;
+    [SerializeField] public GameObject modelPrefab;
 }

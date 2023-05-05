@@ -8,20 +8,14 @@ public class SelectableProject : MonoBehaviour
 { 
     [SerializeField]
     Transform modelParent;
-    [SerializeField]
-    GameObject modelPrefab;
-    [SerializeField]
-    public Sprite previewImage;
-    [SerializeField]
-    public string title;
-    [ResizableTextArea]
-    public string descritpion;
+    [SerializeField, Expandable]
+    public ProjectTemplate projectTemplate;
     [SerializeField]
     public ContentPage contentPage;
 
 
     private void Start()
     {
-        if(modelParent.childCount == 0) Instantiate(modelPrefab, modelParent);
+        if(modelParent.childCount == 0) Instantiate(projectTemplate.modelPrefab, modelParent);
     }
 }

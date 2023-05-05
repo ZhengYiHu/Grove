@@ -15,11 +15,10 @@ My not so optimal approach to the development process suggested me to start to w
 By --not having a defined idea in mind-- and just working on a single aspect of the game made me lose control on what the game should even be about.
 I was spending months developing mechanics, not to reach some result I wanted the game to become, but only because --*I might need it in the future*--, so that I started learning and working on generic game mechanics like movements, physics, dialogue systems and so on... 
 
-
 My developments approach made me quickly --lose interest-- on the project, and this is the --mains lesson-- learn from this project.
 I wouldn't consider it a failure though since I learned *Soooo Much* during the whole development process since it was the first game I was really putting a lot of effort in.
 
-For now I will probably halt the development, but who knows when I will get to pull it back out from the archives...
+For now I will --halt-- the development, but who knows when I will get to pull it back out from the archives...
 
 
 ### More screenshots I took during development

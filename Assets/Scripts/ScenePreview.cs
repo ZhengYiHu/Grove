@@ -19,9 +19,9 @@ public class ScenePreview : MonoBehaviour
 
     public void ShowProject(SelectableProject project)
     {
-        title.text = project.title;
-        description.text = project.descritpion;
-        previewImage.sprite = project.previewImage;
+        title.text = project.projectTemplate.title;
+        description.text = project.projectTemplate.subtitle;
+        previewImage.sprite = project.projectTemplate.previewImage;
         projectPage.ReplaceContentPage(project.contentPage);
     }
 
