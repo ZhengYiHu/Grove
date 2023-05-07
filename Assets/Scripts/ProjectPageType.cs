@@ -9,10 +9,12 @@ public class ProjectPageType : PageType
     {
         base.ShowPageContent();
         fullScreenContentPage.SetBlockRaycast(true);
+        BackButton.SetInteractable(false);
         await fullScreenContentPage.ShowProject();
         contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
         fullScreenContentPage.ResetWipeValue();
         BackButton.ReplaceListener(OnBackPressed);
+        BackButton.SetInteractable(true);
     }
 
     public async override void OnBackPressed()

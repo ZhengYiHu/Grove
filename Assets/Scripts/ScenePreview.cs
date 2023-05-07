@@ -28,10 +28,12 @@ public class ScenePreview : MonoBehaviour
     public void fadeIn()
     {
         LeanTween.alphaCanvas(canvasGroup, 1, 0.3f);
+        canvasGroup.interactable = true;
     }
 
     public void fadeOut()
     {
         LeanTween.alphaCanvas(canvasGroup, 0, 0.3f);
+        canvasGroup.interactable = false;
     }
 }

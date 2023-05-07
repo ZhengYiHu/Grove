@@ -41,6 +41,11 @@ public class BackButton : MonoBehaviour
         LeanTween.alphaCanvas(canvasGroup, 0, 0.3f).setEaseOutCubic();
     }
 
+    public static void SetInteractable(bool interactable)
+    {
+        instance.canvasGroup.interactable = interactable;
+    }
+
     private void OnDisable()
     {
         button.transform.localScale = Vector3.zero;
