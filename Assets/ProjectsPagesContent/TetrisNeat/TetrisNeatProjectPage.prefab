@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 343775891753636776}
   - component: {fileID: 343775891753636790}
-  - component: {fileID: 343775891753636791}
   - component: {fileID: 7981384048105880529}
   - component: {fileID: 8710572570872994463}
+  - component: {fileID: 708245476912724885}
   m_Layer: 5
   m_Name: TetrisNeatProjectPage
   m_TagString: Untagged
@@ -50,36 +50,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343775891753636777}
   m_CullTransparentMesh: 1
---- !u!114 &343775891753636791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343775891753636777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &7981384048105880529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,6 +77,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &708245476912724885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343775891753636777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed79d1d7efd711243a81aacd6dab04e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  template: {fileID: 11400000, guid: a028d5e8c93a6d94d913e673e07a2af7, type: 2}
+  title: {fileID: 4537409630130444007}
+  subtitle: {fileID: 4474583134204639595}
+  body: {fileID: 8303048266009979809}
 --- !u!1 &1438990237611592749
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +228,8 @@ GameObject:
   - component: {fileID: 559866623410281475}
   - component: {fileID: 3760437090278290024}
   - component: {fileID: 687632162474190712}
-  - component: {fileID: 5108019712219453203}
+  - component: {fileID: 3834108909606560201}
+  - component: {fileID: 1932128903674046770}
   m_Layer: 5
   m_Name: Body2
   m_TagString: Untagged
@@ -267,8 +254,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 40, y: 0}
-  m_SizeDelta: {x: 1240, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1631.1063}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3760437090278290024
 CanvasRenderer:
@@ -298,20 +285,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This is my final year project in King\u2019s College London where I worked
-    on a <color=#54A0FF>Tetris AI implementing the NEAT algorithm</color>.\r\n\r\nThe
-    basic idea behind <color=#54A0FF>NEAT</color> is to have a <color=#54A0FF>neural
-    network that mutates</color> over time to develop into one capable to compute
-    more complex relationship between inputs and output through by evolving similarly
-    to <color=#54A0FF>genetic evolution</color>.\r\n\r\nSince I was feeling confident
-    about the project I decided to make my own twist and allow the AI to only read
-    data through <color=#54A0FF>visual inputs</color>, which means that it will only
-    know if the pixel value is on or off at any given position and not any other
-    relevant data like the height of the game state, or the Tetromino type it is
-    currently holding.\r\n\r\n<color=#54A0FF>Tetris Demo\r</color>\n\r\nAlthough
-    the program didn\u2019t really manage to learn how to play the game properly
-    within a few hours of training (my laptop burning, so i had to stop it)\r\n\r\n<color=#54A0FF>Paper\r</color>\nDetails
-    of the project can be viewed on the <color=#54A0FF>Full Paper\r</color>"
+  m_text: "\r\n<b><size=1.3em><color=#54A0FFFF>N</color>euro <color=#54A0FFFF>E</color>volution
+    of <color=#54A0FFFF>A</color>ugmenting <color=#54A0FFFF>T</color>opologies</size></b>\r\n<color=#54A0FFFF><b><size=1.5em>NEAT</size></b></color>\r\nThis
+    is my final year project in King's College London where I worked on a Tetris
+    AI implementing the <b><color=#54A0FFFF><u><link=\"https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies\">NEAT</link></color></u>
+    algorithm</b>. \r\n\r\nThe basic idea behind NEAT is to have a <b><color=#54A0FFFF>neural
+    network</color></b> that <b><color=#54A0FFFF>mutates over time</color></b> to
+    develop into one capable to compute more complex relationship between inputs
+    and output through by evolving similarly to <b><color=#54A0FFFF>genetic evolution</color></b>.\r\n\r\nSince
+    I was feeling confident about the project I decided to make my own twist and
+    allow the AI to only read data through <b><color=#54A0FFFF>visual inputs</color></b>,
+    which means that it will <b><color=#54A0FFFF>only know if the pixel value</color></b>
+    is on or off at any given position and not any other relevant data like the height
+    of the game state, or the Tetromino type it is currently holding.\r\n\r\nAlthough
+    the program didn't really manage to learn how to play the game properly within
+    a few hours of training (my laptop burning, so i had to stop it) \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
+    of the project can be viewed on the <color=#54A0FFFF><u><link=\"./files/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
+    Paper</b></link></color></u>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -380,7 +370,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &5108019712219453203
+--- !u!114 &3834108909606560201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -389,11 +379,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 2498356298000385428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &1932128903674046770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498356298000385428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3331582647208853221
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,8 +414,12 @@ GameObject:
   - component: {fileID: 1463903381376336175}
   - component: {fileID: 5177840973288978150}
   - component: {fileID: 2214347249606327446}
+  - component: {fileID: 4554707674863120236}
+  - component: {fileID: 8303048266009979809}
+  - component: {fileID: 236269357782317041}
+  - component: {fileID: 298451702557625528}
   m_Layer: 5
-  m_Name: Header2
+  m_Name: Body 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,7 +443,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 112.1}
+  m_SizeDelta: {x: 0, y: 263.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5177840973288978150
 CanvasRenderer:
@@ -460,10 +473,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=#54A0FF>N</color>euro-<color=#54A0FF>E</color>volution of <color=#54A0FF>A</color>ugmenting
-    <color=#54A0FF>T</color>opologies
-
-'
+  m_text: "\r\n<b><size=1.3em><color=#54A0FFFF>N</color>euro <color=#54A0FFFF>E</color>volution
+    of <color=#54A0FFFF>A</color>ugmenting <color=#54A0FFFF>T</color>opologies</size></b>\r\n<color=#54A0FFFF><b><size=1.5em>NEAT</size></b></color>\r\nThis
+    is my final year project in King's College London where I worked on a Tetris
+    AI implementing the <b><color=#54A0FFFF><u><link=\"https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies\">NEAT</link></color></u>
+    algorithm</b>. \r\n\r\nThe basic idea behind NEAT is to have a <b><color=#54A0FFFF>neural
+    network</color></b> that <b><color=#54A0FFFF>mutates over time</color></b> to
+    develop into one capable to compute more complex relationship between inputs
+    and output through by evolving similarly to <b><color=#54A0FFFF>genetic evolution</color></b>.\r\n\r\nSince
+    I was feeling confident about the project I decided to make my own twist and
+    allow the AI to only read data through <b><color=#54A0FFFF>visual inputs</color></b>,
+    which means that it will <b><color=#54A0FFFF>only know if the pixel value</color></b>
+    is on or off at any given position and not any other relevant data like the height
+    of the game state, or the Tetromino type it is currently holding.\r\n\r\nAlthough
+    the program didn't really manage to learn how to play the game properly within
+    a few hours of training (my laptop burning, so i had to stop it) \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
+    of the project can be viewed on the <color=#54A0FFFF><u><link=\"./files/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
+    Paper</b></link></color></u>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -508,8 +534,8 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
+  m_overflowMode: 6
+  m_linkedTextComponent: {fileID: 5922760881337286502}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
   m_enableExtraPadding: 0
@@ -532,6 +558,139 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4554707674863120236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Source: "\r\n#### --N--euro --E--volution of --A--ugmenting --T--opologies\r\n\r\n\r\n###
+    NEAT\r\nThis is my final year project in King's College London where I worked
+    on a Tetris AI implementing the **[NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies)
+    algorithm**. \r\n\r\nThe basic idea behind NEAT is to have a **--neural network--**
+    that **--mutates over time--** to develop into one capable to compute more complex
+    relationship between inputs and output through by evolving similarly to **--genetic
+    evolution--**.\r\n\r\nSince I was feeling confident about the project I decided
+    to make my own twist and allow the AI to only read data through **--visual inputs--**,
+    which means that it will **--only know if the pixel value--** is on or off at
+    any given position and not any other relevant data like the height of the game
+    state, or the Tetromino type it is currently holding.\r\n\r\nAlthough the program
+    didn't really manage to learn how to play the game properly within a few hours
+    of training (my laptop burning, so i had to stop it) \r\n\r\n### Paper\r\n\r\nDetails
+    of the project can be viewed on the [**Full Paper**](./files/6CCS3PRJ_Final_Year0_2cm.pdf)\r\n"
+  RenderSettings:
+    Bold:
+      RenderBold: 1
+    Italics:
+      RenderItalics: 1
+    Strikethrough:
+      RenderStrikethrough: 1
+    Monospace:
+      RenderMonospace: 1
+      UseCustomFont: 1
+      FontAssetPathRelativeToResources: Noto/Noto Mono/NotoMono-Regular
+      DrawOverlay: 1
+      OverlayColor: {r: 0, g: 0, b: 0, a: 0.23529412}
+      OverlayPaddingPixels: 25
+      ManuallySetCharacterSpacing: 0
+      CharacterSpacing: 0.69
+      AddSeparationSpacing: 1
+      SeparationSpacing: 0.3
+    Lists:
+      RenderUnorderedLists: 1
+      RenderOrderedLists: 1
+      UnorderedListBullet: "\u2022"
+      OrderedListNumberSuffix: .
+      VerticalOffset: 0.76
+      BulletOffsetPixels: 100
+      ContentSeparationPixels: 20
+    Links:
+      RenderLinks: 1
+      RenderAutoLinks: 1
+      LinkColor: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+    Headers:
+      RenderPoundSignHeaders: 1
+      RenderLineHeaders: 1
+      Levels:
+      - Size: 2
+        Bold: 1
+        Underline: 1
+        Case: 0
+        VerticalSpacing: 0.45
+        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+      - Size: 1.7
+        Bold: 1
+        Underline: 1
+        Case: 0
+        VerticalSpacing: 0.3
+        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+      - Size: 1.5
+        Bold: 1
+        Underline: 0
+        Case: 0
+        VerticalSpacing: 0
+        Color: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
+      - Size: 1.3
+        Bold: 1
+        Underline: 0
+        Case: 0
+        VerticalSpacing: 0
+        Color: {r: 1, g: 1, b: 1, a: 1}
+    Superscript:
+      RenderSuperscript: 0
+      RenderChainSuperscript: 1
+--- !u!114 &8303048266009979809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52b6e5f5e44df44b939804bd11d3a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextAsset: {fileID: 4900000, guid: cd83fa7e3fef089478ccbc4843da7c0f, type: 3}
+--- !u!114 &236269357782317041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &298451702557625528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5894293091670505736
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,9 +892,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tetris Neat
-
-'
+  m_text: Tetris Neat
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
   m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
@@ -1150,25 +1307,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_text
-      value: "This is my final year project in King\u2019s College London where I
-        worked on a <color=#54A0FF>Tetris AI implementing the NEAT algorithm</color>.\r\n\r\nThe
-        basic idea behind <color=#54A0FF>NEAT</color> is to have a <color=#54A0FF>neural
-        network that mutates</color> over time to develop into one capable to compute
-        more complex relationship between inputs and output through by evolving similarly
-        to <color=#54A0FF>genetic evolution</color>.\r\n\r\nSince I was feeling confident
-        about the project I decided to make my own twist and allow the AI to only
-        read data through <color=#54A0FF>visual inputs</color>, which means that
-        it will only know if the pixel value is on or off at any given position and
+      value: "\r\n<b><size=1.3em><color=#54A0FFFF>N</color>euro <color=#54A0FFFF>E</color>volution
+        of <color=#54A0FFFF>A</color>ugmenting <color=#54A0FFFF>T</color>opologies</size></b>\r\n<color=#54A0FFFF><b><size=1.5em>NEAT</size></b></color>\r\nThis
+        is my final year project in King's College London where I worked on a Tetris
+        AI implementing the <b><color=#54A0FFFF><u><link=\"https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies\">NEAT</link></color></u>
+        algorithm</b>. \r\n\r\nThe basic idea behind NEAT is to have a <b><color=#54A0FFFF>neural
+        network</color></b> that <b><color=#54A0FFFF>mutates over time</color></b>
+        to develop into one capable to compute more complex relationship between
+        inputs and output through by evolving similarly to <b><color=#54A0FFFF>genetic
+        evolution</color></b>.\r\n\r\nSince I was feeling confident about the project
+        I decided to make my own twist and allow the AI to only read data through
+        <b><color=#54A0FFFF>visual inputs</color></b>, which means that it will <b><color=#54A0FFFF>only
+        know if the pixel value</color></b> is on or off at any given position and
         not any other relevant data like the height of the game state, or the Tetromino
-        type it is currently holding.\r\n\r\n<color=#54A0FF>Tetris Demo\r</color>\n\r\nAlthough
-        the program didn\u2019t really manage to learn how to play the game properly
-        within a few hours of training (my laptop burning, so i had to stop it)\r\n\r\n<color=#54A0FF>Paper\r</color>\nDetails
-        of the project can be viewed on the <color=#54A0FF>Full Paper\r</color>"
+        type it is currently holding.\r\n\r\nAlthough the program didn't really manage
+        to learn how to play the game properly within a few hours of training (my
+        laptop burning, so i had to stop it) \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
+        of the project can be viewed on the <color=#54A0FFFF><u><link=\"./files/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
+        Paper</b></link></color></u>\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_linkedTextComponent
       value: 
       objectReference: {fileID: 687632162474190712}
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: parentLinkedComponent
+      value: 
+      objectReference: {fileID: 2214347249606327446}
     - target: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1259,6 +1424,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}

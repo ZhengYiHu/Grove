@@ -80,6 +80,7 @@ MonoBehaviour:
   template: {fileID: 11400000, guid: 01f7cc98598fc4148b8bf103efb10911, type: 2}
   title: {fileID: 4537409630130444007}
   subtitle: {fileID: 4474583134204639595}
+  body: {fileID: 1078267624868297043}
 --- !u!225 &8710572570872994463
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -296,20 +297,20 @@ MonoBehaviour:
     not so optimal approach to the development process suggested me to start to work
     on the artstyle and focus on that before even designing a proper game loop and
     core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and coziness
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Future
-    plans</size></b></color>\r\nBy not having a defined idea in mind and just working
-    on a single aspect of the game made me lose control on what the game should even
+    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
+    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    a single aspect of the game made me lose control on what the game should even
     be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <i>I might need it in the future</i>,
-    so that I started learning and working on generic game mechanics like movements,
-    physics, dialogue systems and so on... \r\n\r\n\r\nMy developments approach made
-    me quickly <color=#54A0FFFF>lose interest</color> on the project, and this is
-    the <color=#54A0FFFF>mains lesson</color> learn from this project.\r\nI wouldn't
-    consider it a failure though since I learned <i>Soooo Much</i> during the whole
-    development process since it was the first game I was really putting a lot of
-    effort in.\r\n\r\nFor now I will probably halt the development, but who knows
-    when I will get to pull it back from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    it in the future</i></color>, so that I started learning and working on generic
+    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
+    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
+    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
+    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
+    Much</i> during the whole development process since it was the first game I was
+    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
+    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
     screenshots I took during development</size></b></color>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -492,20 +493,20 @@ MonoBehaviour:
     not so optimal approach to the development process suggested me to start to work
     on the artstyle and focus on that before even designing a proper game loop and
     core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and coziness
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Future
-    plans</size></b></color>\r\nBy not having a defined idea in mind and just working
-    on a single aspect of the game made me lose control on what the game should even
+    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
+    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    a single aspect of the game made me lose control on what the game should even
     be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <i>I might need it in the future</i>,
-    so that I started learning and working on generic game mechanics like movements,
-    physics, dialogue systems and so on... \r\n\r\n\r\nMy developments approach made
-    me quickly <color=#54A0FFFF>lose interest</color> on the project, and this is
-    the <color=#54A0FFFF>mains lesson</color> learn from this project.\r\nI wouldn't
-    consider it a failure though since I learned <i>Soooo Much</i> during the whole
-    development process since it was the first game I was really putting a lot of
-    effort in.\r\n\r\nFor now I will probably halt the development, but who knows
-    when I will get to pull it back from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    it in the future</i></color>, so that I started learning and working on generic
+    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
+    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
+    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
+    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
+    Much</i> during the whole development process since it was the first game I was
+    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
+    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
     screenshots I took during development</size></b></color>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -781,20 +782,20 @@ MonoBehaviour:
     not so optimal approach to the development process suggested me to start to work
     on the artstyle and focus on that before even designing a proper game loop and
     core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and coziness
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Future
-    plans</size></b></color>\r\nBy not having a defined idea in mind and just working
-    on a single aspect of the game made me lose control on what the game should even
+    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
+    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    a single aspect of the game made me lose control on what the game should even
     be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <i>I might need it in the future</i>,
-    so that I started learning and working on generic game mechanics like movements,
-    physics, dialogue systems and so on... \r\n\r\n\r\nMy developments approach made
-    me quickly <color=#54A0FFFF>lose interest</color> on the project, and this is
-    the <color=#54A0FFFF>mains lesson</color> learn from this project.\r\nI wouldn't
-    consider it a failure though since I learned <i>Soooo Much</i> during the whole
-    development process since it was the first game I was really putting a lot of
-    effort in.\r\n\r\nFor now I will probably halt the development, but who knows
-    when I will get to pull it back from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    it in the future</i></color>, so that I started learning and working on generic
+    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
+    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
+    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
+    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
+    Much</i> during the whole development process since it was the first game I was
+    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
+    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
     screenshots I took during development</size></b></color>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -886,19 +887,19 @@ MonoBehaviour:
     Artstyle\r\n\r\nMy not so optimal approach to the development process suggested
     me to start to work on the artstyle and focus on that before even designing a
     proper game loop and core mechanics... which made sense to me at the time since
-    the main motivation was to --capture the feelings-- of pleasure and coziness
-    to contrast the stressful routines I was stucked into. \r\n\r\n### Future plans\r\n\r\nBy
-    not having a defined idea in mind and just working on a single aspect of the
-    game made me lose control on what the game should even be about.\r\nI was spending
-    months developing mechanics, not to reach some result I wanted the game to become,
-    but only because *I might need it in the future*, so that I started learning
-    and working on generic game mechanics like movements, physics, dialogue systems
-    and so on... \r\n\r\n\r\nMy developments approach made me quickly --lose interest--
-    on the project, and this is the --mains lesson-- learn from this project.\r\nI
+    the main motivation was to --capture the feelings-- of pleasure and --coziness--
+    to contrast the stressful routines I was stucked into. \r\n\r\n### Downfall\r\n\r\nBy
+    --not having a defined idea in mind-- and just working on a single aspect of
+    the game made me lose control on what the game should even be about.\r\nI was
+    spending months developing mechanics, not to reach some result I wanted the game
+    to become, but only because --*I might need it in the future*--, so that I started
+    learning and working on generic game mechanics like movements, physics, dialogue
+    systems and so on... \r\n\r\nMy developments approach made me quickly --lose
+    interest-- on the project, and this is the --mains lesson-- learn from this project.\r\nI
     wouldn't consider it a failure though since I learned *Soooo Much* during the
     whole development process since it was the first game I was really putting a
-    lot of effort in.\r\n\r\nFor now I will probably halt the development, but who
-    knows when I will get to pull it back from the archives...\r\n\r\n\r\n### More
+    lot of effort in.\r\n\r\nFor now I will --halt-- the development, but who knows
+    when I will get to pull it back out from the archives...\r\n\r\n\r\n### More
     screenshots I took during development\r\n"
   RenderSettings:
     Bold:
@@ -2039,20 +2040,21 @@ PrefabInstance:
         to work on the artstyle and focus on that before even designing a proper
         game loop and core mechanics... which made sense to me at the time since
         the main motivation was to <color=#54A0FFFF>capture the feelings</color>
-        of pleasure and coziness to contrast the stressful routines I was stucked
-        into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Future plans</size></b></color>\r\nBy
-        not having a defined idea in mind and just working on a single aspect of
-        the game made me lose control on what the game should even be about.\r\nI
-        was spending months developing mechanics, not to reach some result I wanted
-        the game to become, but only because <i>I might need it in the future</i>,
-        so that I started learning and working on generic game mechanics like movements,
-        physics, dialogue systems and so on... \r\n\r\n\r\nMy developments approach
-        made me quickly <color=#54A0FFFF>lose interest</color> on the project, and
-        this is the <color=#54A0FFFF>mains lesson</color> learn from this project.\r\nI
-        wouldn't consider it a failure though since I learned <i>Soooo Much</i> during
-        the whole development process since it was the first game I was really putting
-        a lot of effort in.\r\n\r\nFor now I will probably halt the development,
-        but who knows when I will get to pull it back from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+        of pleasure and <color=#54A0FFFF>coziness</color> to contrast the stressful
+        routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+        <color=#54A0FFFF>not having a defined idea in mind</color> and just working
+        on a single aspect of the game made me lose control on what the game should
+        even be about.\r\nI was spending months developing mechanics, not to reach
+        some result I wanted the game to become, but only because <color=#54A0FFFF><i>I
+        might need it in the future</i></color>, so that I started learning and working
+        on generic game mechanics like movements, physics, dialogue systems and so
+        on... \r\n\r\nMy developments approach made me quickly <color=#54A0FFFF>lose
+        interest</color> on the project, and this is the <color=#54A0FFFF>mains lesson</color>
+        learn from this project.\r\nI wouldn't consider it a failure though since
+        I learned <i>Soooo Much</i> during the whole development process since it
+        was the first game I was really putting a lot of effort in.\r\n\r\nFor now
+        I will <color=#54A0FFFF>halt</color> the development, but who knows when
+        I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
         screenshots I took during development</size></b></color>\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
@@ -2201,20 +2203,21 @@ PrefabInstance:
         to work on the artstyle and focus on that before even designing a proper
         game loop and core mechanics... which made sense to me at the time since
         the main motivation was to <color=#54A0FFFF>capture the feelings</color>
-        of pleasure and coziness to contrast the stressful routines I was stucked
-        into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Future plans</size></b></color>\r\nBy
-        not having a defined idea in mind and just working on a single aspect of
-        the game made me lose control on what the game should even be about.\r\nI
-        was spending months developing mechanics, not to reach some result I wanted
-        the game to become, but only because <i>I might need it in the future</i>,
-        so that I started learning and working on generic game mechanics like movements,
-        physics, dialogue systems and so on... \r\n\r\n\r\nMy developments approach
-        made me quickly <color=#54A0FFFF>lose interest</color> on the project, and
-        this is the <color=#54A0FFFF>mains lesson</color> learn from this project.\r\nI
-        wouldn't consider it a failure though since I learned <i>Soooo Much</i> during
-        the whole development process since it was the first game I was really putting
-        a lot of effort in.\r\n\r\nFor now I will probably halt the development,
-        but who knows when I will get to pull it back from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+        of pleasure and <color=#54A0FFFF>coziness</color> to contrast the stressful
+        routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+        <color=#54A0FFFF>not having a defined idea in mind</color> and just working
+        on a single aspect of the game made me lose control on what the game should
+        even be about.\r\nI was spending months developing mechanics, not to reach
+        some result I wanted the game to become, but only because <color=#54A0FFFF><i>I
+        might need it in the future</i></color>, so that I started learning and working
+        on generic game mechanics like movements, physics, dialogue systems and so
+        on... \r\n\r\nMy developments approach made me quickly <color=#54A0FFFF>lose
+        interest</color> on the project, and this is the <color=#54A0FFFF>mains lesson</color>
+        learn from this project.\r\nI wouldn't consider it a failure though since
+        I learned <i>Soooo Much</i> during the whole development process since it
+        was the first game I was really putting a lot of effort in.\r\n\r\nFor now
+        I will <color=#54A0FFFF>halt</color> the development, but who knows when
+        I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
         screenshots I took during development</size></b></color>\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
