@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,9 +10,12 @@ public abstract class PageType : MonoBehaviour, IPageType
 
     protected ContentPage contentPage;
 
-    public virtual void ShowPageContent()
+    public virtual UniTask ShowPageContent()
     {
+        UniTaskCompletionSource animationCompleteSource = new UniTaskCompletionSource();
         fullScreenContentPage.gameObject.SetActive(true);
+        animationCompleteSource.TrySetResult();
+        return animationCompleteSource.Task;
     }
 
     public virtual void OnBackPressed()

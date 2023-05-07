@@ -1,25 +1,26 @@
+using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class StandardPageType : PageType, IPageType
 {
-    public override void ShowPageContent()
+    public override UniTask ShowPageContent()
     {
-        base.ShowPageContent();
         fullScreenContentPage.ShowStandardContentPage();
         fullScreenContentPage.ResetWipeValue();
 
         //Instantiate content Page
         contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
         BackButton.ReplaceListener(OnBackPressed);
+
+        return base.ShowPageContent();
     }
 
     public async override void OnBackPressed()
     {
         BackButton.instance.AnimateOut();
         await fullScreenContentPage.ShowMenu(false);
-        if (contentPage != null) Destroy(contentPage.gameObject);
         base.OnBackPressed();
     }
 }

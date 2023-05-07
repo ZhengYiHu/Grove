@@ -139,8 +139,9 @@ public class PreviewElement : MonoBehaviour
     /// <param name="clickedOption">Clicked menu button</param>
     void OnMenuOptionClicked(MenuButton clickedOption)
     {
-        LeanTween.value(gameObject, 0, 1, fullScreenAnimationDuration).setOnUpdate(TweenPreviewSize)
-            .setOnComplete(clickedOption.ShowPageContent);
+        float animationTime = clickedOption.animatePreviewArea ? fullScreenAnimationDuration : 0;
+        RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, fullScreenContentPage.transform as RectTransform);
+        LeanTween.value(gameObject, 0, 1, animationTime).setOnComplete(clickedOption.ShowPageContent);
         //Hide preview pages
         ShowAllPreviewPages(false);
         EnableOnPointerListeners(false);
@@ -156,11 +157,6 @@ public class PreviewElement : MonoBehaviour
         {
             previewPages[i].Visible = show;
         }
-    }
-
-    private void TweenPreviewSize(float lerp)
-    {
-        RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, fullScreenContentPage.transform as RectTransform);
     }
 
     /// <summary>

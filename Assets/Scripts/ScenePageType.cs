@@ -1,15 +1,17 @@
+using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ScenePageType : PageType
 {
-    public override void ShowPageContent()
+    public override UniTask ShowPageContent()
     {
-        base.ShowPageContent();
         fullScreenContentPage.Show3DScene();
         fullScreenContentPage.ResetWipeValue();
         BackButton.ReplaceListener(OnBackPressed);
+
+        return base.ShowPageContent();
     }
 
     public async override void OnBackPressed()

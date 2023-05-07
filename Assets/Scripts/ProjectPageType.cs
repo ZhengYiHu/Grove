@@ -1,12 +1,14 @@
+using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ProjectPageType : PageType
 {
-    public async override void ShowPageContent()
+    public async override UniTask ShowPageContent()
     {
         base.ShowPageContent();
+        fullScreenContentPage.SetBlockRaycast(true);
         await fullScreenContentPage.ShowProject();
         contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
         fullScreenContentPage.ResetWipeValue();
@@ -18,6 +20,7 @@ public class ProjectPageType : PageType
         if (contentPage != null) Destroy(contentPage.gameObject);
         fullScreenContentPage.Show3DScene();
         BackButton.ReplaceListener(ShowMainMenu);
+        fullScreenContentPage.SetBlockRaycast(false);
     }
 
     private async void ShowMainMenu()

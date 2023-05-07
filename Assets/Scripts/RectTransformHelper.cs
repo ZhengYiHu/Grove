@@ -15,7 +15,7 @@ public static class RectTransformHelper
     public static async void FakeAnimateRectTransformTo(RectTransform rectTransformToMove, RectTransform endTransform, float duration = 0.5f)
     {
         UniTaskCompletionSource animationEndSource = new UniTaskCompletionSource();
-
+        
         TransformData animationData = new TransformData();
         animationData.toMove = rectTransformToMove;
         animationData.target = endTransform;

@@ -10,6 +10,7 @@ public class MainContentPage : MonoBehaviour
 {
     [SerializeField] PreviewElement previewElement;
     [SerializeField] Image bgImage;
+    [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] GameObject[] objectsToDisableOnScene;
     [SerializeField] GameObject[] objectsToEnableOnScene;
 
@@ -46,6 +47,14 @@ public class MainContentPage : MonoBehaviour
         ShowSceneGraphics(false);
         ShowStandardGraphics(false);
         if (withWipe) WipeAnimation(true).Forget();
+
+        //Destroy all instantiated pages
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        SetBlockRaycast(false);
     }
 
     public async UniTask ShowProject()
@@ -98,5 +107,10 @@ public class MainContentPage : MonoBehaviour
     public void ResetWipeValue()
     {
         wipeMaterial.SetFloat("_Radius", 0);
+    }
+
+    public void SetBlockRaycast(bool blockRaycast)
+    {
+        canvasGroup.blocksRaycasts = blockRaycast;
     }
 }
