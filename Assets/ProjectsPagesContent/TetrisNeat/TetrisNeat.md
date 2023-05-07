@@ -12,5 +12,4 @@ Since I was feeling confident about the project I decided to make my own twist a
 However, the results were a bit underwhelmingh as the program didn't really manage to learn how to play the game properly within a few hours of training (my laptop burning, so i had to stop it).
 
 ### Paper
-
-Details of the project can be viewed on the [**Full Paper**](./files/6CCS3PRJ_Final_Year0_2cm.pdf)
+Details of the project can be viewed on the [**Full Paper**]([DATAPATH]/6CCS3PRJ_Final_Year0_2cm.pdf)

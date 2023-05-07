@@ -255,7 +255,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1631.1063}
+  m_SizeDelta: {x: 0, y: 1760.4471}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3760437090278290024
 CanvasRenderer:
@@ -297,10 +297,12 @@ MonoBehaviour:
     allow the AI to only read data through <b><color=#54A0FFFF>visual inputs</color></b>,
     which means that it will <b><color=#54A0FFFF>only know if the pixel value</color></b>
     is on or off at any given position and not any other relevant data like the height
-    of the game state, or the Tetromino type it is currently holding.\r\n\r\nAlthough
-    the program didn't really manage to learn how to play the game properly within
-    a few hours of training (my laptop burning, so i had to stop it) \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
-    of the project can be viewed on the <color=#54A0FFFF><u><link=\"./files/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
+    of the game state, or the Tetromino type it is currently holding.\r\n\r\nHowever,
+    the results were a bit underwhelmingh as the program didn't really manage to
+    learn how to play the game properly within a few hours of training (my laptop
+    burning, so i had to stop it).\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
+    of the project can be viewed on the <color=#54A0FFFF><u><link=\"C:/Users/Zheng
+    Yi/Documents/GitHub/Grove/Assets/ProjectsPagesContent/TetrisNeat/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
     Paper</b></link></color></u>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -485,10 +487,12 @@ MonoBehaviour:
     allow the AI to only read data through <b><color=#54A0FFFF>visual inputs</color></b>,
     which means that it will <b><color=#54A0FFFF>only know if the pixel value</color></b>
     is on or off at any given position and not any other relevant data like the height
-    of the game state, or the Tetromino type it is currently holding.\r\n\r\nAlthough
-    the program didn't really manage to learn how to play the game properly within
-    a few hours of training (my laptop burning, so i had to stop it) \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
-    of the project can be viewed on the <color=#54A0FFFF><u><link=\"./files/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
+    of the game state, or the Tetromino type it is currently holding.\r\n\r\nHowever,
+    the results were a bit underwhelmingh as the program didn't really manage to
+    learn how to play the game properly within a few hours of training (my laptop
+    burning, so i had to stop it).\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
+    of the project can be viewed on the <color=#54A0FFFF><u><link=\"C:/Users/Zheng
+    Yi/Documents/GitHub/Grove/Assets/ProjectsPagesContent/TetrisNeat/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
     Paper</b></link></color></u>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -580,10 +584,11 @@ MonoBehaviour:
     to make my own twist and allow the AI to only read data through **--visual inputs--**,
     which means that it will **--only know if the pixel value--** is on or off at
     any given position and not any other relevant data like the height of the game
-    state, or the Tetromino type it is currently holding.\r\n\r\nAlthough the program
-    didn't really manage to learn how to play the game properly within a few hours
-    of training (my laptop burning, so i had to stop it) \r\n\r\n### Paper\r\n\r\nDetails
-    of the project can be viewed on the [**Full Paper**](./files/6CCS3PRJ_Final_Year0_2cm.pdf)\r\n"
+    state, or the Tetromino type it is currently holding.\r\n\r\nHowever, the results
+    were a bit underwhelmingh as the program didn't really manage to learn how to
+    play the game properly within a few hours of training (my laptop burning, so
+    i had to stop it).\r\n\r\n### Paper\r\nDetails of the project can be viewed on
+    the [**Full Paper**]([DATAPATH]/ProjectsPagesContent/TetrisNeat/6CCS3PRJ_Final_Year0_2cm.pdf)\r\n"
   RenderSettings:
     Bold:
       RenderBold: 1
@@ -1320,10 +1325,11 @@ PrefabInstance:
         <b><color=#54A0FFFF>visual inputs</color></b>, which means that it will <b><color=#54A0FFFF>only
         know if the pixel value</color></b> is on or off at any given position and
         not any other relevant data like the height of the game state, or the Tetromino
-        type it is currently holding.\r\n\r\nAlthough the program didn't really manage
-        to learn how to play the game properly within a few hours of training (my
-        laptop burning, so i had to stop it) \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
-        of the project can be viewed on the <color=#54A0FFFF><u><link=\"./files/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
+        type it is currently holding.\r\n\r\nHowever, the results were a bit underwhelmingh
+        as the program didn't really manage to learn how to play the game properly
+        within a few hours of training (my laptop burning, so i had to stop it).\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Paper</size></b></color>\r\nDetails
+        of the project can be viewed on the <color=#54A0FFFF><u><link=\"C:/Users/Zheng
+        Yi/Documents/GitHub/Grove/Assets/ProjectsPagesContent/TetrisNeat/6CCS3PRJ_Final_Year0_2cm.pdf\"><b>Full
         Paper</b></link></color></u>\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
