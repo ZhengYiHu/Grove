@@ -116,12 +116,13 @@ jobs:
         with:
           name: build-WebGL
           path: build
-          
-      - run: echo hello > build/world.txt
 
+      - run: pwd
+      
+      - name: Inject Content
       - uses: actions/upload-artifact@v2
         with:
-          name: Inject Webgl template
+          name: build-WebGL
           path: build
 
       - name: Deploy 🚀
