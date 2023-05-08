@@ -118,7 +118,7 @@ jobs:
           path: build
 
       - name: Print WD
-        run: pwd
+        run: pwd && ls
 
       - name: Inject Content
         uses: actions/upload-artifact@v2
