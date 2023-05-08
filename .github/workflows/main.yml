@@ -116,6 +116,9 @@ jobs:
           name: build-WebGL
           path: build
 
+      - name: Inject
+        run: cd build && ls
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
