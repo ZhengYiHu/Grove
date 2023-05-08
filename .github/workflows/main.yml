@@ -121,10 +121,11 @@ jobs:
         run: pwd && ls
 
       - name: Inject Content
-        uses: actions/upload-artifact@v2
-        with:
-          name: build-WebGL
-          path: build
+        # uses: actions/upload-artifact@v2
+        # with:
+        #   name: build-WebGL
+        #   path: build
+        run: git checkout main build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
