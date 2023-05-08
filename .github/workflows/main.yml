@@ -117,10 +117,11 @@ jobs:
           name: build-WebGL
           path: build
 
-      - run: pwd
-      
+      - name: Print WD
+        run: pwd
+
       - name: Inject Content
-      - uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: build-WebGL
           path: build
