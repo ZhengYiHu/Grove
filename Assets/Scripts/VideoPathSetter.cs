@@ -20,12 +20,10 @@ public class VideoPathSetter : MonoBehaviour
         }
 #if UNITY_EDITOR
         videoPlayer.source = VideoSource.VideoClip;
-
         videoPlayer.url = AssetDatabase.GetAssetPath(videoClip);
-#elif UNITY_WEBGL
+#else
         videoPlayer.source = VideoSource.Url;
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoClip.name) + ".mp4";
-        Debug.Log(videoPlayer.url);
 #endif
         videoPlayer.Play();
     }

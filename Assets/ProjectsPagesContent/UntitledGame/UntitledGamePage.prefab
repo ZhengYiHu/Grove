@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1556,6 +1556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 97977184027824793}
   videoClip: {fileID: 32900000, guid: 25a83084a56ba7f47aefdf4de23eca59, type: 3}
+  text: {fileID: 0}
 --- !u!328 &97977184027824793
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2063,7 +2064,7 @@ PrefabInstance:
     - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: text
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2214347249606327446}
     - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: fileName
       value: game_demo_1.mp4

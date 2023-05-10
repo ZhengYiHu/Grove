@@ -37,7 +37,7 @@ Material:
     - _CenterX: 0.5
     - _CenterY: 0.5
     - _DecalScale: 0
-    - _Horizontal: 0.63793105
+    - _Horizontal: 1.0655868
     - _Radius: 0
     - _RadiusInner: 0.19
     - _RadiusOuter: 1.54
