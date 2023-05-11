@@ -12,14 +12,12 @@ public class VideoPathSetter : MonoBehaviour
 {
     [SerializeField] VideoPlayer videoPlayer;
     [SerializeField] VideoClip videoClip;
-    [SerializeField] TextMeshProUGUI text;
     void Start()
     {
         if(videoPlayer == null)
         {
             videoPlayer = GetComponent<VideoPlayer>();
         }
-        text.text = System.IO.Path.Combine(Application.streamingAssetsPath, videoClip.name) + ".mp4";
 #if UNITY_EDITOR
         videoPlayer.source = VideoSource.VideoClip;
         videoPlayer.url = AssetDatabase.GetAssetPath(videoClip);
