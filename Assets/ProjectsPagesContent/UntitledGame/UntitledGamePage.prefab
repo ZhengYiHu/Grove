@@ -285,7 +285,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
+    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
+    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
+    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
+    the game infuses were a refreshing breeze for me since in the latest years the
+    dominant genre of games I was exposed to were mostly highly competitive and not
+    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
+    was another big inspiration, and the more I dived into the genre, the more games
+    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+    not so optimal approach to the development process suggested me to start to work
+    on the artstyle and focus on that before even designing a proper game loop and
+    core mechanics... which made sense to me at the time since the main motivation
+    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
+    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    a single aspect of the game made me lose control on what the game should even
+    be about.\r\nI was spending months developing mechanics, not to reach some result
+    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    it in the future</i></color>, so that I started learning and working on generic
+    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
+    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
+    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
+    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
+    Much</i> during the whole development process since it was the first game I was
+    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
+    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+    screenshots I took during development</size></b></color>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -331,8 +357,8 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 6
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
+  m_linkedTextComponent: {fileID: 4062978647192555772}
+  parentLinkedComponent: {fileID: 5922760881337286502}
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -455,7 +481,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
+    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
+    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
+    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
+    the game infuses were a refreshing breeze for me since in the latest years the
+    dominant genre of games I was exposed to were mostly highly competitive and not
+    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
+    was another big inspiration, and the more I dived into the genre, the more games
+    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+    not so optimal approach to the development process suggested me to start to work
+    on the artstyle and focus on that before even designing a proper game loop and
+    core mechanics... which made sense to me at the time since the main motivation
+    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
+    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    a single aspect of the game made me lose control on what the game should even
+    be about.\r\nI was spending months developing mechanics, not to reach some result
+    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    it in the future</i></color>, so that I started learning and working on generic
+    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
+    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
+    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
+    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
+    Much</i> during the whole development process since it was the first game I was
+    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
+    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+    screenshots I took during development</size></b></color>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -502,7 +554,7 @@ MonoBehaviour:
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 4062978647192555772}
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -718,7 +770,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
+    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
+    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
+    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
+    the game infuses were a refreshing breeze for me since in the latest years the
+    dominant genre of games I was exposed to were mostly highly competitive and not
+    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
+    was another big inspiration, and the more I dived into the genre, the more games
+    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+    not so optimal approach to the development process suggested me to start to work
+    on the artstyle and focus on that before even designing a proper game loop and
+    core mechanics... which made sense to me at the time since the main motivation
+    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
+    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    a single aspect of the game made me lose control on what the game should even
+    be about.\r\nI was spending months developing mechanics, not to reach some result
+    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    it in the future</i></color>, so that I started learning and working on generic
+    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
+    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
+    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
+    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
+    Much</i> during the whole development process since it was the first game I was
+    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
+    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+    screenshots I took during development</size></b></color>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -763,8 +841,8 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
+  m_overflowMode: 6
+  m_linkedTextComponent: {fileID: 5922760881337286502}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
   m_enableExtraPadding: 0
@@ -799,7 +877,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Source: 
+  _Source: "\r\n### Inspiration\r\n\r\nI recently played a game [**A short hike**](https://adamgryu.itch.io/a-short-hike)
+    by --**Adamgryu**-- that quickly became one of my all time favourites.\r\nThe
+    chill and cozy vibes the game infuses were a refreshing breeze for me since in
+    the latest years the dominant genre of games I was exposed to were mostly highly
+    competitive and not so much about having a good time anymore.\r\n\r\n--**Animal
+    crossing**-- was another big inspiration, and the more I dived into the genre,
+    the more games both released and in development I could find on the internet.\r\n\r\n###
+    Artstyle\r\n\r\nMy not so optimal approach to the development process suggested
+    me to start to work on the artstyle and focus on that before even designing a
+    proper game loop and core mechanics... which made sense to me at the time since
+    the main motivation was to --capture the feelings-- of pleasure and --coziness--
+    to contrast the stressful routines I was stucked into. \r\n\r\n### Downfall\r\n\r\nBy
+    --not having a defined idea in mind-- and just working on a single aspect of
+    the game made me lose control on what the game should even be about.\r\nI was
+    spending months developing mechanics, not to reach some result I wanted the game
+    to become, but only because --*I might need it in the future*--, so that I started
+    learning and working on generic game mechanics like movements, physics, dialogue
+    systems and so on... \r\n\r\nMy developments approach made me quickly --lose
+    interest-- on the project, and this is the --mains lesson-- learn from this project.\r\nI
+    wouldn't consider it a failure though since I learned *Soooo Much* during the
+    whole development process since it was the first game I was really putting a
+    lot of effort in.\r\n\r\nFor now I will --halt-- the development, but who knows
+    when I will get to pull it back out from the archives...\r\n\r\n\r\n### More
+    screenshots I took during development\r\n"
   RenderSettings:
     Bold:
       RenderBold: 1
@@ -1456,8 +1557,6 @@ MonoBehaviour:
   videoPlayer: {fileID: 97977184027824793}
   videoClip: {fileID: 32900000, guid: 25a83084a56ba7f47aefdf4de23eca59, type: 3}
   text: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
 --- !u!328 &97977184027824793
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1791,16 +1890,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
-      propertyPath: m_overflowMode
-      value: 0
+      value: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
+        recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
+        short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
+        that quickly became one of my all time favourites.\r\nThe chill and cozy
+        vibes the game infuses were a refreshing breeze for me since in the latest
+        years the dominant genre of games I was exposed to were mostly highly competitive
+        and not so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal
+        crossing</b></color> was another big inspiration, and the more I dived into
+        the genre, the more games both released and in development I could find on
+        the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+        not so optimal approach to the development process suggested me to start
+        to work on the artstyle and focus on that before even designing a proper
+        game loop and core mechanics... which made sense to me at the time since
+        the main motivation was to <color=#54A0FFFF>capture the feelings</color>
+        of pleasure and <color=#54A0FFFF>coziness</color> to contrast the stressful
+        routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
+        <color=#54A0FFFF>not having a defined idea in mind</color> and just working
+        on a single aspect of the game made me lose control on what the game should
+        even be about.\r\nI was spending months developing mechanics, not to reach
+        some result I wanted the game to become, but only because <color=#54A0FFFF><i>I
+        might need it in the future</i></color>, so that I started learning and working
+        on generic game mechanics like movements, physics, dialogue systems and so
+        on... \r\n\r\nMy developments approach made me quickly <color=#54A0FFFF>lose
+        interest</color> on the project, and this is the <color=#54A0FFFF>mains lesson</color>
+        learn from this project.\r\nI wouldn't consider it a failure though since
+        I learned <i>Soooo Much</i> during the whole development process since it
+        was the first game I was really putting a lot of effort in.\r\n\r\nFor now
+        I will <color=#54A0FFFF>halt</color> the development, but who knows when
+        I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
+        screenshots I took during development</size></b></color>\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_linkedTextComponent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 687632162474190712}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: parentLinkedComponent
       value: 
@@ -1930,33 +2054,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
-      propertyPath: m_overflowMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_linkedTextComponent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4569550140174271976}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: parentLinkedComponent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2214347249606327446}
     - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: text
       value: 
-      objectReference: {fileID: 4062978647192555772}
-    - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
-      propertyPath: text2
-      value: 
       objectReference: {fileID: 2214347249606327446}
-    - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
-      propertyPath: text3
-      value: 
-      objectReference: {fileID: 5922760881337286502}
     - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: fileName
       value: game_demo_1.mp4
