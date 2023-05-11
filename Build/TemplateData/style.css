@@ -70,13 +70,6 @@ body {
     display: none
 }
 
-#unity-webgl-logo {
-    float: left;
-    width: 204px;
-    height: 38px;
-    background: url('webgl-logo.png') no-repeat center
-}
-
 #unity-build-title {
     float: right;
     margin-right: 10px;
