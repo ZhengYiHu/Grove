@@ -11,7 +11,7 @@ using UnityEngine.Video;
 public class VideoPathSetter : MonoBehaviour
 {
     [SerializeField] VideoPlayer videoPlayer;
-    [SerializeField] VideoClip videoClip;
+    [SerializeField] string videoClipName;
     void Start()
     {
         if(videoPlayer == null)
@@ -20,10 +20,10 @@ public class VideoPathSetter : MonoBehaviour
         }
 #if UNITY_EDITOR
         videoPlayer.source = VideoSource.VideoClip;
-        videoPlayer.url = AssetDatabase.GetAssetPath(videoClip);
+        videoPlayer.url = videoClipName;
 #else
         videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoClip.name) + ".mp4";
+        videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoClipName) + ".mp4";
 #endif
         videoPlayer.Play();
     }

@@ -1326,6 +1326,10 @@ PrefabInstance:
       propertyPath: videoClip
       value: 
       objectReference: {fileID: 32900000, guid: 92a91d78787f57648a64c9495258520c, type: 3}
+    - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: videoClipName
+      value: tetrisDemo
+      objectReference: {fileID: 0}
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Texture
       value: 

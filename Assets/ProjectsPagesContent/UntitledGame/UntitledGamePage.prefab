@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 150
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1555,8 +1555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 97977184027824793}
-  videoClip: {fileID: 32900000, guid: 25a83084a56ba7f47aefdf4de23eca59, type: 3}
-  text: {fileID: 0}
+  videoClipName: game_waterfall
 --- !u!328 &97977184027824793
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1937,6 +1936,10 @@ PrefabInstance:
       propertyPath: videoClip
       value: 
       objectReference: {fileID: 32900000, guid: 919cb9f100481084c9a196f5d2752e5c, type: 3}
+    - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: videoClipName
+      value: game_demo_2
+      objectReference: {fileID: 0}
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Texture
       value: 
@@ -2073,6 +2076,10 @@ PrefabInstance:
       propertyPath: videoClip
       value: 
       objectReference: {fileID: 32900000, guid: aeca20e44158a94409cb239439b7a1d4, type: 3}
+    - target: {fileID: 4213398409999826467, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: videoClipName
+      value: game_demo_1
+      objectReference: {fileID: 0}
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Material
       value: 
