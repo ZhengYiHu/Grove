@@ -12,6 +12,7 @@ public class VideoPathSetter : MonoBehaviour
 {
     [SerializeField] VideoPlayer videoPlayer;
     [SerializeField] string videoClipName;
+    const string videoAssetPath = "WebGLTemplates/Fullscreen/StreamingAssets";
     void Start()
     {
         if(videoPlayer == null)
@@ -20,7 +21,7 @@ public class VideoPathSetter : MonoBehaviour
         }
 #if UNITY_EDITOR
         videoPlayer.source = VideoSource.VideoClip;
-        videoPlayer.url = videoClipName;
+        videoPlayer.url = System.IO.Path.Combine(Application.dataPath, videoAssetPath, videoClipName)+".mp4";
 #else
         videoPlayer.source = VideoSource.Url;
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoClipName) + ".mp4";
