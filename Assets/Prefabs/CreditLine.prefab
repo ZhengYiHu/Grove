@@ -221,7 +221,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5043269174946340937}
   - component: {fileID: 924231568479420718}
+  - component: {fileID: 7994938538512564407}
   - component: {fileID: 2854819626502315377}
+  - component: {fileID: 7181539892722382140}
+  - component: {fileID: 367028637556448954}
   m_Layer: 5
   m_Name: CreditBody
   m_TagString: Untagged
@@ -257,6 +260,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2578374613911862583}
   m_CullTransparentMesh: 1
+--- !u!114 &7994938538512564407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578374613911862583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd2270ef581ae542b2d059dab1b2efb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Github Pages
+  link: https://pages.github.com/
 --- !u!114 &2854819626502315377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,9 +294,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Github Pages
-
-'
+  m_text: <color=#54A0FFFF><u><link="https://adamgryu.itch.io/a-short-hike"><b>A
+    Short Hike</b></link></color></u>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
   m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
@@ -348,6 +364,39 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7181539892722382140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578374613911862583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &367028637556448954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578374613911862583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5113386979450576812
 GameObject:
   m_ObjectHideFlags: 0

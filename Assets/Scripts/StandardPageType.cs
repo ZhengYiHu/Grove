@@ -7,6 +7,7 @@ public class StandardPageType : PageType, IPageType
 {
     public override UniTask ShowPageContent()
     {
+        fullScreenContentPage.SetBlockRaycast(true);
         fullScreenContentPage.ShowStandardContentPage();
         fullScreenContentPage.ResetWipeValue();
 

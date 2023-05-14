@@ -262,7 +262,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -745,7 +745,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1016,7 +1016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1092,7 +1092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: https://sketchfab.com/Hawsky
+      value: <color=#54A0FFFF><u><link="https://sketchfab.com/Hawsky"><b>https://sketchfab.com/Hawsky</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
@@ -1109,6 +1109,14 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://sketchfab.com/Hawsky
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: https://sketchfab.com/Hawsky
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
@@ -1205,9 +1213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: 'Naughty-Attributes
-
-'
+      value: <color=#54A0FFFF><u><link="https://github.com/dbrizov/NaughtyAttributes"><b>Naughty-Attributes</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
@@ -1224,6 +1230,14 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://github.com/dbrizov/NaughtyAttributes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: Naughty-Attributes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
@@ -1317,6 +1331,10 @@ PrefabInstance:
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_text
+      value: <color=#54A0FFFF><u><link="https://pages.github.com/"><b>Github Pages</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4549716103342734106, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_Pivot.x
@@ -1531,7 +1549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: "\rUnity-UI-Rounded-Corners\n"
+      value: "<color=#54A0FFFF><u><link=\"https://github.com/kirevdokimov/Unity-UI-Rounded-Corners\"><b>\rUnity-UI-Rounded-Corners</b></link></color></u>"
       objectReference: {fileID: 0}
     - target: {fileID: 4549716103342734106, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1552,6 +1570,14 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://github.com/kirevdokimov/Unity-UI-Rounded-Corners
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: "\rUnity-UI-Rounded-Corners"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
@@ -1696,9 +1722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: 'UniTask
-
-'
+      value: <color=#54A0FFFF><u><link="https://github.com/Cysharp/UniTask"><b>UniTask</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
@@ -1715,6 +1739,14 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://github.com/Cysharp/UniTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: UniTask
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
@@ -1811,7 +1843,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: Lean Tween
+      value: <color=#54A0FFFF><u><link="https://github.com/dentedpixel/LeanTween"><b>Lean
+        Tween</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
@@ -1828,6 +1861,139 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://github.com/dentedpixel/LeanTween
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: Lean Tween
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+--- !u!1001 &3253077317790922986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3751791717711387390}
+    m_Modifications:
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645364877032927681, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_Name
+      value: CreditTitle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_text
+      value: "<color=#54A0FFFF><u><link=\"https://github.com/JimmyCushnie/FancyTextRendering\"><b>FancyTextRendering\r</b></link></color></u>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_text
+      value: 'Markdown Parser:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043269174946340937, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.1567383
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_Name
+      value: CreditLine (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://github.com/JimmyCushnie/FancyTextRendering
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: "FancyTextRendering\r"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
@@ -1848,7 +2014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1924,7 +2090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: https://korveen.itch.io/
+      value: <color=#54A0FFFF><u><link="https://korveen.itch.io/"><b>https://korveen.itch.io/</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
@@ -1941,6 +2107,14 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://korveen.itch.io/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: https://korveen.itch.io/
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
@@ -1961,7 +2135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 657714482184609190, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2037,7 +2211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854819626502315377, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
-      value: https://www.joshuas.world/
+      value: <color=#54A0FFFF><u><link="https://www.joshuas.world/"><b>https://www.joshuas.world/</b></link></color></u>
       objectReference: {fileID: 0}
     - target: {fileID: 4968644927838248070, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_text
@@ -2054,6 +2228,14 @@ PrefabInstance:
     - target: {fileID: 5113386979450576812, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: link
+      value: https://www.joshuas.world/
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994938538512564407, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}
+      propertyPath: text
+      value: https://www.joshuas.world/
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c64e5b5b8d2534d8db822545340fa7, type: 3}

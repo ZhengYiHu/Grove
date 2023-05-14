@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4528209901993048966}
   - component: {fileID: 3490312506045429908}
   - component: {fileID: 5788652737884553977}
+  - component: {fileID: 4683223209633753819}
+  - component: {fileID: 6237753427555774396}
   m_Layer: 5
   m_Name: Page Body
   m_TagString: Untagged
@@ -68,7 +70,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "I'm <color=#54A0FF>Zheng Yi Hu</color>,\na King's College London computer
     science - robotics graduate passionated about Game development and Music.\n\nCurrently
-    working as gamedev <color=#54A0FF>@Playwindgames</color>. \n"
+    working as gamedev <color=#54A0FF><u><link=\"https://www.playwindgames.com/\"><b>@PlaywindGames</b></link></color></u>\"</color>.
+    \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
   m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
@@ -137,6 +140,39 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4683223209633753819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176980007881043902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &6237753427555774396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176980007881043902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &343775891753636777
 GameObject:
   m_ObjectHideFlags: 0

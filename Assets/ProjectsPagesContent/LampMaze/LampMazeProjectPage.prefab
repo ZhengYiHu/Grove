@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 343775891753636776}
   - component: {fileID: 343775891753636790}
-  - component: {fileID: 343775891753636791}
   - component: {fileID: 7981384048105880529}
+  - component: {fileID: 7019322672026998480}
   - component: {fileID: 8710572570872994463}
   m_Layer: 5
   m_Name: LampMazeProjectPage
@@ -50,36 +50,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343775891753636777}
   m_CullTransparentMesh: 1
---- !u!114 &343775891753636791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343775891753636777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &7981384048105880529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +65,22 @@ MonoBehaviour:
   canvasGroup: {fileID: 8710572570872994463}
   appearAnimationDuration: 0.3
   appearAnimationEase: 17
+--- !u!114 &7019322672026998480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343775891753636777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed79d1d7efd711243a81aacd6dab04e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  template: {fileID: 11400000, guid: ef716aba06710b54fa9d2b90e3d05b9d, type: 2}
+  title: {fileID: 4537409630130444007}
+  subtitle: {fileID: 4474583134204639595}
+  body: {fileID: 1078267624868297043}
 --- !u!225 &8710572570872994463
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -107,302 +93,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!1 &453081368988954591
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8548125241461906709}
-  - component: {fileID: 5456523716233345047}
-  - component: {fileID: 584950775488022018}
-  m_Layer: 5
-  m_Name: Mechanics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &8548125241461906709
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453081368988954591}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 213.66}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &5456523716233345047
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453081368988954591}
-  m_CullTransparentMesh: 1
---- !u!114 &584950775488022018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453081368988954591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '
-
-    Mechanics'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294942804
-  m_fontColor: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 70.01
-  m_fontSizeBase: 70.01
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &821642183746871779
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2851165699144033191}
-  - component: {fileID: 6228371108089841617}
-  - component: {fileID: 3404006675925313362}
-  - component: {fileID: 8189541973583525410}
-  m_Layer: 5
-  m_Name: Theme Text 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2851165699144033191
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821642183746871779}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 40, y: 0}
-  m_SizeDelta: {x: 1240, y: 0}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!222 &6228371108089841617
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821642183746871779}
-  m_CullTransparentMesh: 1
---- !u!114 &3404006675925313362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821642183746871779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "The theme of the jam was <color=#54A0FF>Stronger together</color> witch
-    made us explore many ideas with minions following the main character similiarly
-    to the <color=#54A0FF>Pikmin</color> series. We ultimately settled, due to the
-    limited time, on the main mechanic inspired by Battle Pyramid from <color=#54A0FF>Pokemon
-    Emerald</color>\u2019s Battle Frontier where the player must orient himself in
-    a <color=#54A0FF>dark maze</color>, and the lighted area will gradually expand
-    after each enemy defeated. To better fit for the jam\u2019s theme, we made that
-    the player must collect all the <color=#54A0FF>lamps</color> scattered across
-    the maze, ultimately ending up with a small army of lamps with each lamp friend
-    expanding the light circle."
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 66.79
-  m_fontSizeBase: 66.79
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &8189541973583525410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821642183746871779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
 --- !u!1 &1438990237611592749
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,156 +169,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &1562161947450724911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4780070351997653385}
-  - component: {fileID: 4482567065131750589}
-  - component: {fileID: 895055844381771409}
-  m_Layer: 5
-  m_Name: Mechanics Text 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &4780070351997653385
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562161947450724911}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 233.0909}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!222 &4482567065131750589
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562161947450724911}
-  m_CullTransparentMesh: 1
---- !u!114 &895055844381771409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562161947450724911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: ' <color=#54A0FF>Eni </color>, the main character, has the ability to unleash
-    a  <color=#54A0FF>shockwave</color> to the mouse location to turn on dormant
-    Lamp friends and levers.
-
-
-    Lamps that are turned on will the follow the player
-    and grant extra light to  better orientate in the darkness of the maze.
-
-
-    The
-    final goal is to collect all the lost Lamps to turn on the  <color=#54A0FF>Giant
-    lightbulb</color> and give light back to the maze.
-
-
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 66.79
-  m_fontSizeBase: 66.79
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 2547263615283747763}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1897158854958568504
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +217,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897158854958568504}
   m_CullTransparentMesh: 1
---- !u!1 &5838754601345438063
+--- !u!1 &2029193567858561090
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -685,52 +225,53 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 282721547306032152}
-  - component: {fileID: 4542363335853657540}
-  - component: {fileID: 5922760881337286502}
-  - component: {fileID: 1739707399238329725}
+  - component: {fileID: 1915358545227929103}
+  - component: {fileID: 4326693416256811774}
+  - component: {fileID: 4569550140174271976}
+  - component: {fileID: 8878856475687599080}
+  - component: {fileID: 1196373856241003383}
   m_Layer: 5
-  m_Name: Jam Text
+  m_Name: Body 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &282721547306032152
+--- !u!224 &1915358545227929103
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5838754601345438063}
+  m_GameObject: {fileID: 2029193567858561090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 40, y: 0}
-  m_SizeDelta: {x: 1240, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 709.57}
   m_Pivot: {x: 0, y: 0.5}
---- !u!222 &4542363335853657540
+--- !u!222 &4326693416256811774
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5838754601345438063}
+  m_GameObject: {fileID: 2029193567858561090}
   m_CullTransparentMesh: 1
---- !u!114 &5922760881337286502
+--- !u!114 &4569550140174271976
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5838754601345438063}
+  m_GameObject: {fileID: 2029193567858561090}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -744,17 +285,304 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lamp maze was a game made for the <color=#54A0FF>Brackeys Game Jam 2021.1</color>
-    game jam by me an a friend that goes by the name of Victime
+  m_text: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
+
+    Lamp maze
+    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
+    Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes by
+    the name of <color=#54A0FFFF><i>Victime</i></color>
+
+    
 
     The Game page
-    can be found on:<color=#54A0FF> bards-yard.itch.io/lamp-maze</color>. We placed
-    <color=#54A0FF>#45</color> out of <color=#54A0FF>#1881</color> total entries,
-    witch is a truly unexpected result for both of us given that it was our first
-    ever game jam. <color=#54A0FF>(Jam Submission page)</color>'
+    can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
+
+    We
+    placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
+    total entries, witch is a truly unexpected result for both of us given that it
+    was our first ever game jam.
+
+    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
+    Submission page)</b></link></color></u>
+
+    
+
+    <color=#54A0FFFF><b><size=1.5em>Theme
+    and Brainstroming</size></b></color>
+
+    The theme of the jam was <b>Stronger
+    together</b> witch made us explore many ideas with minions following the main
+    character similiarly to the <b>Pikmin</b> series.
+
+    We ultimately settled,
+    due to the limited time, on the main mechanic inspired by <color=#54A0FFFF><color=#54A0FFFF><u><link="https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid"><b>Battle
+    Pyramid</b></link></color></u></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
+    Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
+    maze</b></color>, and the lighted area will gradually expand after each enemy
+    defeated.
+
+    To better fit for the jam''s theme, we made that the player must
+    collect all the lamps scattered across the maze, ultimatley ending up with a
+    small army of lamps with each lamp friend expanding the light circle.
+
+    
+
+    <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
+
+    <color=#54A0FFFF><b>Eni</b></color>,
+    the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
+    to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
+    and levers.
+
+    
+
+    
+
+    Lamps that are turned on will the follow the
+    player and grand extra light to orient better in the darkness that is the maze.
+
+    
+
+    The
+    final goal is to collect all the lost Lamps to turn on the <color=#54A0FFFF><b>Giant
+    lightbulb</b></color> and give light back to the maze.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70
+  m_fontSizeBase: 70
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 6
+  m_linkedTextComponent: {fileID: 5966701745348162532}
+  parentLinkedComponent: {fileID: 6513233617065783419}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8878856475687599080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029193567858561090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &1196373856241003383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029193567858561090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2498356298000385428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 559866623410281475}
+  - component: {fileID: 3760437090278290024}
+  - component: {fileID: 687632162474190712}
+  - component: {fileID: 1813003029322695091}
+  - component: {fileID: 8296294276335717494}
+  m_Layer: 5
+  m_Name: Body 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &559866623410281475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498356298000385428}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3751791717711387390}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 2050.3}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &3760437090278290024
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498356298000385428}
+  m_CullTransparentMesh: 1
+--- !u!114 &687632162474190712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498356298000385428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
+
+    Lamp maze
+    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
+    Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes by
+    the name of <color=#54A0FFFF><i>Victime</i></color>
+
+    
+
+    The Game page
+    can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
+
+    We
+    placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
+    total entries, witch is a truly unexpected result for both of us given that it
+    was our first ever game jam.
+
+    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
+    Submission page)</b></link></color></u>
+
+    
+
+    <color=#54A0FFFF><b><size=1.5em>Theme
+    and Brainstroming</size></b></color>
+
+    The theme of the jam was <b>Stronger
+    together</b> witch made us explore many ideas with minions following the main
+    character similiarly to the <b>Pikmin</b> series.
+
+    We ultimately settled,
+    due to the limited time, on the main mechanic inspired by <color=#54A0FFFF><color=#54A0FFFF><u><link="https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid"><b>Battle
+    Pyramid</b></link></color></u></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
+    Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
+    maze</b></color>, and the lighted area will gradually expand after each enemy
+    defeated.
+
+    To better fit for the jam''s theme, we made that the player must
+    collect all the lamps scattered across the maze, ultimatley ending up with a
+    small army of lamps with each lamp friend expanding the light circle.
+
+    
+
+    <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
+
+    <color=#54A0FFFF><b>Eni</b></color>,
+    the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
+    to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
+    and levers.
+
+    
+
+    
+
+    Lamps that are turned on will the follow the
+    player and grand extra light to orient better in the darkness that is the maze.
+
+    
+
+    The
+    final goal is to collect all the lost Lamps to turn on the <color=#54A0FFFF><b>Giant
+    lightbulb</b></color> and give light back to the maze.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -798,6 +626,240 @@ MonoBehaviour:
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 1504623291856145574}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1813003029322695091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498356298000385428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &8296294276335717494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498356298000385428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3331582647208853221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463903381376336175}
+  - component: {fileID: 5177840973288978150}
+  - component: {fileID: 2214347249606327446}
+  - component: {fileID: 5351748410454835342}
+  - component: {fileID: 1078267624868297043}
+  - component: {fileID: 4819990696255036578}
+  - component: {fileID: 7196036293857600847}
+  m_Layer: 5
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1463903381376336175
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3751791717711387390}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1134.7073}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5177840973288978150
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_CullTransparentMesh: 1
+--- !u!114 &2214347249606327446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
+
+    Lamp maze
+    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
+    Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes by
+    the name of <color=#54A0FFFF><i>Victime</i></color>
+
+    
+
+    The Game page
+    can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
+
+    We
+    placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
+    total entries, witch is a truly unexpected result for both of us given that it
+    was our first ever game jam.
+
+    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
+    Submission page)</b></link></color></u>
+
+    
+
+    <color=#54A0FFFF><b><size=1.5em>Theme
+    and Brainstroming</size></b></color>
+
+    The theme of the jam was <b>Stronger
+    together</b> witch made us explore many ideas with minions following the main
+    character similiarly to the <b>Pikmin</b> series.
+
+    We ultimately settled,
+    due to the limited time, on the main mechanic inspired by <color=#54A0FFFF><color=#54A0FFFF><u><link="https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid"><b>Battle
+    Pyramid</b></link></color></u></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
+    Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
+    maze</b></color>, and the lighted area will gradually expand after each enemy
+    defeated.
+
+    To better fit for the jam''s theme, we made that the player must
+    collect all the lamps scattered across the maze, ultimatley ending up with a
+    small army of lamps with each lamp friend expanding the light circle.
+
+    
+
+    <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
+
+    <color=#54A0FFFF><b>Eni</b></color>,
+    the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
+    to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
+    and levers.
+
+    
+
+    
+
+    Lamps that are turned on will the follow the
+    player and grand extra light to orient better in the darkness that is the maze.
+
+    
+
+    The
+    final goal is to collect all the lost Lamps to turn on the <color=#54A0FFFF><b>Giant
+    lightbulb</b></color> and give light back to the maze.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70
+  m_fontSizeBase: 70
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 6
+  m_linkedTextComponent: {fileID: 6513233617065783419}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
   m_enableExtraPadding: 0
@@ -820,20 +882,190 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1739707399238329725
+--- !u!114 &5351748410454835342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5838754601345438063}
+  m_GameObject: {fileID: 3331582647208853221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
+  _Source: '### Jam
+
+    
+
+    Lamp maze was a game made for the [**Brackeys Game
+    Jam 2021.1**](https://itch.io/jam/brackeys-5) game jam by me an a friend that
+    goes by the name of --*Victime*--
+
+    
+
+    The Game page can be found [**HERE**](https://bards-yard.itch.io/lamp-maze).
+
+    We
+    placed --**#45**-- out of --**#1881**-- total entries, witch is a truly unexpected
+    result for both of us given that it was our first ever game jam.
+
+    [**(Jam
+    Submission page)**](https://itch.io/jam/brackeys-5/rate/929233)
+
+    
+
+    ###
+    Theme and Brainstroming
+
+    
+
+    The theme of the jam was **Stronger together**
+    witch made us explore many ideas with minions following the main character similiarly
+    to the **Pikmin** series.
+
+    We ultimately settled, due to the limited time,
+    on the main mechanic inspired by --[**Battle Pyramid**](https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid)--
+    from Pokemon Emerald''s --**Battle Frontier**-- where the player must orient
+    himself in a --**dark maze**--, and the lighted area will gradually expand after
+    each enemy defeated.
+
+    To better fit for the jam''s theme, we made that the
+    player must collect all the lamps scattered across the maze, ultimatley ending
+    up with a small army of lamps with each lamp friend expanding the light circle.
+
+    
+
+    ###
+    Mechanics
+
+    
+
+    --**Eni**--, the main character, has the ability to unleash
+    a --**shockwave**-- to the mouse location to turn on dormant --**Lamp friends**--
+    and levers.
+
+    
+
+    
+
+    Lamps that are turned on will the follow the
+    player and grand extra light to orient better in the darkness that is the maze.
+
+    
+
+    The
+    final goal is to collect all the lost Lamps to turn on the --**Giant lightbulb**--
+    and give light back to the maze.
+
+'
+  RenderSettings:
+    Bold:
+      RenderBold: 1
+    Italics:
+      RenderItalics: 1
+    Strikethrough:
+      RenderStrikethrough: 1
+    Monospace:
+      RenderMonospace: 1
+      UseCustomFont: 1
+      FontAssetPathRelativeToResources: Noto/Noto Mono/NotoMono-Regular
+      DrawOverlay: 1
+      OverlayColor: {r: 0, g: 0, b: 0, a: 0.23529412}
+      OverlayPaddingPixels: 25
+      ManuallySetCharacterSpacing: 0
+      CharacterSpacing: 0.69
+      AddSeparationSpacing: 1
+      SeparationSpacing: 0.3
+    Lists:
+      RenderUnorderedLists: 1
+      RenderOrderedLists: 1
+      UnorderedListBullet: "\u2022"
+      OrderedListNumberSuffix: .
+      VerticalOffset: 0.76
+      BulletOffsetPixels: 100
+      ContentSeparationPixels: 20
+    Links:
+      RenderLinks: 1
+      RenderAutoLinks: 1
+      LinkColor: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+    Headers:
+      RenderPoundSignHeaders: 1
+      RenderLineHeaders: 1
+      Levels:
+      - Size: 2
+        Bold: 1
+        Underline: 1
+        Case: 0
+        VerticalSpacing: 0.45
+        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+      - Size: 1.7
+        Bold: 1
+        Underline: 1
+        Case: 0
+        VerticalSpacing: 0.3
+        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+      - Size: 1.5
+        Bold: 1
+        Underline: 0
+        Case: 0
+        VerticalSpacing: 0
+        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+      - Size: 1.3
+        Bold: 1
+        Underline: 0
+        Case: 0
+        VerticalSpacing: 0
+        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+    Superscript:
+      RenderSuperscript: 0
+      RenderChainSuperscript: 1
+--- !u!114 &1078267624868297043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d52b6e5f5e44df44b939804bd11d3a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextAsset: {fileID: 4900000, guid: 975a61c9a2f6b594190e5f792bbd3cf2, type: 3}
+--- !u!114 &4819990696255036578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkNormalColor:
+    serializedVersion: 2
+    rgba: 4294942804
+  LinkHoveredColor:
+    serializedVersion: 2
+    rgba: 4293366344
+  LinkClickColor:
+    serializedVersion: 2
+    rgba: 4290669606
+--- !u!114 &7196036293857600847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331582647208853221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5894293091670505736
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +1078,7 @@ GameObject:
   - component: {fileID: 6825115495367314374}
   - component: {fileID: 4474583134204639595}
   m_Layer: 5
-  m_Name: Jam
+  m_Name: Subtitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -900,17 +1132,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jam
+  m_text: A Jam game made in one week for Brackeys Game Jam 2021.1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294942804
-  m_fontColor: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1035,10 +1267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lamp Maze
-
-
-'
+  m_text: Lamp Maze
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
   m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
@@ -1073,143 +1302,6 @@ MonoBehaviour:
   m_fontSizeMax: 150
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &7124838564257847657
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 285451789330777157}
-  - component: {fileID: 3575448786629312625}
-  - component: {fileID: 7306953363644583451}
-  m_Layer: 5
-  m_Name: Theme
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &285451789330777157
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7124838564257847657}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 213.66}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3575448786629312625
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7124838564257847657}
-  m_CullTransparentMesh: 1
---- !u!114 &7306953363644583451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7124838564257847657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '
-
-    Theme and Brainstroming'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294942804
-  m_fontColor: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 70.01
-  m_fontSizeBase: 70.01
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1419,6 +1511,10 @@ PrefabInstance:
       propertyPath: m_Spacing
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3804619281184570467, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -1474,7 +1570,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
   m_PrefabInstance: {fileID: 62403488518973072}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1499172955499828652
+--- !u!1001 &1401021975718151487
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1483,283 +1579,82 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_text
-      value: ' <color=#54A0FF>Eni </color>, the main character, has the ability to
-        unleash a  <color=#54A0FF>shockwave</color> to the mouse location to turn
-        on dormant Lamp friends and levers.
+      value: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
 
+        Lamp
+        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
+        Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes
+        by the name of <color=#54A0FFFF><i>Victime</i></color>
+
+        
+
+        The
+        Game page can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
+
+        We
+        placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
+        total entries, witch is a truly unexpected result for both of us given that
+        it was our first ever game jam.
+
+        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
+        Submission page)</b></link></color></u>
+
+        
+
+        <color=#54A0FFFF><b><size=1.5em>Theme
+        and Brainstroming</size></b></color>
+
+        The theme of the jam was <b>Stronger
+        together</b> witch made us explore many ideas with minions following the
+        main character similiarly to the <b>Pikmin</b> series.
+
+        We ultimately
+        settled, due to the limited time, on the main mechanic inspired by <color=#54A0FFFF><color=#54A0FFFF><u><link="https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid"><b>Battle
+        Pyramid</b></link></color></u></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
+        Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
+        maze</b></color>, and the lighted area will gradually expand after each enemy
+        defeated.
+
+        To better fit for the jam''s theme, we made that the
+        player must collect all the lamps scattered across the maze, ultimatley ending
+        up with a small army of lamps with each lamp friend expanding the light circle.
+
+        
+
+        <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
+
+        <color=#54A0FFFF><b>Eni</b></color>,
+        the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
+        to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
+        and levers.
+
+        
+
+        
 
         Lamps that are turned on will
-        the follow the player and grant extra light to  better orientate in the darkness
-        of the maze.
+        the follow the player and grand extra light to orient better in the darkness
+        that is the maze.
 
+        
 
-        The final goal is to collect all the lost Lamps to
-        turn on the  <color=#54A0FF>Giant lightbulb</color> and give light back to
-        the maze.
-
-
+        The final goal is to collect all the
+        lost Lamps to turn on the <color=#54A0FFFF><b>Giant lightbulb</b></color>
+        and give light back to the maze.
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontSize
-      value: 66.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_margin.x
-      value: 5.762085
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_margin.z
-      value: 12.893799
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 66.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_linkedTextComponent
       value: 
-      objectReference: {fileID: 2547263615283747763}
-    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Name
-      value: Mechanics Text
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 490.537
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.4670733
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.965672
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.027205495
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.03432669
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.49719587
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: -0.0000007465511
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0.00012207
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -0.0004
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.00012207031
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.00030517578
-      objectReference: {fileID: 0}
-    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: cd82c4d7a80a12f41bd3c1cf85fc45ca, type: 3}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
---- !u!114 &1395606970381081653 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-  m_PrefabInstance: {fileID: 1499172955499828652}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &2650828225754485290
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 3751791717711387390}
-    m_Modifications:
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_text
-      value: ' <color=#54A0FF>Eni </color>, the main character, has the ability to
-        unleash a  <color=#54A0FF>shockwave</color> to the mouse location to turn
-        on dormant Lamp friends and levers.
-
-
-        Lamps that are turned on will
-        the follow the player and grant extra light to  better orientate in the darkness
-        of the maze.
-
-
-        The final goal is to collect all the lost Lamps to
-        turn on the  <color=#54A0FF>Giant lightbulb</color> and give light back to
-        the maze.
-
-
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontSize
-      value: 66.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 66.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_linkedTextComponent
-      value: 
-      objectReference: {fileID: 895055844381771409}
+      objectReference: {fileID: 687632162474190712}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: parentLinkedComponent
       value: 
-      objectReference: {fileID: 1395606970381081653}
+      objectReference: {fileID: 5966701745348162532}
     - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_Name
-      value: Mechanics Text 2
+      value: TextWithImage (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_Pivot.x
@@ -1771,7 +1666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1795,7 +1690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 490.537
+      value: 474.725
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1845,154 +1740,558 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 21bd05f88903eff46ba572d6fe57908a, type: 3}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
---- !u!114 &2547263615283747763 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-  m_PrefabInstance: {fileID: 2650828225754485290}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &5867466696089341224
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 3751791717711387390}
-    m_Modifications:
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_text
-      value: "The theme of the jam was <color=#54A0FF>Stronger together</color> witch
-        made us explore many ideas with minions following the main character similiarly
-        to the <color=#54A0FF>Pikmin</color> series. We ultimately settled, due to
-        the limited time, on the main mechanic inspired by Battle Pyramid from <color=#54A0FF>Pokemon
-        Emerald</color>\u2019s Battle Frontier where the player must orient himself
-        in a <color=#54A0FF>dark maze</color>, and the lighted area will gradually
-        expand after each enemy defeated. To better fit for the jam\u2019s theme,
-        we made that the player must collect all the <color=#54A0FF>lamps</color>
-        scattered across the maze, ultimately ending up with a small army of lamps
-        with each lamp friend expanding the light circle."
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontSize
-      value: 66.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 66.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
-    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_linkedTextComponent
-      value: 
-      objectReference: {fileID: 3404006675925313362}
-    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Name
-      value: Theme Text
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.99999696
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5359909
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 490.537
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 1b86b537833e67c4388a703216ed4278, type: 3}
+    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+--- !u!114 &1504623291856145574 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 1401021975718151487}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &6151331492644600445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3751791717711387390}
+    m_Modifications:
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_text
+      value: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
+
+        Lamp
+        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
+        Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes
+        by the name of <color=#54A0FFFF><i>Victime</i></color>
+
+        
+
+        The
+        Game page can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
+
+        We
+        placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
+        total entries, witch is a truly unexpected result for both of us given that
+        it was our first ever game jam.
+
+        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
+        Submission page)</b></link></color></u>
+
+        
+
+        <color=#54A0FFFF><b><size=1.5em>Theme
+        and Brainstroming</size></b></color>
+
+        The theme of the jam was <b>Stronger
+        together</b> witch made us explore many ideas with minions following the
+        main character similiarly to the <b>Pikmin</b> series.
+
+        We ultimately
+        settled, due to the limited time, on the main mechanic inspired by <color=#54A0FFFF><color=#54A0FFFF><u><link="https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid"><b>Battle
+        Pyramid</b></link></color></u></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
+        Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
+        maze</b></color>, and the lighted area will gradually expand after each enemy
+        defeated.
+
+        To better fit for the jam''s theme, we made that the
+        player must collect all the lamps scattered across the maze, ultimatley ending
+        up with a small army of lamps with each lamp friend expanding the light circle.
+
+        
+
+        <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
+
+        <color=#54A0FFFF><b>Eni</b></color>,
+        the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
+        to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
+        and levers.
+
+        
+
+        
+
+        Lamps that are turned on will
+        the follow the player and grand extra light to orient better in the darkness
+        that is the maze.
+
+        
+
+        The final goal is to collect all the
+        lost Lamps to turn on the <color=#54A0FFFF><b>Giant lightbulb</b></color>
+        and give light back to the maze.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_linkedTextComponent
+      value: 
+      objectReference: {fileID: 1504623291856145574}
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: parentLinkedComponent
+      value: 
+      objectReference: {fileID: 4569550140174271976}
+    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Name
+      value: TextWithImage (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 490.537
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5359917
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -50.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -0.0032134084
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218805756290493159, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0007324219
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cd82c4d7a80a12f41bd3c1cf85fc45ca, type: 3}
+    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+--- !u!114 &5966701745348162532 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 6151331492644600445}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &6769956486634912226
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3751791717711387390}
+    m_Modifications:
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_text
+      value: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
+
+        Lamp
+        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
+        Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes
+        by the name of <color=#54A0FFFF><i>Victime</i></color>
+
+        
+
+        The
+        Game page can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
+
+        We
+        placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
+        total entries, witch is a truly unexpected result for both of us given that
+        it was our first ever game jam.
+
+        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
+        Submission page)</b></link></color></u>
+
+        
+
+        <color=#54A0FFFF><b><size=1.5em>Theme
+        and Brainstroming</size></b></color>
+
+        The theme of the jam was <b>Stronger
+        together</b> witch made us explore many ideas with minions following the
+        main character similiarly to the <b>Pikmin</b> series.
+
+        We ultimately
+        settled, due to the limited time, on the main mechanic inspired by <color=#54A0FFFF><color=#54A0FFFF><u><link="https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid"><b>Battle
+        Pyramid</b></link></color></u></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
+        Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
+        maze</b></color>, and the lighted area will gradually expand after each enemy
+        defeated.
+
+        To better fit for the jam''s theme, we made that the
+        player must collect all the lamps scattered across the maze, ultimatley ending
+        up with a small army of lamps with each lamp friend expanding the light circle.
+
+        
+
+        <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
+
+        <color=#54A0FFFF><b>Eni</b></color>,
+        the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
+        to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
+        and levers.
+
+        
+
+        
+
+        Lamps that are turned on will
+        the follow the player and grand extra light to orient better in the darkness
+        that is the maze.
+
+        
+
+        The final goal is to collect all the
+        lost Lamps to turn on the <color=#54A0FFFF><b>Giant lightbulb</b></color>
+        and give light back to the maze.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_linkedTextComponent
+      value: 
+      objectReference: {fileID: 4569550140174271976}
+    - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: parentLinkedComponent
+      value: 
+      objectReference: {fileID: 2214347249606327446}
+    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Name
+      value: TextWithImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 474.725
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.99999696
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5359909
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130718492286938899, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b86b537833e67c4388a703216ed4278, type: 3}
+    - target: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+--- !u!114 &6513233617065783419 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 6769956486634912226}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
