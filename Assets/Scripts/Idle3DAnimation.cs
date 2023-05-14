@@ -9,9 +9,24 @@ public class Idle3DAnimation : MonoBehaviour
     [SerializeField] bool rotate = true;
     [ShowIf("rotate")]
     [SerializeField] Vector3 pivot = Vector3.up;
+    [ShowIf("rotate")]
+    [SerializeField] float rotationSpeed = 1;
+    [ShowIf("rotate")]
+    [SerializeField] bool objSpace = true;
     void Start()
     {
         transform.LeanMoveLocalY(transform.localPosition.y - distance, 2).setLoopPingPong();
-        if(rotate) transform.LeanRotateAroundLocal(pivot, 360, 10).setLoopClamp();
+        if (rotate)
+        {
+            if(objSpace)
+            {
+                transform.LeanRotateAroundLocal(pivot, 360, 10 / rotationSpeed).setLoopClamp();
+            }
+            //world Space Rotation
+            else
+            {
+                transform.LeanRotateAround(pivot, 360, 10 / rotationSpeed).setLoopClamp();
+            }
+        }
     }
 }
