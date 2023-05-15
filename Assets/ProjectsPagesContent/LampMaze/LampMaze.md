@@ -9,7 +9,7 @@ We placed --**#45**-- out of --**#1881**-- total entries, witch is a truly unexp
 ### Theme and Brainstroming
 
 The theme of the jam was --**Stronger together**-- witch made us explore many ideas with minions following the main character similiarly to the --**Pikmin**-- series.
-We ultimately settled, due to the limited time, on the main mechanic inspired by --[**Battle Pyramid**](https://bulbapedia.bulbagarden.net/wiki/Battle_Pyramid)-- from Pokemon Emerald's --**Battle Frontier**-- where the player must orient himself in a --**dark maze**--, and the lighted area will gradually expand after each enemy defeated.
+We ultimately settled, due to the limited time, on the main mechanic inspired by --**Battle Pyramid**-- from Pokemon Emerald's --**Battle Frontier**-- where the player must orient himself in a --**dark maze**--, and the lighted area will gradually expand after each enemy defeated.
 To better fit for the jam's theme, we made that the player must collect all the lamps scattered across the maze, ultimatley ending up with a small army of lamps with each lamp friend expanding the light circle.
 
 ### Mechanics

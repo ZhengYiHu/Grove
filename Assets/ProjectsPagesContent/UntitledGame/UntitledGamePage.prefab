@@ -228,8 +228,6 @@ GameObject:
   - component: {fileID: 1915358545227929103}
   - component: {fileID: 4326693416256811774}
   - component: {fileID: 4569550140174271976}
-  - component: {fileID: 8878856475687599080}
-  - component: {fileID: 1196373856241003383}
   m_Layer: 5
   m_Name: Body 2
   m_TagString: Untagged
@@ -380,39 +378,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &8878856475687599080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029193567858561090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LinkNormalColor:
-    serializedVersion: 2
-    rgba: 4294942804
-  LinkHoveredColor:
-    serializedVersion: 2
-    rgba: 4293366344
-  LinkClickColor:
-    serializedVersion: 2
-    rgba: 4290669606
---- !u!114 &1196373856241003383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029193567858561090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2498356298000385428
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,8 +389,6 @@ GameObject:
   - component: {fileID: 559866623410281475}
   - component: {fileID: 3760437090278290024}
   - component: {fileID: 687632162474190712}
-  - component: {fileID: 1813003029322695091}
-  - component: {fileID: 8296294276335717494}
   m_Layer: 5
   m_Name: Body 4
   m_TagString: Untagged
@@ -576,39 +539,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1813003029322695091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2498356298000385428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55388d382d2fe7346bcea11e5bcc20bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LinkNormalColor:
-    serializedVersion: 2
-    rgba: 4294942804
-  LinkHoveredColor:
-    serializedVersion: 2
-    rgba: 4293366344
-  LinkClickColor:
-    serializedVersion: 2
-    rgba: 4290669606
---- !u!114 &8296294276335717494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2498356298000385428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22f3119129029dc4b9d53dc875875f63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3234270857802449711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,7 +1305,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 78.3
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1948,7 +1878,9 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+    - {fileID: 972846679097988651, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
 --- !u!114 &4062978647192555772 stripped
 MonoBehaviour:
@@ -2084,7 +2016,9 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+    - {fileID: 972846679097988651, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
 --- !u!114 &5922760881337286502 stripped
 MonoBehaviour:
