@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7019322672026998480}
   - component: {fileID: 8710572570872994463}
   m_Layer: 5
-  m_Name: LampMazeProjectPage
+  m_Name: PlaywindProjectPage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed79d1d7efd711243a81aacd6dab04e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  template: {fileID: 11400000, guid: ef716aba06710b54fa9d2b90e3d05b9d, type: 2}
+  template: {fileID: 11400000, guid: bef4b7138f28d7d4cb83427becd7f74e, type: 2}
   title: {fileID: 4537409630130444007}
   subtitle: {fileID: 4474583134204639595}
   body: {fileID: 1078267624868297043}
@@ -234,7 +234,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1915358545227929103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -250,10 +250,10 @@ RectTransform:
   m_Father: {fileID: 3751791717711387390}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 709.57}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 40, y: -2131.4172}
+  m_SizeDelta: {x: 1240, y: 709.57}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &4326693416256811774
 CanvasRenderer:
@@ -283,69 +283,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
-
-    Lamp maze
-    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
-    Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes by
-    the name of <color=#54A0FFFF><b>Victime</b></color>
-
-    
-
-    The Game page
-    can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
-
-    We
-    placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
-    total entries, witch is a truly unexpected result for both of us given that it
-    was our first ever game jam.
-
-    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
-    Submission page)</b></link></color></u>
-
-    
-
-    <color=#54A0FFFF><b><size=1.5em>Theme
-    and Brainstroming</size></b></color>
-
-    The theme of the jam was <color=#54A0FFFF><b>Stronger
-    together</b></color> witch made us explore many ideas with minions following
-    the main character similiarly to the <color=#54A0FFFF><b>Pikmin</b></color> series.
-
-    We
-    ultimately settled, due to the limited time, on the main mechanic inspired by
-    <color=#54A0FFFF><b>Battle Pyramid</b></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
-    Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
-    maze</b></color>, and the lighted area will gradually expand after each enemy
-    defeated.
-
-    To better fit for the jam''s theme, we made that the player must
-    collect all the lamps scattered across the maze, ultimatley ending up with a
-    small army of lamps with each lamp friend expanding the light circle.
-
-    
-
-    <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
-
-    <color=#54A0FFFF><b>Eni</b></color>,
-    the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
-    to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
-    and levers.
-
-    
-
-    
-
-    Lamps that are turned on will the follow the
-    player and grand extra light to orient better in the darkness that is the maze.
-
-    
-
-    The
-    final goal is to collect all the lost Lamps to turn on the <color=#54A0FFFF><b>Giant
-    lightbulb</b></color> and give light back to the maze.
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -480,69 +418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
-
-    Lamp maze
-    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
-    Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes by
-    the name of <color=#54A0FFFF><b>Victime</b></color>
-
-    
-
-    The Game page
-    can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
-
-    We
-    placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
-    total entries, witch is a truly unexpected result for both of us given that it
-    was our first ever game jam.
-
-    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
-    Submission page)</b></link></color></u>
-
-    
-
-    <color=#54A0FFFF><b><size=1.5em>Theme
-    and Brainstroming</size></b></color>
-
-    The theme of the jam was <color=#54A0FFFF><b>Stronger
-    together</b></color> witch made us explore many ideas with minions following
-    the main character similiarly to the <color=#54A0FFFF><b>Pikmin</b></color> series.
-
-    We
-    ultimately settled, due to the limited time, on the main mechanic inspired by
-    <color=#54A0FFFF><b>Battle Pyramid</b></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
-    Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
-    maze</b></color>, and the lighted area will gradually expand after each enemy
-    defeated.
-
-    To better fit for the jam''s theme, we made that the player must
-    collect all the lamps scattered across the maze, ultimatley ending up with a
-    small army of lamps with each lamp friend expanding the light circle.
-
-    
-
-    <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
-
-    <color=#54A0FFFF><b>Eni</b></color>,
-    the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
-    to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
-    and levers.
-
-    
-
-    
-
-    Lamps that are turned on will the follow the
-    player and grand extra light to orient better in the darkness that is the maze.
-
-    
-
-    The
-    final goal is to collect all the lost Lamps to turn on the <color=#54A0FFFF><b>Giant
-    lightbulb</b></color> and give light back to the maze.
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -681,67 +557,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
+  m_text: '<color=#54A0FFFF><b><size=1.5em>Projects</size></b></color>
 
-    Lamp maze
-    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
-    Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes by
-    the name of <color=#54A0FFFF><b>Victime</b></color>
-
-    
-
-    The Game page
-    can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
-
-    We
-    placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
-    total entries, witch is a truly unexpected result for both of us given that it
-    was our first ever game jam.
-
-    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
-    Submission page)</b></link></color></u>
+    During
+    my time at <b><color=#54A0FFFF><u><link="https://www.playwindgames.com">Playwind
+    Games</link></color></u></b> i had the privilege to work on a wide variety of
+    games in different stages of development.
 
     
-
-    <color=#54A0FFFF><b><size=1.5em>Theme
-    and Brainstroming</size></b></color>
-
-    The theme of the jam was <color=#54A0FFFF><b>Stronger
-    together</b></color> witch made us explore many ideas with minions following
-    the main character similiarly to the <color=#54A0FFFF><b>Pikmin</b></color> series.
-
-    We
-    ultimately settled, due to the limited time, on the main mechanic inspired by
-    <color=#54A0FFFF><b>Battle Pyramid</b></color> from Pokemon Emerald''s <color=#54A0FFFF><b>Battle
-    Frontier</b></color> where the player must orient himself in a <color=#54A0FFFF><b>dark
-    maze</b></color>, and the lighted area will gradually expand after each enemy
-    defeated.
-
-    To better fit for the jam''s theme, we made that the player must
-    collect all the lamps scattered across the maze, ultimatley ending up with a
-    small army of lamps with each lamp friend expanding the light circle.
-
-    
-
-    <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
-
-    <color=#54A0FFFF><b>Eni</b></color>,
-    the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
-    to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
-    and levers.
-
-    
-
-    
-
-    Lamps that are turned on will the follow the
-    player and grand extra light to orient better in the darkness that is the maze.
-
-    
-
-    The
-    final goal is to collect all the lost Lamps to turn on the <color=#54A0FFFF><b>Giant
-    lightbulb</b></color> and give light back to the maze.
 
 '
   m_isRightToLeft: 0
@@ -824,69 +647,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Source: '### Jam
+  _Source: '### Projects
 
     
 
-    Lamp maze was a game made for the [**Brackeys Game
-    Jam 2021.1**](https://itch.io/jam/brackeys-5) game jam by me an a friend that
-    goes by the name of --**Victime**--
+    During my time at **[Playwind Games](https://www.playwindgames.com)**
+    i had the privilege to work on a wide variety of games in different stages of
+    development.
 
     
-
-    The Game page can be found [**HERE**](https://bards-yard.itch.io/lamp-maze).
-
-    We
-    placed --**#45**-- out of --**#1881**-- total entries, witch is a truly unexpected
-    result for both of us given that it was our first ever game jam.
-
-    [**(Jam
-    Submission page)**](https://itch.io/jam/brackeys-5/rate/929233)
-
-    
-
-    ###
-    Theme and Brainstroming
-
-    
-
-    The theme of the jam was --**Stronger together**--
-    witch made us explore many ideas with minions following the main character similiarly
-    to the --**Pikmin**-- series.
-
-    We ultimately settled, due to the limited
-    time, on the main mechanic inspired by --**Battle Pyramid**-- from Pokemon Emerald''s
-    --**Battle Frontier**-- where the player must orient himself in a --**dark maze**--,
-    and the lighted area will gradually expand after each enemy defeated.
-
-    To
-    better fit for the jam''s theme, we made that the player must collect all the
-    lamps scattered across the maze, ultimatley ending up with a small army of lamps
-    with each lamp friend expanding the light circle.
-
-    
-
-    ### Mechanics
-
-    
-
-    --**Eni**--,
-    the main character, has the ability to unleash a --**shockwave**-- to the mouse
-    location to turn on dormant --**Lamp friends**-- and levers.
-
-    
-
-    
-
-    Lamps
-    that are turned on will the follow the player and grand extra light to orient
-    better in the darkness that is the maze.
-
-    
-
-    The final goal is to collect
-    all the lost Lamps to turn on the --**Giant lightbulb**-- and give light back
-    to the maze.
 
 '
   RenderSettings:
@@ -962,7 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52b6e5f5e44df44b939804bd11d3a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextAsset: {fileID: 4900000, guid: 975a61c9a2f6b594190e5f792bbd3cf2, type: 3}
+  TextAsset: {fileID: 4900000, guid: 3e582048d1c55994cbf8f209772da47f, type: 3}
 --- !u!114 &4819990696255036578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,7 +801,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 202.27}
+  m_SizeDelta: {x: 0, y: 127.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6825115495367314374
 CanvasRenderer:
@@ -1062,7 +831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A Jam game made in one week for Brackeys Game Jam 2021.1
+  m_text: Puzzle focused Game Company
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -1197,7 +966,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lamp Maze
+  m_text: Playwind Games
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
   m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
@@ -1509,71 +1278,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_text
-      value: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
-
-        Lamp
-        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
-        Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes
-        by the name of <color=#54A0FFFF><b>Victime</b></color>
-
-        
-
-        The
-        Game page can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
-
-        We
-        placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
-        total entries, witch is a truly unexpected result for both of us given that
-        it was our first ever game jam.
-
-        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
-        Submission page)</b></link></color></u>
-
-        
-
-        <color=#54A0FFFF><b><size=1.5em>Theme
-        and Brainstroming</size></b></color>
-
-        The theme of the jam was <color=#54A0FFFF><b>Stronger
-        together</b></color> witch made us explore many ideas with minions following
-        the main character similiarly to the <color=#54A0FFFF><b>Pikmin</b></color>
-        series.
-
-        We ultimately settled, due to the limited time, on the
-        main mechanic inspired by <color=#54A0FFFF><b>Battle Pyramid</b></color>
-        from Pokemon Emerald''s <color=#54A0FFFF><b>Battle Frontier</b></color> where
-        the player must orient himself in a <color=#54A0FFFF><b>dark maze</b></color>,
-        and the lighted area will gradually expand after each enemy defeated.
-
-        To
-        better fit for the jam''s theme, we made that the player must collect all
-        the lamps scattered across the maze, ultimatley ending up with a small army
-        of lamps with each lamp friend expanding the light circle.
-
-        
-
-        <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
-
-        <color=#54A0FFFF><b>Eni</b></color>,
-        the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
-        to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
-        and levers.
-
-        
-
-        
-
-        Lamps that are turned on will
-        the follow the player and grand extra light to orient better in the darkness
-        that is the maze.
-
-        
-
-        The final goal is to collect all the
-        lost Lamps to turn on the <color=#54A0FFFF><b>Giant lightbulb</b></color>
-        and give light back to the maze.
-
-'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_overflowMode
@@ -1595,6 +1300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextWithImage (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1613,7 +1322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1621,11 +1330,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1240
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1661,11 +1370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 660
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -3214.1018
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1743,71 +1452,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_text
-      value: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
-
-        Lamp
-        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
-        Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes
-        by the name of <color=#54A0FFFF><b>Victime</b></color>
-
-        
-
-        The
-        Game page can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
-
-        We
-        placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
-        total entries, witch is a truly unexpected result for both of us given that
-        it was our first ever game jam.
-
-        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
-        Submission page)</b></link></color></u>
-
-        
-
-        <color=#54A0FFFF><b><size=1.5em>Theme
-        and Brainstroming</size></b></color>
-
-        The theme of the jam was <color=#54A0FFFF><b>Stronger
-        together</b></color> witch made us explore many ideas with minions following
-        the main character similiarly to the <color=#54A0FFFF><b>Pikmin</b></color>
-        series.
-
-        We ultimately settled, due to the limited time, on the
-        main mechanic inspired by <color=#54A0FFFF><b>Battle Pyramid</b></color>
-        from Pokemon Emerald''s <color=#54A0FFFF><b>Battle Frontier</b></color> where
-        the player must orient himself in a <color=#54A0FFFF><b>dark maze</b></color>,
-        and the lighted area will gradually expand after each enemy defeated.
-
-        To
-        better fit for the jam''s theme, we made that the player must collect all
-        the lamps scattered across the maze, ultimatley ending up with a small army
-        of lamps with each lamp friend expanding the light circle.
-
-        
-
-        <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
-
-        <color=#54A0FFFF><b>Eni</b></color>,
-        the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
-        to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
-        and levers.
-
-        
-
-        
-
-        Lamps that are turned on will
-        the follow the player and grand extra light to orient better in the darkness
-        that is the maze.
-
-        
-
-        The final goal is to collect all the
-        lost Lamps to turn on the <color=#54A0FFFF><b>Giant lightbulb</b></color>
-        and give light back to the maze.
-
-'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_overflowMode
@@ -1829,6 +1474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextWithImage (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1847,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1855,11 +1504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1240
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1895,11 +1544,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 660
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -2731.4707
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2033,71 +1682,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_text
-      value: '<color=#54A0FFFF><b><size=1.5em>Jam</size></b></color>
-
-        Lamp
-        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5"><b>Brackeys
-        Game Jam 2021.1</b></link></color></u> game jam by me an a friend that goes
-        by the name of <color=#54A0FFFF><b>Victime</b></color>
-
-        
-
-        The
-        Game page can be found <color=#54A0FFFF><u><link="https://bards-yard.itch.io/lamp-maze"><b>HERE</b></link></color></u>.
-
-        We
-        placed <color=#54A0FFFF><b>#45</b></color> out of <color=#54A0FFFF><b>#1881</b></color>
-        total entries, witch is a truly unexpected result for both of us given that
-        it was our first ever game jam.
-
-        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233"><b>(Jam
-        Submission page)</b></link></color></u>
-
-        
-
-        <color=#54A0FFFF><b><size=1.5em>Theme
-        and Brainstroming</size></b></color>
-
-        The theme of the jam was <color=#54A0FFFF><b>Stronger
-        together</b></color> witch made us explore many ideas with minions following
-        the main character similiarly to the <color=#54A0FFFF><b>Pikmin</b></color>
-        series.
-
-        We ultimately settled, due to the limited time, on the
-        main mechanic inspired by <color=#54A0FFFF><b>Battle Pyramid</b></color>
-        from Pokemon Emerald''s <color=#54A0FFFF><b>Battle Frontier</b></color> where
-        the player must orient himself in a <color=#54A0FFFF><b>dark maze</b></color>,
-        and the lighted area will gradually expand after each enemy defeated.
-
-        To
-        better fit for the jam''s theme, we made that the player must collect all
-        the lamps scattered across the maze, ultimatley ending up with a small army
-        of lamps with each lamp friend expanding the light circle.
-
-        
-
-        <color=#54A0FFFF><b><size=1.5em>Mechanics</size></b></color>
-
-        <color=#54A0FFFF><b>Eni</b></color>,
-        the main character, has the ability to unleash a <color=#54A0FFFF><b>shockwave</b></color>
-        to the mouse location to turn on dormant <color=#54A0FFFF><b>Lamp friends</b></color>
-        and levers.
-
-        
-
-        
-
-        Lamps that are turned on will
-        the follow the player and grand extra light to orient better in the darkness
-        that is the maze.
-
-        
-
-        The final goal is to collect all the
-        lost Lamps to turn on the <color=#54A0FFFF><b>Giant lightbulb</b></color>
-        and give light back to the maze.
-
-'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_overflowMode
@@ -2119,6 +1704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextWithImage
       objectReference: {fileID: 0}
+    - target: {fileID: 1156436331258583385, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2137,7 +1726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.x
@@ -2145,11 +1734,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1240
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2185,11 +1774,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 660
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -1539.2698
       objectReference: {fileID: 0}
     - target: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
