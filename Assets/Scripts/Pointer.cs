@@ -5,7 +5,6 @@ using UnityEngine;
 public class Pointer : MonoBehaviour
 {
     int layerMask = 1 << 3; //Collision layer for SelectableObjects
-    [SerializeField] ScenePreview scenePreview;
 
     GameObject target;
     private void Update()
@@ -19,16 +18,19 @@ public class Pointer : MonoBehaviour
                 //Get collider data
                 if(target.TryGetComponent<SelectableProject>(out var selectableProject))
                 {
-                    scenePreview.ShowProject(selectableProject);
+                    ScreenOrientationAdapter.preview.ShowProject(selectableProject);
+                    ScreenOrientationAdapter.disabledPreview.ShowProject(selectableProject);
                 }
 
-                scenePreview.fadeIn();
+                ScreenOrientationAdapter.preview.fadeIn();
+                ScreenOrientationAdapter.disabledPreview.fadeIn();
             }
         }
         else
         {
             target = null;
-            scenePreview.fadeOut();
+            ScreenOrientationAdapter.preview.fadeOut();
+            ScreenOrientationAdapter.disabledPreview.fadeOut();
         }
     }
 }

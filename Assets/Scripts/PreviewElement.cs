@@ -40,8 +40,6 @@ public class PreviewElement : MonoBehaviour
         {
             previewPages[i].Index = i;
         }
-
-        originalTransform = RectTransformHelper.Clone(transform as RectTransform);
     }
 
     /// <summary>
@@ -123,6 +121,7 @@ public class PreviewElement : MonoBehaviour
     /// </summary>
     void ChangePage()
     {
+        originalTransform = RectTransformHelper.Clone(transform as RectTransform);
         //Default Page Preview Content
         defaultpreviewPage.Visible = activePageIndex == -1;
 
