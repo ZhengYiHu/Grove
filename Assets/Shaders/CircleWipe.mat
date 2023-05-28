@@ -47,5 +47,5 @@ Material:
     - _BlendColour: {r: 1, g: 0.62352943, b: 0.2627451, a: 1}
     - _BottomTint: {r: 1, g: 1, b: 1, a: 0}
     - _DecalTint: {r: 1, g: 1, b: 1, a: 0}
-    - _TopTint: {r: 1, g: 0.62352943, b: 0.2627427, a: 1}
+    - _TopTint: {r: 0.99607843, g: 0.62352943, b: 0.25882354, a: 1}
   m_BuildTextureStacks: []

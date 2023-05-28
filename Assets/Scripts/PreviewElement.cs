@@ -29,6 +29,7 @@ public class PreviewElement : MonoBehaviour
 
     private void Awake()
     {
+        originalTransform = RectTransformHelper.Clone(transform as RectTransform);
         EnableOnPointerListeners(true);
         MenuButton.OnButtonClick += OnMenuOptionClicked;
         //Restore listeners when back on menu
@@ -121,7 +122,6 @@ public class PreviewElement : MonoBehaviour
     /// </summary>
     void ChangePage()
     {
-        originalTransform = RectTransformHelper.Clone(transform as RectTransform);
         //Default Page Preview Content
         defaultpreviewPage.Visible = activePageIndex == -1;
 
