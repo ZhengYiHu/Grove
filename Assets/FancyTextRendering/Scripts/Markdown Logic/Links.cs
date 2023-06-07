@@ -43,11 +43,7 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
 
                 string linkText = builder.Snip(linkTextStart + 1, linkTextEnd - 1);
                 string linkContent = builder.Snip(linkContentStart + 1, linkContentEnd - 1)
-#if UNITY_EDITOR
-                .Replace("[DATAPATH]", Application.dataPath);
-#else
                 .Replace("[DATAPATH]", Application.streamingAssetsPath);
-#endif
                 builder.Remove(linkTextStart, linkContentEnd - linkTextStart + 1);
                 builder.InsertChain(linkTextStart, out int insertionEndIndex, 
                     "<color=#", ColorUtility.ToHtmlStringRGBA(settings.Links.LinkColor), ">",
