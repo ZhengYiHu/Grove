@@ -15,7 +15,7 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
 
     class Links : SimpleMarkdownLineProcessor
     {
-        const string StreamingAssetsPath = "zyhu.me/StreamingAssets";
+        const string StreamingAssetsPath = "StreamingAssets";
         protected override void ProcessLine(MarkdownLine line, MarkdownRenderingSettings settings)
         {
             StringBuilder builder = line.Builder;
