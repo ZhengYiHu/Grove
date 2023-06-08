@@ -15,6 +15,7 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
 
     class Links : SimpleMarkdownLineProcessor
     {
+        const string StreamingAssetsPath = "zyhu.me/StreamingAssets";
         protected override void ProcessLine(MarkdownLine line, MarkdownRenderingSettings settings)
         {
             StringBuilder builder = line.Builder;
@@ -43,7 +44,8 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
 
                 string linkText = builder.Snip(linkTextStart + 1, linkTextEnd - 1);
                 string linkContent = builder.Snip(linkContentStart + 1, linkContentEnd - 1)
-                .Replace("[DATAPATH]", Application.streamingAssetsPath);
+                //For some reason Application.streamingAssetsPath returns {'sitename'/github/workspace/Assets/StreamingAssets} which does not match with the Streaming Assets path where Unity loads the assets
+                .Replace("[DATAPATH]", StreamingAssetsPath);
                 builder.Remove(linkTextStart, linkContentEnd - linkTextStart + 1);
                 builder.InsertChain(linkTextStart, out int insertionEndIndex, 
                     "<color=#", ColorUtility.ToHtmlStringRGBA(settings.Links.LinkColor), ">",
