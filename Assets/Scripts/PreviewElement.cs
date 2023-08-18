@@ -25,7 +25,7 @@ public class PreviewElement : MonoBehaviour
 
     int activePageIndex = 0;
     Vector3 initialRotation;
-    RectTransform originalTransform;
+    public RectTransform originalTransform;
 
     private void Awake()
     {

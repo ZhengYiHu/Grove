@@ -9,13 +9,8 @@ public class MainContentPage : MonoBehaviour
 {
     [SerializeField] PreviewElement previewElement;
     [SerializeField] Image bgImage;
+    [SerializeField] BackButton backButton;
     [SerializeField] CanvasGroup canvasGroup;
-    [SerializeField] GameObject[] objectsToDisableOnScene;
-    [SerializeField] GameObject[] objectsToEnableOnScene;
-
-    [SerializeField] GameObject[] objectsToDisableOnStandard;
-    [SerializeField] GameObject[] objectsToEnableOnStandard;
-
     [SerializeField] float animationDuration = 3f;
     [SerializeField] LeanTweenType wipeEase;
     Material wipeMaterial => bgImage.material;
@@ -28,23 +23,10 @@ public class MainContentPage : MonoBehaviour
         wipeMaterial.SetFloat("_Radius", 0);
     }
 
-    public void Show3DScene()
-    {
-        ShowSceneGraphics(true);
-        WipeAnimation(true).Forget();
-    }
-
-    public void ShowStandardContentPage()
-    {
-        ShowStandardGraphics(true);
-    }
-
     public async UniTask ShowMenu(bool withWipe = true)
     {
         if(withWipe) await WipeAnimation(false);
         previewElement.BackToMenu();
-        ShowSceneGraphics(false);
-        ShowStandardGraphics(false);
         if (withWipe) WipeAnimation(true).Forget();
 
         //Destroy all instantiated pages
@@ -52,38 +34,14 @@ public class MainContentPage : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
-
+        backButton.gameObject.SetActive(false);
+        gameObject.SetActive(false);
         SetBlockRaycast(false);
     }
 
-    public async UniTask ShowProject()
+    public void ShowStandardContentPage()
     {
-        await WipeAnimation(false);
-    }
-
-
-    private void ShowSceneGraphics(bool active)
-    {
-        foreach (GameObject toDisable in objectsToDisableOnScene)
-        {
-            toDisable.SetActive(!active);
-        }
-        foreach (GameObject toEnable in objectsToEnableOnScene)
-        {
-            toEnable.SetActive(active);
-        }
-    }
-
-    private void ShowStandardGraphics(bool active)
-    {
-        foreach (GameObject toDisable in objectsToDisableOnStandard)
-        {
-            toDisable.SetActive(!active);
-        }
-        foreach (GameObject toEnable in objectsToEnableOnStandard)
-        {
-            toEnable.SetActive(active);
-        }
+        backButton.gameObject.SetActive(true);
     }
 
     private async UniTask WipeAnimation(bool show)

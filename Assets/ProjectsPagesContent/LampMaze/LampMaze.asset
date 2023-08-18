@@ -16,4 +16,4 @@ MonoBehaviour:
   subtitle: A Jam game made in one week for Brackeys Game Jam 2021.1
   bodyAsset: {fileID: 4900000, guid: 975a61c9a2f6b594190e5f792bbd3cf2, type: 3}
   previewImage: {fileID: 21300000, guid: 51abca60a31fb314ca34594999c9a006, type: 3}
-  modelPrefab: {fileID: 919132149155446097, guid: c9944e20f3ff2044eb4e76521f4fcefe, type: 3}
+  contentPage: {fileID: 7981384048105880529, guid: d19375ddc1fe4f049b231b463d700d49, type: 3}

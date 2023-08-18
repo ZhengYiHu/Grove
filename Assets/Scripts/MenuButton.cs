@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] PreviewElementPage associatedPage;
-    [SerializeField] PageType pageType;
+    [SerializeReference] PageType pageType;
     [SerializeField] Image outline;
     [SerializeField] CanvasGroup canvasGroup;
     public static Action<MenuButton> OnButtonEnter;
