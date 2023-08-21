@@ -1,10 +1,10 @@
 ### Jam
 
-Lamp maze was a game made for the [**Brackeys Game Jam 2021.1**](https://itch.io/jam/brackeys-5) game jam by me an a friend that goes by the name of --**Victime**--
+Lamp maze was a game made for the [Brackeys Game Jam 2021.1](https://itch.io/jam/brackeys-5) game jam by me an a friend that goes by the name of --**Victime**--
 
-The Game page can be found [**HERE**](https://bards-yard.itch.io/lamp-maze).
+The Game page can be found [HERE](https://zyhu.itch.io/lamp-maze).
 We placed --**#45**-- out of --**#1881**-- total entries, witch is a truly unexpected result for both of us given that it was our first ever game jam.
-[**(Jam Submission page)**](https://itch.io/jam/brackeys-5/rate/929233)
+[(Jam Submission page)](https://itch.io/jam/brackeys-5/rate/929233)
 
 ### Theme and Brainstroming
 

@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9333334, g: 0.32156864, b: 0.3254902, a: 1}
+  m_Color: {r: 0.3529412, g: 0.10196079, b: 0.58431375, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -408,8 +408,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283650798
-  m_fontColor: {r: 0.9333334, g: 0.32156864, b: 0.3254902, a: 1}
+    rgba: 4287961690
+  m_fontColor: {r: 0.3529412, g: 0.10196079, b: 0.58431375, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 105.95
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -746,6 +746,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 343775891753636776}
     m_Modifications:
+    - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Value
+      value: 0.8303417
+      objectReference: {fileID: 0}
     - target: {fileID: 3804619280923133322, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Name
       value: ScrollView
@@ -844,7 +852,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00048828125
+      value: 390.9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

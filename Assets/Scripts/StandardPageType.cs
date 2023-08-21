@@ -8,8 +8,6 @@ public class StandardPageType : PageType
     [SerializeField]
     private ContentPage contentPagePrefab;
     [SerializeField]
-    public ProjectTemplate projectTemplate;
-    [SerializeField]
     private MainContentPage fullScreenContentPage;
 
     public override Color bgColor {

@@ -36,7 +36,6 @@ RectTransform:
   - {fileID: 3751791717434368795}
   - {fileID: 3534791221938424484}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -66,6 +65,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 8710572570872994463}
   appearAnimationDuration: 0.3
   appearAnimationEase: 17
+  bg: {fileID: 4403913268349053703}
 --- !u!114 &7019322672026998480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +125,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3534791221938424484}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -203,7 +202,6 @@ RectTransform:
   - {fileID: 163052502989035789}
   - {fileID: 7049434385632456754}
   m_Father: {fileID: 343775891753636776}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -253,7 +251,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -291,14 +288,15 @@ MonoBehaviour:
   m_text: '<color=#54A0FFFF><b><size=1.5em>Projects</size></b></color>
 
     During
-    my time at <b><color=#54A0FFFF><u><link="https://www.playwindgames.com">Playwind
-    Games</link></color></u></b> I had the privilege to work on a wide variety of
-    games in different stages of development. From bigger projects like <b><color=#54A0FFFF><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.cityboomglobal">City
-    Boom</link></color></u></b> to leaner Hypercasual games like <b><color=#54A0FFFF><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.superstore">Super
-    Store Sort</link></color></u></b>, I had the chance to familiarize with <color=#54A0FFFF><b>integrating</b></color>
-    onto existing well established code bases as well as <b><color=#54A0FFFF>designing
-    and implementing</color></b> new and robust systems from the ground up for new
-    games.
+    my time at <b><color=#5A1A95><color=#54A0FFFF><u><link="https://www.playwindgames.com">Playwind
+    Games</link></color></u></color></b> I had the privilege to work on a wide variety
+    of games in different stages of development. From bigger projects like <b><color=#5A1A95><color=#54A0FFFF><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.cityboomglobal">City
+    Boom</link></color></u></color></b> to leaner Hypercasual games like <b><color=#5A1A95><color=#54A0FFFF><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.superstore">Super
+    Store Sort</link></color></u></color></b>, I had the chance to familiarize with
+    <color=#5A1A95><b><color=#5A1A95>integrating</color></b></color> onto existing
+    well established code bases as well as <b><color=#5A1A95><color=#5A1A95>designing
+    and implementing</color></color></b> new and robust systems from the ground up
+    for new games.
 
 '
   m_isRightToLeft: 0
@@ -383,7 +381,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Source: '### Projects
 
-    
 
     During my time at **[Playwind Games](https://www.playwindgames.com)**
     I had the privilege to work on a wide variety of games in different stages of
@@ -532,7 +529,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 343775891753636776}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -608,7 +604,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2020166665392897546}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1, y: 0}
   m_AnchorMax: {x: 0.45, y: 1}
@@ -684,7 +679,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -820,7 +814,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3534791221938424484}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -882,7 +875,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -955,7 +948,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3534791221938424484}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1031,7 +1023,6 @@ RectTransform:
   - {fileID: 5254683942225246575}
   - {fileID: 3017268138390913033}
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1069,7 +1060,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2020166665392897546}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.55, y: 0}
   m_AnchorMax: {x: 0.9, y: 1}
@@ -1119,8 +1109,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 343775891753636776}
     m_Modifications:
+    - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Value
+      value: 0.82160133
+      objectReference: {fileID: 0}
     - target: {fileID: 3804619280923133322, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Name
       value: ScrollView
@@ -1223,9 +1222,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 391
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6238756100224418174}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463903381376336175}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2020166665392897546}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570477, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 463749795}
   m_SourcePrefab: {fileID: 100100000, guid: 695ac4fac9025514497058539a0b9175, type: 3}
 --- !u!224 &3751791717434368795 stripped
 RectTransform:

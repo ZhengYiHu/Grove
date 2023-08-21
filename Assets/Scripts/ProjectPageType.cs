@@ -13,7 +13,7 @@ public class ProjectPageType : PageType
 
     public override Color bgColor
     {
-        get { return contentPage.bgColor; }
+        get { return projectTemplate.contentPage.bgColor; }
     }
 
     private void Start()
