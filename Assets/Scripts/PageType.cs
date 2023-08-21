@@ -5,6 +5,7 @@ using UnityEngine;
 
 public abstract class PageType : MonoBehaviour
 {
+    public abstract Color bgColor { get; }
     public abstract UniTask ShowPageContent();
     public abstract void OnBackPressed();
 }

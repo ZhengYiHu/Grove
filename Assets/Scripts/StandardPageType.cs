@@ -12,12 +12,15 @@ public class StandardPageType : PageType
     [SerializeField]
     private MainContentPage fullScreenContentPage;
 
+    public override Color bgColor {
+        get { return contentPagePrefab.bgColor; }
+    }
+
     public override UniTask ShowPageContent()
     {
         UniTaskCompletionSource animationCompleteSource = new UniTaskCompletionSource();
         fullScreenContentPage.SetBlockRaycast(true);
         fullScreenContentPage.ShowStandardContentPage();
-        fullScreenContentPage.ResetWipeValue();
 
         //Instantiate content Page
         Instantiate(contentPagePrefab, fullScreenContentPage.transform);
@@ -28,9 +31,9 @@ public class StandardPageType : PageType
         return animationCompleteSource.Task;
     }
 
-    public override async void OnBackPressed()
+    public override void OnBackPressed()
     {
         BackButton.instance.AnimateOut();
-        await fullScreenContentPage.ShowMenu(false);
+        fullScreenContentPage.ShowMenu();
     }
 }

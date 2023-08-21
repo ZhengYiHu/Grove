@@ -2,12 +2,16 @@ using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ContentPage : MonoBehaviour
 {
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] float appearAnimationDuration = 0.3f;
     [SerializeField] LeanTweenType appearAnimationEase;
+    [SerializeField] Image bg;
+
+    public Color bgColor => bg.color;
 
     private void OnEnable()
     {

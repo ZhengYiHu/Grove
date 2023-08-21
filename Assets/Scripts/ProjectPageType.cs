@@ -11,6 +11,11 @@ public class ProjectPageType : PageType
     MainContentPage mainContentPage;
     protected ContentPage contentPage;
 
+    public override Color bgColor
+    {
+        get { return contentPage.bgColor; }
+    }
+
     private void Start()
     {
         mainContentPage = FindFirstObjectByType<MainContentPage>();
@@ -30,7 +35,7 @@ public class ProjectPageType : PageType
         BackButton.ReplaceListener(async() =>
         {
             BackButton.instance.AnimateOut();
-            await mainContentPage.ShowMenu(false);
+            mainContentPage.ShowMenu();
         });
     }
 }
