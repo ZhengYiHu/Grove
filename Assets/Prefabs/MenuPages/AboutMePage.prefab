@@ -355,8 +355,8 @@ MonoBehaviour:
 
     Currently working as gamedev <color=#54A0FF><u><link="https://www.playwindgames.com/"><b>@PlaywindGames</b></link></color></u>"</color>. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1079,7 +1079,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6815715904467383416
 CanvasRenderer:
@@ -1817,7 +1817,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.7006103
+      value: 0.5327405
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value

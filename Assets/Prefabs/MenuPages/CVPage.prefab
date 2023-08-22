@@ -528,15 +528,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Full Document Available: <b><color=#5A1A95><color=#54A0FFFF><u><link=\"StreamingAssets/ResumeZhengYiHu.pdf\">HERE</link></color></u></color></b>\n\n<b><color=#5A1A95><color=#5A1A95>Unity
+  m_text: "Full Document Available: <b><color=#5A1A95><color=#54A0FFFF><b><u><link=\"StreamingAssets/ResumeZhengYiHu.pdf\">HERE</link></color></u></b></color></b>\n\n<b><color=#5A1A95><color=#5A1A95>Unity
     Game Programmer</color></color></b> with a BSc in <b><color=#5A1A95><color=#5A1A95>Computer
     Science</color></color></b> from <b><color=#5A1A95><color=#5A1A95>King's College
     London</color></color></b>. Expertise in\ndeveloping clean, reliable and functional
     code for optimised game performance and internal tools to\nenhance development
     workflow speed and efficiency. Committed to delivering exceptional projects \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1187,8 +1187,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1538,7 +1538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Source: 'Languages:
+  _Source: '**Languages:**
 
     - English
 
@@ -1626,10 +1626,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Languages:\n<size=0.2em>\u200B</size>\n<line-height=0%><width=55.8><align=right>\u2022</width></align>\n</line-height><indent=58.8>English</indent>\n<line-height=0%><width=55.8><align=right>\u2022</width></align>\n</line-height><indent=58.8>Italian</indent>\n<line-height=0%><width=55.8><align=right>\u2022</width></align>\n</line-height><indent=58.8>Chinese</indent>\n"
+  m_text: "<b><color=#5A1A95>Languages:</color></b>\n<size=0.2em>\u200B</size>\n<line-height=0%><width=55.8><align=right>\u2022</width></align>\n</line-height><indent=58.8>English</indent>\n<line-height=0%><width=55.8><align=right>\u2022</width></align>\n</line-height><indent=58.8>Italian</indent>\n<line-height=0%><width=55.8><align=right>\u2022</width></align>\n</line-height><indent=58.8>Chinese</indent>\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1815,8 +1815,8 @@ MonoBehaviour:
     laborious but mechanical tasks such as integration of data in spreadsheets via
     code</indent>\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2716,11 +2716,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.5357868
+      value: 0.26194713
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
-      value: 1.0000007
+      value: 1.0000005
       objectReference: {fileID: 0}
     - target: {fileID: 3804619280923133322, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Name

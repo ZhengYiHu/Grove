@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64770b1c5ea9622479254853888060a8, type: 3}
+  m_Name: Portfolio
+  m_EditorClassIdentifier: 
+  title: This Website
+  subtitle: A unity game that simulates a website view in Unity WebGL
+  bodyAsset: {fileID: 4900000, guid: 07cbee551f0ec4ebfa990e786827561f, type: 3}
+  previewImage: {fileID: 21300000, guid: 08b99403065c342f0b8b15933157299e, type: 3}
+  contentPage: {fileID: 7981384048105880529, guid: 5edb72026c266485fb9c688433f50f7a, type: 3}

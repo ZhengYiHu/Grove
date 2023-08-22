@@ -73,7 +73,7 @@ namespace LogicUI.FancyTextRendering
 
         void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
         {
-            int linkIndex = TMP_TextUtilities.FindIntersectingLink(Text, eventData.pressPosition, eventData.pressEventCamera);
+            int linkIndex = TMP_LinkDetector.FindIntersectingLink(Text, eventData.pressPosition, eventData.pressEventCamera);
             if (linkIndex > -1)
             {
                 var link = Text.textInfo.linkInfo[linkIndex];
@@ -123,8 +123,7 @@ namespace LogicUI.FancyTextRendering
             if (PointerIsDown)
                 return;
 
-
-            int linkIndex = TMP_TextUtilities.FindIntersectingLink(Text, Input.mousePosition, cachedCamera);
+            int linkIndex = TMP_LinkDetector.FindIntersectingLink(Text, Input.mousePosition, cachedCamera);
             if (linkIndex < 0)
                 HoverEnded();
             else

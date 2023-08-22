@@ -294,8 +294,8 @@ MonoBehaviour:
   m_text: <color=#54A0FFFF><u><link="https://adamgryu.itch.io/a-short-hike"><b>A
     Short Hike</b></link></color></u>
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f864649188b394649a67432803316efe, type: 2}
-  m_sharedMaterial: {fileID: 2369002812299829016, guid: f864649188b394649a67432803316efe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+  m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
