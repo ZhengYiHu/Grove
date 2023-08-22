@@ -10,7 +10,7 @@ public class BackButton : MonoBehaviour
     [SerializeField] Button button;
     [SerializeField] CanvasGroup canvasGroup;
     private static Action OnBackClicked;
-    public static BackButton instance => (BackButton) FindObjectOfType(typeof(BackButton));
+    public static BackButton instance => (BackButton) FindFirstObjectByType(typeof(BackButton));
 
     private void Awake()
     {

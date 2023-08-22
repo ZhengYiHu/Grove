@@ -36,7 +36,6 @@ RectTransform:
   - {fileID: 3751791717434368795}
   - {fileID: 3534791221938424484}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -66,6 +65,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 8710572570872994463}
   appearAnimationDuration: 0.3
   appearAnimationEase: 17
+  bg: {fileID: 2090172241192595465}
 --- !u!114 &7019322672026998480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +125,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3534791221938424484}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -153,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
+  m_Color: {r: 0.3529412, g: 0.10196079, b: 0.58431375, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -203,7 +202,6 @@ RectTransform:
   - {fileID: 163052502989035789}
   - {fileID: 7049434385632456754}
   m_Father: {fileID: 343775891753636776}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -249,7 +247,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -284,33 +281,34 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
-    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
-    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
-    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
+  m_text: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI recently
+    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
+    short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+    that quickly became one of my all time favourites.\nThe chill and cozy vibes
     the game infuses were a refreshing breeze for me since in the latest years the
     dominant genre of games I was exposed to were mostly highly competitive and not
-    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
-    was another big inspiration, and the more I dived into the genre, the more games
-    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+    so much about having a good time anymore.\n\n<color=#5A1A95><b><color=#5A1A95>Animal
+    crossing</color></b></color> was another big inspiration, and the more I dived
+    into the genre, the more games both released and in development I could find
+    on the internet.\n\n<color=#5A1A95FF><b><size=1.3em>Artstyle</size></b></color>\nMy
     not so optimal approach to the development process suggested me to start to work
     on the artstyle and focus on that before even designing a proper game loop and
     core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
-    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    was to <color=#5A1A95>capture the feelings</color> of pleasure and <color=#5A1A95>coziness</color>
+    to contrast the stressful routines I was stucked into. \n\n<color=#5A1A95FF><b><size=1.3em>Downfall</size></b></color>\nBy
+    <color=#5A1A95>not having a defined idea in mind</color> and just working on
     a single aspect of the game made me lose control on what the game should even
-    be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    be about.\nI was spending months developing mechanics, not to reach some result
+    I wanted the game to become, but only because <color=#5A1A95><i>I might need
     it in the future</i></color>, so that I started learning and working on generic
-    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
-    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
-    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
-    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
-    Much</i> during the whole development process since it was the first game I was
-    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
-    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
-    screenshots I took during development</size></b></color>\r\n"
+    game mechanics like movements, physics, dialogue systems and so on... \n\nMy
+    developments approach made me quickly <color=#5A1A95>lose interest</color> on
+    the project, and this is the <color=#5A1A95>mains lesson</color> learn from this
+    project.\nI wouldn't consider it a failure though since I learned <i>Soooo Much</i>
+    during the whole development process since it was the first game I was really
+    putting a lot of effort in.\n\nFor now I will <color=#5A1A95>halt</color> the
+    development, but who knows when I will get to pull it back out from the archives...\n\n\n<color=#5A1A95FF><b><size=1.3em>More
+    screenshots I took during development</size></b></color>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -319,8 +317,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -337,8 +335,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -410,7 +408,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 343775891753636776}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -438,7 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.62352943, b: 0.2627451, a: 1}
+  m_Color: {r: 1, g: 0.94117653, b: 0.8431373, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -486,12 +483,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 2050.3}
+  m_SizeDelta: {x: 0, y: 677.28}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3760437090278290024
 CanvasRenderer:
@@ -521,33 +517,34 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
-    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
-    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
-    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
+  m_text: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI recently
+    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
+    short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+    that quickly became one of my all time favourites.\nThe chill and cozy vibes
     the game infuses were a refreshing breeze for me since in the latest years the
     dominant genre of games I was exposed to were mostly highly competitive and not
-    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
-    was another big inspiration, and the more I dived into the genre, the more games
-    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+    so much about having a good time anymore.\n\n<color=#5A1A95><b><color=#5A1A95>Animal
+    crossing</color></b></color> was another big inspiration, and the more I dived
+    into the genre, the more games both released and in development I could find
+    on the internet.\n\n<color=#5A1A95FF><b><size=1.3em>Artstyle</size></b></color>\nMy
     not so optimal approach to the development process suggested me to start to work
     on the artstyle and focus on that before even designing a proper game loop and
     core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
-    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    was to <color=#5A1A95>capture the feelings</color> of pleasure and <color=#5A1A95>coziness</color>
+    to contrast the stressful routines I was stucked into. \n\n<color=#5A1A95FF><b><size=1.3em>Downfall</size></b></color>\nBy
+    <color=#5A1A95>not having a defined idea in mind</color> and just working on
     a single aspect of the game made me lose control on what the game should even
-    be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    be about.\nI was spending months developing mechanics, not to reach some result
+    I wanted the game to become, but only because <color=#5A1A95><i>I might need
     it in the future</i></color>, so that I started learning and working on generic
-    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
-    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
-    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
-    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
-    Much</i> during the whole development process since it was the first game I was
-    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
-    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
-    screenshots I took during development</size></b></color>\r\n"
+    game mechanics like movements, physics, dialogue systems and so on... \n\nMy
+    developments approach made me quickly <color=#5A1A95>lose interest</color> on
+    the project, and this is the <color=#5A1A95>mains lesson</color> learn from this
+    project.\nI wouldn't consider it a failure though since I learned <i>Soooo Much</i>
+    during the whole development process since it was the first game I was really
+    putting a lot of effort in.\n\nFor now I will <color=#5A1A95>halt</color> the
+    development, but who knows when I will get to pull it back out from the archives...\n\n\n<color=#5A1A95FF><b><size=1.3em>More
+    screenshots I took during development</size></b></color>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -556,8 +553,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -574,8 +571,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -648,12 +645,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3316808142489125537}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 427, y: 197.99}
-  m_SizeDelta: {x: -958.0403, y: -544.5941}
+  m_AnchoredPosition: {x: 289.982, y: 213.214}
+  m_SizeDelta: {x: -684.004, y: -575.043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3956709877646118050
 CanvasRenderer:
@@ -742,7 +738,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -777,33 +772,34 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
-    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
-    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
-    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
+  m_text: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI recently
+    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
+    short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+    that quickly became one of my all time favourites.\nThe chill and cozy vibes
     the game infuses were a refreshing breeze for me since in the latest years the
     dominant genre of games I was exposed to were mostly highly competitive and not
-    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
-    was another big inspiration, and the more I dived into the genre, the more games
-    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+    so much about having a good time anymore.\n\n<color=#5A1A95><b><color=#5A1A95>Animal
+    crossing</color></b></color> was another big inspiration, and the more I dived
+    into the genre, the more games both released and in development I could find
+    on the internet.\n\n<color=#5A1A95FF><b><size=1.3em>Artstyle</size></b></color>\nMy
     not so optimal approach to the development process suggested me to start to work
     on the artstyle and focus on that before even designing a proper game loop and
     core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
-    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
+    was to <color=#5A1A95>capture the feelings</color> of pleasure and <color=#5A1A95>coziness</color>
+    to contrast the stressful routines I was stucked into. \n\n<color=#5A1A95FF><b><size=1.3em>Downfall</size></b></color>\nBy
+    <color=#5A1A95>not having a defined idea in mind</color> and just working on
     a single aspect of the game made me lose control on what the game should even
-    be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
+    be about.\nI was spending months developing mechanics, not to reach some result
+    I wanted the game to become, but only because <color=#5A1A95><i>I might need
     it in the future</i></color>, so that I started learning and working on generic
-    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
-    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
-    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
-    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
-    Much</i> during the whole development process since it was the first game I was
-    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
-    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
-    screenshots I took during development</size></b></color>\r\n"
+    game mechanics like movements, physics, dialogue systems and so on... \n\nMy
+    developments approach made me quickly <color=#5A1A95>lose interest</color> on
+    the project, and this is the <color=#5A1A95>mains lesson</color> learn from this
+    project.\nI wouldn't consider it a failure though since I learned <i>Soooo Much</i>
+    during the whole development process since it was the first game I was really
+    putting a lot of effort in.\n\nFor now I will <color=#5A1A95>halt</color> the
+    development, but who knows when I will get to pull it back out from the archives...\n\n\n<color=#5A1A95FF><b><size=1.3em>More
+    screenshots I took during development</size></b></color>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -812,8 +808,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -830,8 +826,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -884,30 +880,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Source: "\r\n### Inspiration\r\n\r\nI recently played a game [**A short hike**](https://adamgryu.itch.io/a-short-hike)
-    by --**Adamgryu**-- that quickly became one of my all time favourites.\r\nThe
-    chill and cozy vibes the game infuses were a refreshing breeze for me since in
-    the latest years the dominant genre of games I was exposed to were mostly highly
-    competitive and not so much about having a good time anymore.\r\n\r\n--**Animal
-    crossing**-- was another big inspiration, and the more I dived into the genre,
-    the more games both released and in development I could find on the internet.\r\n\r\n###
-    Artstyle\r\n\r\nMy not so optimal approach to the development process suggested
-    me to start to work on the artstyle and focus on that before even designing a
-    proper game loop and core mechanics... which made sense to me at the time since
-    the main motivation was to --capture the feelings-- of pleasure and --coziness--
-    to contrast the stressful routines I was stucked into. \r\n\r\n### Downfall\r\n\r\nBy
-    --not having a defined idea in mind-- and just working on a single aspect of
-    the game made me lose control on what the game should even be about.\r\nI was
-    spending months developing mechanics, not to reach some result I wanted the game
-    to become, but only because --*I might need it in the future*--, so that I started
-    learning and working on generic game mechanics like movements, physics, dialogue
-    systems and so on... \r\n\r\nMy developments approach made me quickly --lose
-    interest-- on the project, and this is the --mains lesson-- learn from this project.\r\nI
-    wouldn't consider it a failure though since I learned *Soooo Much* during the
-    whole development process since it was the first game I was really putting a
-    lot of effort in.\r\n\r\nFor now I will --halt-- the development, but who knows
-    when I will get to pull it back out from the archives...\r\n\r\n\r\n### More
-    screenshots I took during development\r\n"
+  _Source: "\n#### Inspiration\n\nI recently played a game [**A short hike**](https://adamgryu.itch.io/a-short-hike)
+    by --**Adamgryu**-- that quickly became one of my all time favourites.\nThe chill
+    and cozy vibes the game infuses were a refreshing breeze for me since in the
+    latest years the dominant genre of games I was exposed to were mostly highly
+    competitive and not so much about having a good time anymore.\n\n--**Animal crossing**--
+    was another big inspiration, and the more I dived into the genre, the more games
+    both released and in development I could find on the internet.\n\n#### Artstyle\n\nMy
+    not so optimal approach to the development process suggested me to start to work
+    on the artstyle and focus on that before even designing a proper game loop and
+    core mechanics... which made sense to me at the time since the main motivation
+    was to --capture the feelings-- of pleasure and --coziness-- to contrast the
+    stressful routines I was stucked into. \n\n#### Downfall\n\nBy --not having a
+    defined idea in mind-- and just working on a single aspect of the game made me
+    lose control on what the game should even be about.\nI was spending months developing
+    mechanics, not to reach some result I wanted the game to become, but only because
+    --*I might need it in the future*--, so that I started learning and working on
+    generic game mechanics like movements, physics, dialogue systems and so on...
+    \n\nMy developments approach made me quickly --lose interest-- on the project,
+    and this is the --mains lesson-- learn from this project.\nI wouldn't consider
+    it a failure though since I learned *Soooo Much* during the whole development
+    process since it was the first game I was really putting a lot of effort in.\n\nFor
+    now I will --halt-- the development, but who knows when I will get to pull it
+    back out from the archives...\n\n\n#### More screenshots I took during development\n"
   RenderSettings:
     Bold:
       RenderBold: 1
@@ -965,7 +960,7 @@ MonoBehaviour:
         Underline: 0
         Case: 0
         VerticalSpacing: 0
-        Color: {r: 0.3294118, g: 0.627451, b: 1, a: 1}
+        Color: {r: 0.3529412, g: 0.10196079, b: 0.58431375, a: 1}
     Superscript:
       RenderSuperscript: 0
       RenderChainSuperscript: 1
@@ -1048,12 +1043,11 @@ RectTransform:
   - {fileID: 2095560725518568146}
   - {fileID: 9030277126290312893}
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 930.0972}
+  m_SizeDelta: {x: 0, y: 902.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1170675494345205499
 CanvasRenderer:
@@ -1095,12 +1089,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3316808142489125537}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 427, y: -272.3}
-  m_SizeDelta: {x: -958.0403, y: -544.5941}
+  m_AnchoredPosition: {x: 289.98, y: -187}
+  m_SizeDelta: {x: -753.6, y: -592.442}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5677650301998232483
 CanvasRenderer:
@@ -1185,7 +1178,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3751791717711387390}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1229,8 +1221,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4289757850
+  m_fontColor: {r: 0.6029773, g: 0.51001245, b: 0.6886792, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1247,8 +1239,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70.01
-  m_fontSizeBase: 70.01
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1320,7 +1312,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3534791221938424484}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1364,8 +1355,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294942804
-  m_fontColor: {r: 0.32941177, g: 0.627451, b: 1, a: 1}
+    rgba: 4287961690
+  m_fontColor: {r: 0.3529412, g: 0.10196079, b: 0.58431375, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1455,7 +1446,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3534791221938424484}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1483,7 +1473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.62352943, b: 0.2627451, a: 1}
+  m_Color: {r: 1, g: 0.94117653, b: 0.8431373, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1534,12 +1524,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3316808142489125537}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -383, y: 197.99}
-  m_SizeDelta: {x: -874.025, y: -506.48}
+  m_AnchoredPosition: {x: -315.578, y: 222.74}
+  m_SizeDelta: {x: -739.182, y: -555.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8376374615577559124
 CanvasRenderer:
@@ -1582,6 +1571,7 @@ VideoPlayer:
   m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
+  m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
@@ -1642,8 +1632,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 343775891753636776}
     m_Modifications:
+    - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Size
+      value: 0.19630022
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3804619280923133322, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Name
       value: ScrollView
@@ -1741,14 +1740,61 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660769848399880575, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6238756100224418174}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463903381376336175}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4945649870526259576}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1915358545227929103}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3382551259792035554}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 559866623410281475}
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570478, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3316808142489125537}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3804619281184570477, guid: 695ac4fac9025514497058539a0b9175, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 463749795}
   m_SourcePrefab: {fileID: 100100000, guid: 695ac4fac9025514497058539a0b9175, type: 3}
 --- !u!224 &3751791717434368795 stripped
 RectTransform:
@@ -1800,6 +1846,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3751791717711387390}
     m_Modifications:
     - target: {fileID: 84526564599810776, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
@@ -1896,36 +1943,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_text
-      value: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
-        recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
-        short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
-        that quickly became one of my all time favourites.\r\nThe chill and cozy
-        vibes the game infuses were a refreshing breeze for me since in the latest
-        years the dominant genre of games I was exposed to were mostly highly competitive
-        and not so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal
-        crossing</b></color> was another big inspiration, and the more I dived into
-        the genre, the more games both released and in development I could find on
-        the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
+      value: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI
+        recently played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
+        short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+        that quickly became one of my all time favourites.\nThe chill and cozy vibes
+        the game infuses were a refreshing breeze for me since in the latest years
+        the dominant genre of games I was exposed to were mostly highly competitive
+        and not so much about having a good time anymore.\n\n<color=#5A1A95><b><color=#5A1A95>Animal
+        crossing</color></b></color> was another big inspiration, and the more I
+        dived into the genre, the more games both released and in development I could
+        find on the internet.\n\n<color=#5A1A95FF><b><size=1.3em>Artstyle</size></b></color>\nMy
         not so optimal approach to the development process suggested me to start
         to work on the artstyle and focus on that before even designing a proper
         game loop and core mechanics... which made sense to me at the time since
-        the main motivation was to <color=#54A0FFFF>capture the feelings</color>
-        of pleasure and <color=#54A0FFFF>coziness</color> to contrast the stressful
-        routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
-        <color=#54A0FFFF>not having a defined idea in mind</color> and just working
+        the main motivation was to <color=#5A1A95>capture the feelings</color> of
+        pleasure and <color=#5A1A95>coziness</color> to contrast the stressful routines
+        I was stucked into. \n\n<color=#5A1A95FF><b><size=1.3em>Downfall</size></b></color>\nBy
+        <color=#5A1A95>not having a defined idea in mind</color> and just working
         on a single aspect of the game made me lose control on what the game should
-        even be about.\r\nI was spending months developing mechanics, not to reach
-        some result I wanted the game to become, but only because <color=#54A0FFFF><i>I
+        even be about.\nI was spending months developing mechanics, not to reach
+        some result I wanted the game to become, but only because <color=#5A1A95><i>I
         might need it in the future</i></color>, so that I started learning and working
         on generic game mechanics like movements, physics, dialogue systems and so
-        on... \r\n\r\nMy developments approach made me quickly <color=#54A0FFFF>lose
-        interest</color> on the project, and this is the <color=#54A0FFFF>mains lesson</color>
-        learn from this project.\r\nI wouldn't consider it a failure though since
-        I learned <i>Soooo Much</i> during the whole development process since it
-        was the first game I was really putting a lot of effort in.\r\n\r\nFor now
-        I will <color=#54A0FFFF>halt</color> the development, but who knows when
-        I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
-        screenshots I took during development</size></b></color>\r\n"
+        on... \n\nMy developments approach made me quickly <color=#5A1A95>lose interest</color>
+        on the project, and this is the <color=#5A1A95>mains lesson</color> learn
+        from this project.\nI wouldn't consider it a failure though since I learned
+        <i>Soooo Much</i> during the whole development process since it was the first
+        game I was really putting a lot of effort in.\n\nFor now I will <color=#5A1A95>halt</color>
+        the development, but who knows when I will get to pull it back out from the
+        archives...\n\n\n<color=#5A1A95FF><b><size=1.3em>More screenshots I took
+        during development</size></b></color>\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_linkedTextComponent
@@ -1958,7 +2041,15 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
     - {fileID: 972846679097988651, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+--- !u!224 &3382551259792035554 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 276321050267989967, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+  m_PrefabInstance: {fileID: 3252879814752467245}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4062978647192555772 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
@@ -1975,6 +2066,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3751791717711387390}
     m_Modifications:
     - target: {fileID: 205610010805942545, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
@@ -2066,6 +2158,75 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_text
+      value: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI
+        recently played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
+        short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+        that quickly became one of my all time favourites.\nThe chill and cozy vibes
+        the game infuses were a refreshing breeze for me since in the latest years
+        the dominant genre of games I was exposed to were mostly highly competitive
+        and not so much about having a good time anymore.\n\n<color=#5A1A95><b><color=#5A1A95>Animal
+        crossing</color></b></color> was another big inspiration, and the more I
+        dived into the genre, the more games both released and in development I could
+        find on the internet.\n\n<color=#5A1A95FF><b><size=1.3em>Artstyle</size></b></color>\nMy
+        not so optimal approach to the development process suggested me to start
+        to work on the artstyle and focus on that before even designing a proper
+        game loop and core mechanics... which made sense to me at the time since
+        the main motivation was to <color=#5A1A95>capture the feelings</color> of
+        pleasure and <color=#5A1A95>coziness</color> to contrast the stressful routines
+        I was stucked into. \n\n<color=#5A1A95FF><b><size=1.3em>Downfall</size></b></color>\nBy
+        <color=#5A1A95>not having a defined idea in mind</color> and just working
+        on a single aspect of the game made me lose control on what the game should
+        even be about.\nI was spending months developing mechanics, not to reach
+        some result I wanted the game to become, but only because <color=#5A1A95><i>I
+        might need it in the future</i></color>, so that I started learning and working
+        on generic game mechanics like movements, physics, dialogue systems and so
+        on... \n\nMy developments approach made me quickly <color=#5A1A95>lose interest</color>
+        on the project, and this is the <color=#5A1A95>mains lesson</color> learn
+        from this project.\nI wouldn't consider it a failure though since I learned
+        <i>Soooo Much</i> during the whole development process since it was the first
+        game I was really putting a lot of effort in.\n\nFor now I will <color=#5A1A95>halt</color>
+        the development, but who knows when I will get to pull it back out from the
+        archives...\n\n\n<color=#5A1A95FF><b><size=1.3em>More screenshots I took
+        during development</size></b></color>\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_linkedTextComponent
       value: 
       objectReference: {fileID: 4569550140174271976}
@@ -2096,7 +2257,15 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
     - {fileID: 972846679097988651, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+--- !u!224 &4945649870526259576 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 276321050267989967, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+  m_PrefabInstance: {fileID: 5149807750951409335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5922760881337286502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}

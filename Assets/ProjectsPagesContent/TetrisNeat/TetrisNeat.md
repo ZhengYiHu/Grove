@@ -2,7 +2,7 @@
 #### --N--euro --E--volution of --A--ugmenting --T--opologies
 
 
-### NEAT
+#### NEAT
 This is my final year project in King's College London where I worked on a Tetris AI implementing the **[NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) algorithm**.
 **Full Repository available [HERE](https://github.com/ZhengYiHu/TetrisNeat)**.
 

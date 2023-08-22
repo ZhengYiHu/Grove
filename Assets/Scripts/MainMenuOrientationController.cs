@@ -6,13 +6,15 @@ public class MainMenuOrientationController : MonoBehaviour
 {
     bool previousOrientation;
     const float MenuAnchor = 0.6f;
-    const float PreviewAnchor = 0.5f;
     const float FullScreenAnchor = 1;
     const float BeginScreenAnchor = 0;
     [SerializeField]
     RectTransform menuTransform;
     [SerializeField]
-    RectTransform previewTransform;
+    PreviewElement previewElement;
+
+    RectTransform previewOriginalTransform => previewElement.originalTransform;
+    RectTransform previewTransform => (RectTransform) previewElement.transform;
 
     private void Awake()
     {
@@ -39,12 +41,14 @@ public class MainMenuOrientationController : MonoBehaviour
     void VerticalMode()
     {
         menuTransform.anchorMax = new Vector2(FullScreenAnchor, MenuAnchor);
-        previewTransform.anchorMin = new Vector2(BeginScreenAnchor, PreviewAnchor);
+        previewTransform.anchorMin = new Vector2(BeginScreenAnchor, MenuAnchor);
+        previewOriginalTransform.anchorMin = new Vector2(BeginScreenAnchor, MenuAnchor);
     }
 
     void LandscapeMode()
     {
         menuTransform.anchorMax = new Vector2(MenuAnchor, FullScreenAnchor);
         previewTransform.anchorMin = new Vector2(MenuAnchor, BeginScreenAnchor);
+        previewOriginalTransform.anchorMin = new Vector2(MenuAnchor, BeginScreenAnchor);
     }
 }

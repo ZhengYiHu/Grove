@@ -5,8 +5,8 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
     class Bold : SimpleMarkdownTag
     {
         protected override string MarkdownIndicator => "**";
-        protected override string RichTextOpenTag => "<b>";
-        protected override string RichTextCloseTag => "</b>";
+        protected override string RichTextOpenTag => "<b><color=#5A1A95>";
+        protected override string RichTextCloseTag => "</color></b>";
 
         protected override char? IgnoreContents => '*';
 
@@ -16,7 +16,7 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
     class Highlight : SimpleMarkdownTag
     {
         protected override string MarkdownIndicator => "--";
-        protected override string RichTextOpenTag => $"<color=#54A0FFFF>";
+        protected override string RichTextOpenTag => $"<color=#5A1A95>";
         protected override string RichTextCloseTag => "</color>";
 
         protected override char? IgnoreContents => '*';

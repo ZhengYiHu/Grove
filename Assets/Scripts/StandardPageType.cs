@@ -3,25 +3,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StandardPageType : PageType, IPageType
+public class StandardPageType : PageType
 {
-    public override UniTask ShowPageContent()
-    {
-        fullScreenContentPage.SetBlockRaycast(true);
-        fullScreenContentPage.ShowStandardContentPage();
-        fullScreenContentPage.ResetWipeValue();
+    [SerializeField]
+    private ContentPage contentPagePrefab;
+    [SerializeField]
+    private MainContentPage fullScreenContentPage;
 
-        //Instantiate content Page
-        contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
-        BackButton.ReplaceListener(OnBackPressed);
-
-        return base.ShowPageContent();
+    public override Color bgColor {
+        get { return contentPagePrefab.bgColor; }
     }
 
-    public async override void OnBackPressed()
+    public override UniTask ShowPageContent()
+    {
+        UniTaskCompletionSource animationCompleteSource = new UniTaskCompletionSource();
+        fullScreenContentPage.SetBlockRaycast(true);
+        fullScreenContentPage.ShowStandardContentPage();
+
+        //Instantiate content Page
+        Instantiate(contentPagePrefab, fullScreenContentPage.transform);
+        BackButton.ReplaceListener(OnBackPressed);
+
+        fullScreenContentPage.gameObject.SetActive(true);
+        animationCompleteSource.TrySetResult();
+        return animationCompleteSource.Task;
+    }
+
+    public override void OnBackPressed()
     {
         BackButton.instance.AnimateOut();
-        await fullScreenContentPage.ShowMenu(false);
-        base.OnBackPressed();
+        fullScreenContentPage.ShowMenu();
     }
 }

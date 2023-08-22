@@ -104,7 +104,7 @@ namespace LogicUI.FancyTextRendering.MarkdownLogic
 
                     if (info.Color != Color.white)
                     {
-                        builder_.Prepend($"<color=#{ColorUtility.ToHtmlStringRGBA(settings.Links.LinkColor)}>").Append("</color>");
+                        builder_.Prepend($"<color=#{ColorUtility.ToHtmlStringRGBA(info.Color)}>").Append("</color>");
                     }
 
                     switch (info.Case)

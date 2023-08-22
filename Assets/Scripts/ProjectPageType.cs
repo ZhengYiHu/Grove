@@ -1,39 +1,41 @@
 using Cysharp.Threading.Tasks;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ProjectPageType : PageType
 {
-    public async override UniTask ShowPageContent()
+    [SerializeField]
+    public ProjectTemplate projectTemplate;
+    MainContentPage mainContentPage;
+    protected ContentPage contentPage;
+
+    public override Color bgColor
     {
-        base.ShowPageContent();
-        fullScreenContentPage.SetBlockRaycast(true);
-        BackButton.SetInteractable(false);
-        await fullScreenContentPage.ShowProject();
-        contentPage = Instantiate(contentPagePrefab, fullScreenContentPage.transform);
-        fullScreenContentPage.ResetWipeValue();
+        get { return projectTemplate.contentPage.bgColor; }
+    }
+
+    private void Start()
+    {
+        mainContentPage = FindFirstObjectByType<MainContentPage>();
+    }
+
+    public override UniTask ShowPageContent()
+    {
+        contentPage = Instantiate(projectTemplate.contentPage, mainContentPage.transform);
         BackButton.ReplaceListener(OnBackPressed);
         BackButton.SetInteractable(true);
+        return new UniTask();
     }
 
-    public async override void OnBackPressed()
+    public override void OnBackPressed()
     {
         if (contentPage != null) Destroy(contentPage.gameObject);
-        fullScreenContentPage.Show3DScene();
-        BackButton.ReplaceListener(ShowMainMenu);
-        fullScreenContentPage.SetBlockRaycast(false);
-    }
-
-    private async void ShowMainMenu()
-    {
-        BackButton.instance.AnimateOut();
-        await fullScreenContentPage.ShowMenu();
-        base.OnBackPressed();
-    }
-
-    public void ReplaceContentPage(ContentPage newPage)
-    {
-        contentPagePrefab = newPage;
+        BackButton.ReplaceListener(async() =>
+        {
+            BackButton.instance.AnimateOut();
+            mainContentPage.ShowMenu();
+        });
     }
 }

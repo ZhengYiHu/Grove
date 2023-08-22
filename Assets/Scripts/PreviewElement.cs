@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PreviewElement : MonoBehaviour
 {
@@ -23,13 +24,19 @@ public class PreviewElement : MonoBehaviour
     [SerializeField] PreviewElementPage[] previewPages;
     [SerializeField] MainContentPage fullScreenContentPage;
 
+    [Space]
+    [SerializeField] Image previewBG;
+
     int activePageIndex = 0;
     Vector3 initialRotation;
-    RectTransform originalTransform;
+    [HideInInspector]
+    public RectTransform originalTransform;
+    Color originalColor;
 
     private void Awake()
     {
         originalTransform = RectTransformHelper.Clone(transform as RectTransform);
+        originalColor = previewBG.color;
         EnableOnPointerListeners(true);
         MenuButton.OnButtonClick += OnMenuOptionClicked;
         //Restore listeners when back on menu
@@ -140,7 +147,12 @@ public class PreviewElement : MonoBehaviour
     {
         float animationTime = clickedOption.animatePreviewArea ? fullScreenAnimationDuration : 0;
         RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, fullScreenContentPage.transform as RectTransform);
-        LeanTween.value(gameObject, 0, 1, animationTime).setOnComplete(clickedOption.ShowPageContent);
+        LeanTween.value(gameObject, 0, 1, animationTime);
+        LeanTween.imageColor((RectTransform) previewBG.transform, clickedOption.pageBgColor, animationTime).setOnComplete(() =>
+        {
+            clickedOption.ShowPageContent();
+        });
+
         //Hide preview pages
         ShowAllPreviewPages(false);
         EnableOnPointerListeners(false);
@@ -168,5 +180,7 @@ public class PreviewElement : MonoBehaviour
         //Restore initial preview window size
         RectTransformHelper.FakeAnimateRectTransformTo(transform as RectTransform, originalTransform);
         SetInitialWindowPosition();
+
+        previewBG.color = originalColor;
     }
 }

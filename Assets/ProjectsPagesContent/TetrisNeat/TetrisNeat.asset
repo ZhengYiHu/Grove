@@ -16,4 +16,4 @@ MonoBehaviour:
   subtitle: a Tetris AI implementation using NEAT for my final year's thesis.
   bodyAsset: {fileID: 4900000, guid: cd83fa7e3fef089478ccbc4843da7c0f, type: 3}
   previewImage: {fileID: 21300000, guid: bd8ce9d6d94360b4f94b12995440bf3c, type: 3}
-  modelPrefab: {fileID: 919132149155446097, guid: e0d6584fff959814f8ccded7c79018e2, type: 3}
+  contentPage: {fileID: 7981384048105880529, guid: bbf5c7c62afd28c46883c6c8fde4142c, type: 3}

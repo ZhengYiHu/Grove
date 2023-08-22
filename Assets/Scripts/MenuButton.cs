@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] PreviewElementPage associatedPage;
-    [SerializeField] PageType pageType;
+    [SerializeReference] PageType pageType;
     [SerializeField] Image outline;
     [SerializeField] CanvasGroup canvasGroup;
     public static Action<MenuButton> OnButtonEnter;
@@ -20,6 +20,9 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     [SerializeField] float animationDuration = 0.5f;
     [SerializeField] float scaleRatio = 1.2f;
     [SerializeField] public bool animatePreviewArea = true;
+
+    public Color pageBgColor => pageType.bgColor;
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         LeanTween.scale(gameObject, new Vector3(scaleRatio, scaleRatio, scaleRatio), animationDuration).setEase(inType);

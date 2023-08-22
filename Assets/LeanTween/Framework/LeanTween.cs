@@ -197,6 +197,7 @@ public enum TweenAction{
     CANVAS_SCALE,
     CANVAS_SIZEDELTA,
     FOLLOW,
+    IMAGE_COLOR
 
 }
 
@@ -1108,6 +1109,11 @@ public class LeanTween : MonoBehaviour {
         return lt;
     }
 
+    public static LTDescr imageColor(RectTransform rectTransform, Color to, float time)
+    {
+        return pushNewTween(rectTransform.gameObject, new Vector3(1.0f, to.a, 0.0f), time, options().setImageColor().setPoint(new Vector3(to.r, to.g, to.b)));
+    }
+
     /**
     * <summary>Fade a GUI Object</summary>
     * 
@@ -1118,7 +1124,7 @@ public class LeanTween : MonoBehaviour {
     * @return {LTDescr} LTDescr an object that distinguishes the tween
     * @example
     * LeanTween.alpha(ltRect, 1f, 1f) .setEase(LeanTweenType.easeInCirc);
-    */  
+    */
     public static LTDescr alpha(LTRect ltRect, float to, float time){
         ltRect.alphaEnabled = true;
         return pushNewTween( tweenEmpty, new Vector3(to,0f,0f), time, options().setGUIAlpha().setRect( ltRect ) );

@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -12,7 +9,6 @@ public class VideoPathSetter : MonoBehaviour
 {
     [SerializeField] VideoPlayer videoPlayer;
     [SerializeField] string videoClipName;
-    const string videoAssetPath = "WebGLTemplates/Fullscreen/StreamingAssets";
     void Start()
     {
         if(videoPlayer == null)
@@ -21,7 +17,7 @@ public class VideoPathSetter : MonoBehaviour
         }
 #if UNITY_EDITOR
         videoPlayer.source = VideoSource.VideoClip;
-        videoPlayer.url = System.IO.Path.Combine(Application.dataPath, videoAssetPath, videoClipName)+".mp4";
+        videoPlayer.url = System.IO.Path.Combine(Application.dataPath, GameConstats.WEBGLBUILD_STREAMING_ASSETS_PATH, videoClipName)+".mp4";
 #else
         videoPlayer.source = VideoSource.Url;
         videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, videoClipName) + ".mp4";
