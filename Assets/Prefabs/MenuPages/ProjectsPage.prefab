@@ -602,6 +602,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7981384048105880529, guid: 54efb3d2d58c8904380595757ae24da3, type: 3}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A Jam game made in one week for Brackeys Game Jam 2021.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -612,6 +616,10 @@ PrefabInstance:
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Lamp Maze
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
@@ -752,6 +760,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1f94dd68bf2e74594b06b5200a87ef57, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A unity game that simulates a website view in Unity WebGL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -762,6 +774,10 @@ PrefabInstance:
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: This Website
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
@@ -778,6 +794,10 @@ PrefabInstance:
     - target: {fileID: 7385895522724014584, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Name
       value: Portfolio
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385895522724014584, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7554108668949005465, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -879,6 +899,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: ZyLogoBG
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -899,7 +923,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.16164567
+      value: 0.16134472
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -1086,6 +1110,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 01f7cc98598fc4148b8bf103efb10911, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A small open world exploration game
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -1096,6 +1124,10 @@ PrefabInstance:
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Untitled Game
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
@@ -1213,6 +1245,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: beach_view
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1244,6 +1280,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a028d5e8c93a6d94d913e673e07a2af7, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: a Tetris AI implementation using NEAT for my final year's thesis.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -1254,6 +1294,10 @@ PrefabInstance:
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Tetris Neat
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
@@ -1387,6 +1431,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: tetris
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1421,6 +1469,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: bef4b7138f28d7d4cb83427becd7f74e, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: We ride the currents of the breeze around the world to bring happiness
+        to everyone.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -1431,6 +1484,10 @@ PrefabInstance:
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Playwind Games
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
@@ -1547,6 +1604,10 @@ PrefabInstance:
     - target: {fileID: 8755079213744447823, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: Playwind_BG
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

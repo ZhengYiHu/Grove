@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using NaughtyAttributes;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,6 +22,12 @@ public class ProjectView : MonoBehaviour
 
         title.text = template.title;
         description.text = template.subtitle;
+    }
+
+    [Button]
+    private void Reset()
+    {
+        ProjectTemplate template = page.projectTemplate;
         previewImage.imageName = template.previewImage.name;
     }
 }
