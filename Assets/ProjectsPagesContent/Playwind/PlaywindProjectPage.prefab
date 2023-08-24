@@ -290,8 +290,9 @@ MonoBehaviour:
     During
     my time at <color=#54A0FFFF><b><u><link="https://www.playwindgames.com">Playwind
     Games</link></color></u></b> I had the privilege to work on a wide variety of
-    games in different stages of development. From bigger projects like <b><color=#5A1A95><color=#54A0FFFF><b><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.cityboomglobal">City
-    Boom</link></color></u></b></color></b> to leaner Hypercasual games like <b><color=#5A1A95><color=#54A0FFFF><b><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.superstore">Super
+    games in different stages of development. From bigger projects like <color=#54A0FFFF><b><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.cityboomglobal">City
+    Boom</link></color></u></b> or <color=#54A0FFFF><b><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.miiworld&hl=en_US">Mii
+    World</link></color></u></b> to leaner Hypercasual games like <b><color=#5A1A95><color=#54A0FFFF><b><u><link="https://play.google.com/store/apps/details?id=com.playwindgames.superstore">Super
     Store Sort</link></color></u></b></color></b>, I had the chance to familiarize
     with <color=#5A1A95><b><color=#5A1A95>integrating</color></b></color> onto existing
     well established code bases as well as <b><color=#5A1A95><color=#5A1A95>designing
@@ -384,7 +385,8 @@ MonoBehaviour:
 
     During my time at [Playwind Games](https://www.playwindgames.com)
     I had the privilege to work on a wide variety of games in different stages of
-    development. From bigger projects like **[City Boom](https://play.google.com/store/apps/details?id=com.playwindgames.cityboomglobal)**
+    development. From bigger projects like [City Boom](https://play.google.com/store/apps/details?id=com.playwindgames.cityboomglobal)
+    or [Mii World](https://play.google.com/store/apps/details?id=com.playwindgames.miiworld&hl=en_US)
     to leaner Hypercasual games like **[Super Store Sort](https://play.google.com/store/apps/details?id=com.playwindgames.superstore)**,
     I had the chance to familiarize with --**integrating**-- onto existing well established
     code bases as well as **--designing and implementing--** new and robust systems
@@ -509,6 +511,7 @@ GameObject:
   - component: {fileID: 3277120562730152356}
   - component: {fileID: 8233789292639094442}
   - component: {fileID: 5726282282061560510}
+  - component: {fileID: 1394615031858913924}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -563,7 +566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f75bad2c2d585461da0b82858efd48f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aefba38f7fba44d84bc9084bc105fa1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -573,6 +576,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1394615031858913924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3505534871024124199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 5726282282061560510}
+  imageName: Mii
 --- !u!1 &5723736946442048604
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +676,7 @@ GameObject:
   - component: {fileID: 5254683942225246575}
   - component: {fileID: 5725979732072124149}
   - component: {fileID: 4206619496780394375}
+  - component: {fileID: 2908647131603734802}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -713,7 +731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a510c35791faea7439d0a3940dcea58f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8fb682847a394815819ac76728517f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -723,6 +741,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2908647131603734802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5723790394336945444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 4206619496780394375}
+  imageName: superstore
 --- !u!1 &5894293091670505736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,6 +1148,7 @@ GameObject:
   - component: {fileID: 3017268138390913033}
   - component: {fileID: 2515735740257825637}
   - component: {fileID: 8661617462695271799}
+  - component: {fileID: 1655201082424557060}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1170,7 +1203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1850e80ad8222b047a554997a40e69ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 12e8d22e6bab04829bbaa8f1d29e9012, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1180,6 +1213,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1655201082424557060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8358027743007575071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 8661617462695271799}
+  imageName: cityboom
 --- !u!1001 &62403488518973072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1190,7 +1237,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.41754368
+      value: 0.20353192
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value

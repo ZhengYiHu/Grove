@@ -92,7 +92,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.09
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 4155441303555645965}
   - component: {fileID: 7109268814410054043}
   - component: {fileID: 1646256328485703284}
+  - component: {fileID: 8981286710765955883}
   m_Layer: 5
   m_Name: ProjectIcon
   m_TagString: Untagged
@@ -421,6 +422,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 75
   image: {fileID: 7109268814410054043}
+--- !u!114 &8981286710765955883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076080070749699317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 7109268814410054043}
+  imageName: LampMaze1
 --- !u!1 &7385895522724014584
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +533,7 @@ MonoBehaviour:
   page: {fileID: 1839282406843968448}
   title: {fileID: 7239304936150440541}
   description: {fileID: 5311255084811157695}
-  previewImage: {fileID: 7109268814410054043}
+  previewImage: {fileID: 8981286710765955883}
 --- !u!114 &1952803320354625821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,7 +674,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

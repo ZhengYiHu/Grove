@@ -619,7 +619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -768,6 +768,10 @@ PrefabInstance:
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
@@ -895,7 +899,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.33063456
+      value: 0.16164567
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -1098,6 +1102,10 @@ PrefabInstance:
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
@@ -1265,7 +1273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -1427,6 +1435,10 @@ PrefabInstance:
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
