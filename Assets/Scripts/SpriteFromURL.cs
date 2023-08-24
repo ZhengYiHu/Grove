@@ -26,8 +26,8 @@ public class SpriteFromURL : MonoBehaviour
 #else
         string targetUrl = System.IO.Path.Combine(Application.streamingAssetsPath, imageName) + ".png";
 #endif
-        Texture2D myTexture = await TexturesRepository.GetTexture(targetUrl);
-        img.sprite = Sprite.Create(myTexture, new Rect(0, 0, myTexture.width, myTexture.height), new Vector2(0.5f, 0.5f));
+
+        img.sprite = await SpritesRepository.GetSprite(targetUrl);
     }
 
 #if UNITY_EDITOR
