@@ -4,7 +4,10 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class TexturesRepository : AssetRepository<Texture2D>
+/// <summary>
+/// Cache repository that fetches an asset from the URL if it didn't exist, and retrieve if it does
+/// </summary>
+public static class TexturesRepository
 {
    static Dictionary<string, Texture2D> repository = new Dictionary<string, Texture2D>();
 
