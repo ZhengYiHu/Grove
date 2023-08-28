@@ -3,6 +3,7 @@ Source code is available on my [Github Repository](https://github.com/ZhengYiHu/
 ## Website
 
 I created a new [WebGL Template](https://docs.unity3d.com/Manual/webgl-templates.html) that would position my game in a Canvas object that will expand over the whole screen to simulate a FullScreen window.
+Check my [Full Screen WebGL Template](https://github.com/ZhengYiHu/WebGL_Fullscreen_Template) for more information.
 
 The build is then hosted hosted on [Github Pages](https://pages.github.com/) and is inspired by it's default static site system to add content in the form of **Markdown** files.
 
