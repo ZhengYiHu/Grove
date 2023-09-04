@@ -1,6 +1,6 @@
 #### Where to play
 
-The game is available on my [Itch](https://zyhu.itch.io/fwogame) or right [HERE](https://zyhu.me/fwogame)!
+The game is available on my [Itch](https://zyhu.itch.io/fwogame) or right [HERE](https://zyhu.me/Fwogame)!
 
 Source code available on my [Github](https://github.com/ZhengYiHu/Fwogame)
 
