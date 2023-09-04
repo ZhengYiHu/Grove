@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1581,6 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 97977184027824793}
+  rawImage: {fileID: 5786246988423025031}
   videoClipName: game_waterfall
 --- !u!328 &97977184027824793
 VideoPlayer:
@@ -1667,7 +1668,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.09768707
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -2068,6 +2069,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -0.000061035
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00012207031
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
     - {fileID: 972846679097988651, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
@@ -2283,6 +2292,14 @@ PrefabInstance:
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.000091553
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000061035156
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}

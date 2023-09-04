@@ -14,7 +14,7 @@ public class ProjectView : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI description;
     [SerializeField]
-    SpriteFromURL previewImage;
+    Image previewImage;
 
     public void Start()
     {
@@ -28,6 +28,6 @@ public class ProjectView : MonoBehaviour
     private void Reset()
     {
         ProjectTemplate template = page.projectTemplate;
-        previewImage.imageName = template.previewImage.name;
+        previewImage.sprite = template.previewImage;
     }
 }

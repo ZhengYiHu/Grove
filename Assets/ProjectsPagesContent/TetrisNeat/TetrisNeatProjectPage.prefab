@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 150
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1427,7 +1427,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0
+      value: 0.46091965
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -1630,6 +1630,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3751791717711387390}
     m_Modifications:
     - target: {fileID: 84526564599810776, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_AspectRatio
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 84526564599810776, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 92876036a4cba0b4e810913703a4123a, type: 2}
@@ -1818,6 +1822,14 @@ PrefabInstance:
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
