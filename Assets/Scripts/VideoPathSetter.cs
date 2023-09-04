@@ -1,7 +1,8 @@
 #if UNITY_EDITOR
-using Cysharp.Threading.Tasks;
 using UnityEditor;
 #endif
+
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
