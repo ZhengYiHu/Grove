@@ -16,5 +16,5 @@ MonoBehaviour:
   subtitle: We ride the currents of the breeze around the world to bring happiness
     to everyone.
   bodyAsset: {fileID: 4900000, guid: 3e582048d1c55994cbf8f209772da47f, type: 3}
-  previewImage: {fileID: 21300000, guid: 03551a54e89cd334faa8313014d1f7ec, type: 3}
+  previewImage: {fileID: 21300000, guid: afd1eb84d796e4b0c8e37acde82a693a, type: 3}
   contentPage: {fileID: 7981384048105880529, guid: a55cea8706448cf4b82cf3c02cce743c, type: 3}

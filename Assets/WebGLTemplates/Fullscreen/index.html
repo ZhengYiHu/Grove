@@ -22,17 +22,16 @@
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL.loader.js";
+      var buildUrl = "Build/";
+      var loaderUrl = buildUrl + "{{{LOADER_FILENAME}}}";
       var config = {
-        dataUrl: buildUrl + "/WebGL.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL.wasm.unityweb",
+        dataUrl: buildUrl + "{{{DATA_FILENAME}}}",
+        frameworkUrl: buildUrl + "{{{FRAMEWORK_FILENAME}}}",
+        codeUrl: buildUrl + "{{{CODE_FILENAME}}}",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Grove",
-        productVersion: "0.1",
+        companyName: "{{{COMPANY_NAME}}}",
+        productName: "{{{PRODUCT_NAME}}}",
+        productVersion: "{{{PRODUCT_VERSION}}}"
       };
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -43,7 +42,7 @@
         canvas.style.width = "100%";
         canvas.style.height = "100%";
       }
-      canvas.style.background = "url('" + buildUrl + "/WebGL.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/{{{ BACKGROUND_FILENAME.replace('.unityweb', '') }}}') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");

@@ -31,6 +31,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5065301608497889175}
+  - {fileID: 7533139076949497523}
   - {fileID: 4316320358877317751}
   - {fileID: 7775907367895404765}
   - {fileID: 6768376343266789255}
@@ -40,7 +41,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 2279.1}
+  m_SizeDelta: {x: 0, y: 2634.2554}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &3490312506045429908
 CanvasRenderer:
@@ -602,6 +603,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7981384048105880529, guid: 54efb3d2d58c8904380595757ae24da3, type: 3}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A Jam game made in one week for Brackeys Game Jam 2021.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -614,12 +619,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Lamp Maze
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -739,7 +748,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
   m_PrefabInstance: {fileID: 95385762728903061}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3238337361298501343
+--- !u!1001 &157736221464446971
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -750,7 +759,11 @@ PrefabInstance:
     - target: {fileID: 1839282406843968448, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: projectTemplate
       value: 
-      objectReference: {fileID: 11400000, guid: 1f94dd68bf2e74594b06b5200a87ef57, type: 2}
+      objectReference: {fileID: 11400000, guid: e13037b3cec9e480abe6c69acbf54a77, type: 2}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A unity game that simulates a website view in Unity WebGL
+      objectReference: {fileID: 0}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
@@ -760,12 +773,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c8501b2b4f834be88f461d812317b92, type: 3}
+    - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: This Website
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -773,7 +798,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7385895522724014584, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Name
-      value: Portfolio
+      value: Fwogame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385895522724014584, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7554108668949005465, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -875,6 +904,180 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: ZyLogoBG
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+--- !u!224 &7533139076949497523 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+  m_PrefabInstance: {fileID: 157736221464446971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3238337361298501343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4528209901993048966}
+    m_Modifications:
+    - target: {fileID: 1839282406843968448, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: projectTemplate
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f94dd68bf2e74594b06b5200a87ef57, type: 2}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A unity game that simulates a website view in Unity WebGL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_fontSize
+      value: 64.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 6685439569922284187, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 08b99403065c342f0b8b15933157299e, type: 3}
+    - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: This Website
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385895522724014584, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Name
+      value: Portfolio
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385895522724014584, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554108668949005465, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554108668949005465, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554108668949005465, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554108668949005465, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 417.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690866502318788936, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755079213744447823, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: ZyLogoBG
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -895,7 +1098,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.33063456
+      value: 0.1400016
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -1082,6 +1285,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 01f7cc98598fc4148b8bf103efb10911, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: A small open world exploration game
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -1090,12 +1297,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3193a21fc4945714a9c8901cc4c27a45, type: 3}
+    - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Untitled Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -1205,6 +1424,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: beach_view
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1236,6 +1459,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a028d5e8c93a6d94d913e673e07a2af7, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: a Tetris AI implementation using NEAT for my final year's thesis.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -1244,8 +1471,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd8ce9d6d94360b4f94b12995440bf3c, type: 3}
+    - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Tetris Neat
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
@@ -1265,7 +1500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -1379,6 +1614,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: tetris
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1413,6 +1652,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: bef4b7138f28d7d4cb83427becd7f74e, type: 2}
     - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: We ride the currents of the breeze around the world to bring happiness
+        to everyone.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311255084811157695, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 64.09
       objectReference: {fileID: 0}
@@ -1421,12 +1665,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: afd1eb84d796e4b0c8e37acde82a693a, type: 3}
+    - target: {fileID: 7109268814410054043, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_text
+      value: Playwind Games
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239304936150440541, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_fontSize
       value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7316165042958986872, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
@@ -1535,6 +1791,10 @@ PrefabInstance:
     - target: {fileID: 8755079213744447823, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981286710765955883, guid: 5eeb5ef4c13af42179c6511fcf611fd2, type: 3}
+      propertyPath: imageName
+      value: Playwind_BG
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

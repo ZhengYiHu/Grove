@@ -282,8 +282,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI recently
-    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
-    short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\">A
+    short hike</link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
     that quickly became one of my all time favourites.\nThe chill and cozy vibes
     the game infuses were a refreshing breeze for me since in the latest years the
     dominant genre of games I was exposed to were mostly highly competitive and not
@@ -518,8 +518,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI recently
-    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
-    short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\">A
+    short hike</link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
     that quickly became one of my all time favourites.\nThe chill and cozy vibes
     the game infuses were a refreshing breeze for me since in the latest years the
     dominant genre of games I was exposed to were mostly highly competitive and not
@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 3956709877646118050}
   - component: {fileID: 660893033369177144}
   - component: {fileID: 1325570448405989348}
+  - component: {fileID: 1259500376199869989}
   m_Layer: 5
   m_Name: LightHouse
   m_TagString: Untagged
@@ -679,7 +680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bf15327f65e21a64682caa64bf8ed07a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e624eb203829b406290a78419245339f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -703,6 +704,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 70
   image: {fileID: 660893033369177144}
+--- !u!114 &1259500376199869989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3234270857802449711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 660893033369177144}
+  imageName: game_lighthouse
 --- !u!1 &3331582647208853221
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,8 +788,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI recently
-    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
-    short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+    played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\">A
+    short hike</link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
     that quickly became one of my all time favourites.\nThe chill and cozy vibes
     the game infuses were a refreshing breeze for me since in the latest years the
     dominant genre of games I was exposed to were mostly highly competitive and not
@@ -880,7 +895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb87846e43a704469d9be7ef4faa09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Source: "\n#### Inspiration\n\nI recently played a game [**A short hike**](https://adamgryu.itch.io/a-short-hike)
+  _Source: "\n#### Inspiration\n\nI recently played a game [A short hike](https://adamgryu.itch.io/a-short-hike)
     by --**Adamgryu**-- that quickly became one of my all time favourites.\nThe chill
     and cozy vibes the game infuses were a refreshing breeze for me since in the
     latest years the dominant genre of games I was exposed to were mostly highly
@@ -1069,6 +1084,7 @@ GameObject:
   - component: {fileID: 5677650301998232483}
   - component: {fileID: 3725786248724639095}
   - component: {fileID: 256934509386067049}
+  - component: {fileID: 3437320476024426397}
   m_Layer: 5
   m_Name: Beach
   m_TagString: Untagged
@@ -1147,6 +1163,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 70
   image: {fileID: 3725786248724639095}
+--- !u!114 &3437320476024426397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4308616529265127540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 3725786248724639095}
+  imageName: beach_view
 --- !u!1 &5894293091670505736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1403,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1551,6 +1581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 97977184027824793}
+  rawImage: {fileID: 5786246988423025031}
   videoClipName: game_waterfall
 --- !u!328 &97977184027824793
 VideoPlayer:
@@ -1637,7 +1668,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.19630022
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -1944,8 +1975,8 @@ PrefabInstance:
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_text
       value: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI
-        recently played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
-        short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+        recently played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\">A
+        short hike</link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
         that quickly became one of my all time favourites.\nThe chill and cozy vibes
         the game infuses were a refreshing breeze for me since in the latest years
         the dominant genre of games I was exposed to were mostly highly competitive
@@ -2037,6 +2068,14 @@ PrefabInstance:
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -0.000061035
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00012207031
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
@@ -2160,8 +2199,8 @@ PrefabInstance:
     - target: {fileID: 1532936334425139665, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_text
       value: "\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nI
-        recently played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b><color=#5A1A95>A
-        short hike</color></b></link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
+        recently played a game <color=#54A0FFFF><b><u><link=\"https://adamgryu.itch.io/a-short-hike\">A
+        short hike</link></color></u></b> by <color=#5A1A95><b><color=#5A1A95>Adamgryu</color></b></color>
         that quickly became one of my all time favourites.\nThe chill and cozy vibes
         the game infuses were a refreshing breeze for me since in the latest years
         the dominant genre of games I was exposed to were mostly highly competitive
@@ -2253,6 +2292,14 @@ PrefabInstance:
     - target: {fileID: 5447403287738523790, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.000091553
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886395623687455646, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000061035156
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8276868123694610379, guid: 5760172184b4594428e95f9b64e8ecb3, type: 3}

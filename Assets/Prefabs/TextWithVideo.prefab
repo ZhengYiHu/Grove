@@ -32,7 +32,6 @@ RectTransform:
   - {fileID: 4943729057675430575}
   - {fileID: 7886395623687455646}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -80,7 +79,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 276321050267989967}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5359917, y: 1}
@@ -115,33 +113,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\r\n<color=#54A0FFFF><b><size=1.5em>Inspiration</size></b></color>\r\nI
-    recently played a game <color=#54A0FFFF><u><link=\"https://adamgryu.itch.io/a-short-hike\"><b>A
-    short hike</b></link></color></u> by <color=#54A0FFFF><b>Adamgryu</b></color>
-    that quickly became one of my all time favourites.\r\nThe chill and cozy vibes
-    the game infuses were a refreshing breeze for me since in the latest years the
-    dominant genre of games I was exposed to were mostly highly competitive and not
-    so much about having a good time anymore.\r\n\r\n<color=#54A0FFFF><b>Animal crossing</b></color>
-    was another big inspiration, and the more I dived into the genre, the more games
-    both released and in development I could find on the internet.\r\n\r\n<color=#54A0FFFF><b><size=1.5em>Artstyle</size></b></color>\r\nMy
-    not so optimal approach to the development process suggested me to start to work
-    on the artstyle and focus on that before even designing a proper game loop and
-    core mechanics... which made sense to me at the time since the main motivation
-    was to <color=#54A0FFFF>capture the feelings</color> of pleasure and <color=#54A0FFFF>coziness</color>
-    to contrast the stressful routines I was stucked into. \r\n\r\n<color=#54A0FFFF><b><size=1.5em>Downfall</size></b></color>\r\nBy
-    <color=#54A0FFFF>not having a defined idea in mind</color> and just working on
-    a single aspect of the game made me lose control on what the game should even
-    be about.\r\nI was spending months developing mechanics, not to reach some result
-    I wanted the game to become, but only because <color=#54A0FFFF><i>I might need
-    it in the future</i></color>, so that I started learning and working on generic
-    game mechanics like movements, physics, dialogue systems and so on... \r\n\r\nMy
-    developments approach made me quickly <color=#54A0FFFF>lose interest</color>
-    on the project, and this is the <color=#54A0FFFF>mains lesson</color> learn from
-    this project.\r\nI wouldn't consider it a failure though since I learned <i>Soooo
-    Much</i> during the whole development process since it was the first game I was
-    really putting a lot of effort in.\r\n\r\nFor now I will <color=#54A0FFFF>halt</color>
-    the development, but who knows when I will get to pull it back out from the archives...\r\n\r\n\r\n<color=#54A0FFFF><b><size=1.5em>More
-    screenshots I took during development</size></b></color>\r\n"
+  m_text: "<color=#5A1A95FF><b><size=1.3em>Where to play</size></b></color>\nThe
+    game is available on my <color=#54A0FFFF><b><u><link=\"https://zyhu.itch.io/fwogame\">Itch</link></color></u></b>
+    or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/fwogame\">HERE</link></color></u></b>!\n\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nThe
+    idea came from playing some of <color=#54A0FFFF><b><u><link=\"https://sokpop.co/\">Sokpop</link></color></u></b>'s
+    little games, and I just wanted to make a small little project to replicate their
+    signature leg animation as showcased in <color=#54A0FFFF><b><u><link=\"https://www.youtube.com/watch?v=2LbKuQsODHg\">this
+    video</link></color></u></b>.\n\n\n<color=#5A1A95FF><b><size=1.3em>Procedural
+    Limbs Animations</size></b></color>\nI used Unity's line renderer to create the
+    limbs setting the origin on the character's body and the end at the target end
+    effector which is going to be calculated according to various factors.\n<size=0.76em>\u200B</size>\n<line-height=0%><width=100><align=right>1.</width></align>\n</line-height><indent=120>First
+    of all, the end effector will anchor to the terrain and will not move when the
+    body of the character and the origin of the limb moves around.</indent>\n<line-height=0%><width=100><align=right>2.</width></align>\n</line-height><indent=120>I
+    set a maximum <b><color=#5A1A95>Tollerance</color></b> range around each end
+    effector.</indent>\n<line-height=0%><width=100><align=right>3.</width></align>\n</line-height><indent=120>a
+    <b><color=#5A1A95>Ray</color></b> is cast from each origin point downwards to
+    determine how much the character has moved from the anchored point.</indent>\n<line-height=0%><width=100><align=right>4.</width></align>\n</line-height><indent=120>If
+    the Raycast's hit point exceeded the Tollerance range, then the legs end effectors
+    will be repositioned to the new target, making the caracter effectively perform
+    a <b><color=#5A1A95>step</color></b>.</indent>\n<line-height=0%><width=100><align=right>5.</width></align>\n</line-height><indent=120>A
+    small offset and other adjustments are added for the walking cycle to look more
+    natural.</indent>\n<size=0.76em>\u200B</size>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
   m_sharedMaterial: {fileID: 3985778825663735797, guid: bb34ab0449afc414c98445434e5366d6, type: 2}
@@ -150,8 +142,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -168,8 +160,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -277,12 +269,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 276321050267989967}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5601323, y: 0.06865438}
   m_AnchorMax: {x: 1.0000001, y: 0.9999997}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 110.8819}
+  m_SizeDelta: {x: 0, y: -221.7635}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7430538439797800332
 CanvasRenderer:
@@ -305,7 +296,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 84526564599810776}
-  videoClip: {fileID: 0}
+  rawImage: {fileID: 5447403287738523790}
+  videoClipName: LegsTargeting
 --- !u!328 &84526564599810776
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -314,17 +306,18 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2810652124063928596}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: febbb9cbf57a99446b23eef53038d1d3, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 87d7c2d1de19d40e28d1ad8c7a331cb7, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: df12ef31e0808604da1146ad66973f82, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: b1067ce83c7864bb39572de68fc20cc7, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
@@ -359,7 +352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: df12ef31e0808604da1146ad66973f82, type: 2}
+  m_Texture: {fileID: 8400000, guid: b1067ce83c7864bb39572de68fc20cc7, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0

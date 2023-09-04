@@ -284,21 +284,21 @@ MonoBehaviour:
   m_text: '<color=#461078FF><b><size=1.5em>Jam</size></b></color>
 
     Lamp maze
-    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5">Brackeys
-    Game Jam 2021.1</link></color></u> game jam by me an a friend that goes by the
-    name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
+    was a game made for the <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5">Brackeys
+    Game Jam 2021.1</link></color></u></b> game jam by me an a friend that goes by
+    the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
 
 
     The
-    Game page can be found <color=#54A0FFFF><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u>.
+    Game page can be found <color=#54A0FFFF><b><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u></b>.
 
     We
     placed <color=#5A1A95><b><color=#5A1A95>#45</color></b></color> out of <color=#5A1A95><b><color=#5A1A95>#1881</color></b></color>
     total entries, witch is a truly unexpected result for both of us given that it
     was our first ever game jam.
 
-    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
-    Submission page)</link></color></u>
+    <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
+    Submission page)</link></color></u></b>
 
 
     <color=#461078FF><b><size=1.5em>Theme
@@ -480,21 +480,21 @@ MonoBehaviour:
   m_text: '<color=#461078FF><b><size=1.5em>Jam</size></b></color>
 
     Lamp maze
-    was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5">Brackeys
-    Game Jam 2021.1</link></color></u> game jam by me an a friend that goes by the
-    name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
+    was a game made for the <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5">Brackeys
+    Game Jam 2021.1</link></color></u></b> game jam by me an a friend that goes by
+    the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
 
 
     The
-    Game page can be found <color=#54A0FFFF><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u>.
+    Game page can be found <color=#54A0FFFF><b><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u></b>.
 
     We
     placed <color=#5A1A95><b><color=#5A1A95>#45</color></b></color> out of <color=#5A1A95><b><color=#5A1A95>#1881</color></b></color>
     total entries, witch is a truly unexpected result for both of us given that it
     was our first ever game jam.
 
-    <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
-    Submission page)</link></color></u>
+    <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
+    Submission page)</link></color></u></b>
 
 
     <color=#461078FF><b><size=1.5em>Theme
@@ -1206,7 +1206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Size
-      value: 0.33665726
+      value: 0.16453767
       objectReference: {fileID: 0}
     - target: {fileID: 2437201864688407075, guid: 695ac4fac9025514497058539a0b9175, type: 3}
       propertyPath: m_Value
@@ -1420,21 +1420,21 @@ PrefabInstance:
       value: '<color=#461078FF><b><size=1.5em>Jam</size></b></color>
 
         Lamp
-        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5">Brackeys
-        Game Jam 2021.1</link></color></u> game jam by me an a friend that goes by
-        the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
+        maze was a game made for the <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5">Brackeys
+        Game Jam 2021.1</link></color></u></b> game jam by me an a friend that goes
+        by the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
 
 
         The
-        Game page can be found <color=#54A0FFFF><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u>.
+        Game page can be found <color=#54A0FFFF><b><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u></b>.
 
         We
         placed <color=#5A1A95><b><color=#5A1A95>#45</color></b></color> out of <color=#5A1A95><b><color=#5A1A95>#1881</color></b></color>
         total entries, witch is a truly unexpected result for both of us given that
         it was our first ever game jam.
 
-        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
-        Submission page)</link></color></u>
+        <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
+        Submission page)</link></color></u></b>
 
 
         <color=#461078FF><b><size=1.5em>Theme
@@ -1647,7 +1647,10 @@ PrefabInstance:
     - {fileID: 2258057572627117667, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7490744267738521155}
   m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
 --- !u!224 &176444231248892600 stripped
 RectTransform:
@@ -1665,6 +1668,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2112045180496552933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 1401021975718151487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7490744267738521155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112045180496552933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 9214595027581779192}
+  imageName: LampMaze2
+--- !u!114 &9214595027581779192 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 1401021975718151487}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112045180496552933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6151331492644600445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1678,21 +1711,21 @@ PrefabInstance:
       value: '<color=#461078FF><b><size=1.5em>Jam</size></b></color>
 
         Lamp
-        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5">Brackeys
-        Game Jam 2021.1</link></color></u> game jam by me an a friend that goes by
-        the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
+        maze was a game made for the <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5">Brackeys
+        Game Jam 2021.1</link></color></u></b> game jam by me an a friend that goes
+        by the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
 
 
         The
-        Game page can be found <color=#54A0FFFF><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u>.
+        Game page can be found <color=#54A0FFFF><b><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u></b>.
 
         We
         placed <color=#5A1A95><b><color=#5A1A95>#45</color></b></color> out of <color=#5A1A95><b><color=#5A1A95>#1881</color></b></color>
         total entries, witch is a truly unexpected result for both of us given that
         it was our first ever game jam.
 
-        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
-        Submission page)</link></color></u>
+        <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
+        Submission page)</link></color></u></b>
 
 
         <color=#461078FF><b><size=1.5em>Theme
@@ -1973,8 +2006,22 @@ PrefabInstance:
     - {fileID: 2258057572627117667, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8708791762731665085}
   m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+--- !u!114 &4164796311618765754 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 6151331492644600445}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6585380379365072039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &4926478814398295546 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
@@ -1991,6 +2038,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &6585380379365072039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 6151331492644600445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8708791762731665085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6585380379365072039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 4164796311618765754}
+  imageName: LampMaze3
 --- !u!1001 &6769956486634912226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2004,21 +2070,21 @@ PrefabInstance:
       value: '<color=#461078FF><b><size=1.5em>Jam</size></b></color>
 
         Lamp
-        maze was a game made for the <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5">Brackeys
-        Game Jam 2021.1</link></color></u> game jam by me an a friend that goes by
-        the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
+        maze was a game made for the <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5">Brackeys
+        Game Jam 2021.1</link></color></u></b> game jam by me an a friend that goes
+        by the name of <color=#5A1A95><b><color=#5A1A95>Victime</color></b></color>
 
 
         The
-        Game page can be found <color=#54A0FFFF><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u>.
+        Game page can be found <color=#54A0FFFF><b><u><link="https://zyhu.itch.io/lamp-maze">HERE</link></color></u></b>.
 
         We
         placed <color=#5A1A95><b><color=#5A1A95>#45</color></b></color> out of <color=#5A1A95><b><color=#5A1A95>#1881</color></b></color>
         total entries, witch is a truly unexpected result for both of us given that
         it was our first ever game jam.
 
-        <color=#54A0FFFF><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
-        Submission page)</link></color></u>
+        <color=#54A0FFFF><b><u><link="https://itch.io/jam/brackeys-5/rate/929233">(Jam
+        Submission page)</link></color></u></b>
 
 
         <color=#461078FF><b><size=1.5em>Theme
@@ -2233,13 +2299,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3115362879685045374}
   m_SourcePrefab: {fileID: 100100000, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+--- !u!114 &3558416299448877093 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7823244357253069255, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 6769956486634912226}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038663514545545016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5543933932045217381 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1226022567651022727, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
   m_PrefabInstance: {fileID: 6769956486634912226}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6038663514545545016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1026279715257771738, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
+  m_PrefabInstance: {fileID: 6769956486634912226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3115362879685045374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038663514545545016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c685e138c2f4444f845c0167e09cff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 3558416299448877093}
+  imageName: LampMaze2
 --- !u!114 &6513233617065783419 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 544954217063713177, guid: da6fc1cd70d8d194d8e71e0e361d8bcf, type: 3}
