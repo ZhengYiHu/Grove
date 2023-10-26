@@ -572,7 +572,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "<color=#5A1A95FF><b><size=1.3em>Where to play</size></b></color>\nThe
     game is available on my <color=#54A0FFFF><b><u><link=\"https://zyhu.itch.io/fwogame\">Itch</link></color></u></b>
-    or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/fwogame\">HERE</link></color></u></b>!\n\nSource
+    or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/Fwogame\">HERE</link></color></u></b>!\n\nSource
     code available on my <color=#54A0FFFF><b><u><link=\"https://github.com/ZhengYiHu/Fwogame\">Github</link></color></u></b>\n\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nThe
     idea came from playing some of <color=#54A0FFFF><b><u><link=\"https://sokpop.co/\">Sokpop</link></color></u></b>'s
     little games, and I just wanted to make a small little project to replicate their
@@ -679,7 +679,7 @@ MonoBehaviour:
 
 
     The game is available on my [Itch](https://zyhu.itch.io/fwogame)
-    or right [HERE](https://zyhu.me/fwogame)!
+    or right [HERE](https://zyhu.me/Fwogame)!
 
 
     Source code available on my [Github](https://github.com/ZhengYiHu/Fwogame)
@@ -1639,7 +1639,7 @@ PrefabInstance:
       propertyPath: m_text
       value: "<color=#5A1A95FF><b><size=1.3em>Where to play</size></b></color>\nThe
         game is available on my <color=#54A0FFFF><b><u><link=\"https://zyhu.itch.io/fwogame\">Itch</link></color></u></b>
-        or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/fwogame\">HERE</link></color></u></b>!\n\nSource
+        or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/Fwogame\">HERE</link></color></u></b>!\n\nSource
         code available on my <color=#54A0FFFF><b><u><link=\"https://github.com/ZhengYiHu/Fwogame\">Github</link></color></u></b>\n\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nThe
         idea came from playing some of <color=#54A0FFFF><b><u><link=\"https://sokpop.co/\">Sokpop</link></color></u></b>'s
         little games, and I just wanted to make a small little project to replicate
@@ -1820,7 +1820,7 @@ PrefabInstance:
       propertyPath: m_text
       value: "<color=#5A1A95FF><b><size=1.3em>Where to play</size></b></color>\nThe
         game is available on my <color=#54A0FFFF><b><u><link=\"https://zyhu.itch.io/fwogame\">Itch</link></color></u></b>
-        or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/fwogame\">HERE</link></color></u></b>!\n\nSource
+        or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/Fwogame\">HERE</link></color></u></b>!\n\nSource
         code available on my <color=#54A0FFFF><b><u><link=\"https://github.com/ZhengYiHu/Fwogame\">Github</link></color></u></b>\n\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nThe
         idea came from playing some of <color=#54A0FFFF><b><u><link=\"https://sokpop.co/\">Sokpop</link></color></u></b>'s
         little games, and I just wanted to make a small little project to replicate
@@ -2005,7 +2005,7 @@ PrefabInstance:
       propertyPath: m_text
       value: "<color=#5A1A95FF><b><size=1.3em>Where to play</size></b></color>\nThe
         game is available on my <color=#54A0FFFF><b><u><link=\"https://zyhu.itch.io/fwogame\">Itch</link></color></u></b>
-        or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/fwogame\">HERE</link></color></u></b>!\n\nSource
+        or right <color=#54A0FFFF><b><u><link=\"https://zyhu.me/Fwogame\">HERE</link></color></u></b>!\n\nSource
         code available on my <color=#54A0FFFF><b><u><link=\"https://github.com/ZhengYiHu/Fwogame\">Github</link></color></u></b>\n\n<color=#5A1A95FF><b><size=1.3em>Inspiration</size></b></color>\nThe
         idea came from playing some of <color=#54A0FFFF><b><u><link=\"https://sokpop.co/\">Sokpop</link></color></u></b>'s
         little games, and I just wanted to make a small little project to replicate
